@@ -1,16 +1,9 @@
 const csvtojson = require('csvtojson');
 
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-let chrome = {};
-let puppeteer;
 
-if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
-  chrome = require("chrome-aws-lambda");
-  puppeteer = require("puppeteer-core");
-} else {
-  puppeteer = require("puppeteer");
-}
 
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
 
@@ -113,18 +106,11 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
   for (const item of result) {
       try {
 
-        let options = {};
-
-        if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
-          options = {
-            args: [...chrome.args, "--hide-scrollbars", "--disable-web-security"],
-            defaultViewport: chrome.defaultViewport,
-            executablePath: await chrome.executablePath,
+          const browser = await puppeteer.launch({
             headless: 'new',
-            ignoreHTTPSErrors: true,
-          };
-        }
-          const browser = await puppeteer.launch(options);
+            args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  
+          });
 
           const page = await browser.newPage();
 
