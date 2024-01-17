@@ -15,6 +15,34 @@ const port = process.env.PORT || 3000;
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
+
+const puppeteer = require('puppeteer');
+
+async function runPuppeteer() {
+  // Inicia o navegador
+  const browser = await puppeteer.launch();
+
+  // Abre uma nova página
+  const page = await browser.newPage();
+
+  // Navega até o Google
+  await page.goto('https://www.google.com');
+
+  // Obtém o título da página
+  const pageTitle = await page.title();
+
+  // Imprime o título no console
+  console.log('Título da Página:', pageTitle);
+
+  // Tira uma captura de tela da página do Google
+  await page.screenshot({ path: 'google.png' });
+
+  // Fecha o navegador
+  await browser.close();
+}
+
+
+
 const processFiles = async function* (data) {
   for (const row of data) {
     try {
@@ -91,4 +119,5 @@ result = result.flat()
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
+  runPuppeteer()
 });
