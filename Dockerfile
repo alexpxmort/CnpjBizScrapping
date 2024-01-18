@@ -8,7 +8,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 WORKDIR /usr/src/app
 
 # Copia apenas os arquivos necessários para instalar as dependências
-COPY package.json yarn.lock ./
+
 
 # Instala as dependências
 RUN yarn
