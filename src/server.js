@@ -118,15 +118,16 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
   
     // Convertendo o conteúdo do arquivo CSV para JSON
     let jsonResult = await csvtojson().fromString(buffer.toString());
-    jsonResult = lowercaseArray(jsonResult.slice(0,limit))
+    jsonResult = lowercaseArray(jsonResult)
 
     if(cached){
       console.log('cache usado')
-      const cachedCnpjs = JSON.parse(cache)?.map((val) => val?.cnpj) ?? [];
+      const cachedCnpjs = JSON.parse(cached)?.map((val) => val?.cnpj) ?? [];
       console.log(cachedCnpjs.length)
       jsonResult =  jsonResult.filter((val) => !cachedCnpjs.includes(val?.cnpj));
 
     }
+    jsonResult = jsonResult.slice(0,limit)
     cache.set(`${req.file.filename}`,JSON.stringify(jsonResult.slice(0,limit),null,2))
     let result = [];
     const processor = processFiles(jsonResult.slice(0,limit));
