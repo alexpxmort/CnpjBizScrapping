@@ -83,10 +83,9 @@ async function getXLSBase64(sheetName, header, data) {
       });
     });
 
-    const writeToBufferAsync = promisify(workbook.writeToBuffer.bind(workbook));
 
     // Obtém o buffer do arquivo Excel
-    const buffer = await writeToBufferAsync();
+    const buffer =await workbook.writeToBuffer();
     // Converte o buffer para uma string base64
     const base64String = buffer.toString('base64');
     return base64String;
