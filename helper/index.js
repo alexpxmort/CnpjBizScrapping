@@ -5,6 +5,12 @@ const fs = require('fs');
 
 
 
+let lowercaseArray = (originalArray) => originalArray.map(obj => (
+  Object.fromEntries(
+    Object.entries(obj).map(([key, value]) => [key.toLowerCase(), value])
+  )
+));
+
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36';
 
 
@@ -160,4 +166,4 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
 };
 
 
-module.exports ={convertCsvToJson,delay,removeDuplicatesWithPriority,removerMascaraCNPJ,isURLValid,visitPagesSequentially}
+module.exports ={convertCsvToJson,delay,removeDuplicatesWithPriority,removerMascaraCNPJ,isURLValid,visitPagesSequentially,lowercaseArray}

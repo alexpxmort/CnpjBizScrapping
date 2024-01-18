@@ -6,7 +6,7 @@ const app = express();
 const fs = require('fs')
 const cors = require('cors')
 const dotenv = require('dotenv');
-const { visitPagesSequentially } = require('../helper');
+const { visitPagesSequentially, lowercaseArray } = require('../helper');
 const { writeXLS } = require('../helper/excel');
 
 dotenv.config();
@@ -112,10 +112,10 @@ app.post('/upload', upload.single('csvFile'), async (req, res) => {
     const buffer = req.file.buffer;
 
     // Convertendo o conteúdo do arquivo CSV para JSON
-    const jsonResult = await csvtojson().fromString(buffer.toString());
-
+    let jsonResult = await csvtojson().fromString(buffer.toString());
+    jsonResult = lowercaseArray(jsonResult)
     let result = [];
-    const processor = processFiles(jsonResult.slice(0,2));
+    const processor = processFiles(jsonResult);
 
     // Iterate over the generator function
     for await (const processedData of processor) {
