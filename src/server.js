@@ -11,14 +11,12 @@ dotenv.config();
 
 const port = process.env.PORT || 3000;
 
-const storage = multer.memoryStorage();
-const upload = multer({ storage: storage });
+const upload = multer();
 
 
 const puppeteer = require('puppeteer');
 const cache = require('../helper/cache');
 const { arrayObjectToCSVBuffer } = require('../helper/csv');
-const { postApi } = require('../helper/api');
 
 const scrapeLogic = async (res) => {
   const browser = await puppeteer.launch({
