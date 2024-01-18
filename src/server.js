@@ -18,6 +18,7 @@ const upload = multer({ storage: storage });
 
 
 const puppeteer = require('puppeteer');
+const cache = require('../helper/cache');
 
 const scrapeLogic = async (res) => {
   const browser = await puppeteer.launch({
@@ -58,7 +59,7 @@ const processFiles = async function* (data) {
       const result = await visitPagesSequentially([row]); // Assuming visitPagesSequentially returns a promise
 
       // Simulate some asynchronous processing
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      await new Promise((resolve) => setTimeout(resolve, 800));
 
       yield { status: 'success', result, row };
     } catch (error) {
@@ -102,8 +103,9 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
   
 })
 
-app.post('/upload', upload.single('csvFile'), async (req, res) => {
+app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
   try {
+    const {limit = 20} = req.params
     // Check if a file was uploaded
     if (!req.file) {
       return res.status(400).send('Nenhum arquivo foi enviado.');
@@ -111,11 +113,23 @@ app.post('/upload', upload.single('csvFile'), async (req, res) => {
 
     const buffer = req.file.buffer;
 
+    const cached = cache.get(`${req.file.filename}`);
+
+  
     // Convertendo o conteúdo do arquivo CSV para JSON
     let jsonResult = await csvtojson().fromString(buffer.toString());
-    jsonResult = lowercaseArray(jsonResult)
+    jsonResult = lowercaseArray(jsonResult.slice(0,limit))
+
+    if(cached){
+      console.log('cache usado')
+      const cachedCnpjs = JSON.parse(cache)?.map((val) => val?.cnpj) ?? [];
+      console.log(cachedCnpjs.length)
+      jsonResult =  jsonResult.filter((val) => !cachedCnpjs.includes(val?.cnpj));
+
+    }
+    cache.set(`${req.file.filename}`,JSON.stringify(jsonResult.slice(0,limit),null,2))
     let result = [];
-    const processor = processFiles(jsonResult);
+    const processor = processFiles(jsonResult.slice(0,limit));
 
     // Iterate over the generator function
     for await (const processedData of processor) {
