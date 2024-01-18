@@ -1,5 +1,4 @@
 const xl = require('excel4node');
-const { promisify } = require('util');
 
 
 // Função helper para escrever em um arquivo Excel (.xls)
