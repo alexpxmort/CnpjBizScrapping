@@ -106,6 +106,7 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
 app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
   try {
     const {limit} = req.params
+    console.log('limit',limit)
     // Check if a file was uploaded
     if (!req.file) {
       return res.status(400).send('Nenhum arquivo foi enviado.');
