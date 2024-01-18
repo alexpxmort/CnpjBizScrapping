@@ -3,7 +3,8 @@ const multer = require('multer');
 const csvtojson = require('csvtojson');
 const path = require('path');
 const app = express();
-
+const fs = require('fs')
+const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially } = require('../helper');
 const { writeXLS } = require('../helper/excel');
@@ -32,6 +33,40 @@ const processFiles = async function* (data) {
     }
   }
 };
+
+app.use(cors())
+app.post('/data-house',upload.single('data'),async(req,res)=>{
+
+  const buffer = req.file.buffer;
+  let json  = JSON.parse(buffer.toString())
+  const cnpjs = json.data.cnpj?.map(({cnpj,nome_fantasia,razao_social}) => ({
+    cnpj,
+    nome_fantasia,
+    razao_social,
+    link:`http://cnpj.biz/${cnpj}`
+  }))
+  const xlsFileName = 'casa-dados-pag-1.xls';
+  const xlsSheetName = 'Planilha1';
+  const xlsHeader = ['Cnpj','NomeFantasia','RazaoSocial','Link'];
+
+
+// Chamada da função helper
+  await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  cnpjs);
+
+  const filePath = path.join(__dirname,'..',xlsFileName);
+
+  res.download(filePath, 'output.xlsx', (error) => {
+    if (error) {
+      console.error('Erro ao enviar o arquivo para o cliente:', error);
+      res.status(500).send('Erro ao enviar o arquivo.');
+    } else {
+      console.log('Arquivo enviado com sucesso.');
+       fs.unlinkSync(filePath);
+    }
+  });
+
+  
+})
 
 app.post('/upload', upload.single('csvFile'), async (req, res) => {
   try {
