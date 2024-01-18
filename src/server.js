@@ -114,7 +114,7 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
 
     const buffer = req.file.buffer;
 
-    const cached = cache.get(`${req.file.filename}`);
+    let cached = cache.get(`${req.file.filename}`);
 
   
     // Convertendo o conteúdo do arquivo CSV para JSON
