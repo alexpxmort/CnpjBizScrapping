@@ -18,31 +18,52 @@ const upload = multer({ storage: storage });
 
 const puppeteer = require('puppeteer');
 
-async function runPuppeteer() {
-  // Inicia o navegador
+const scrapeLogic = async (res) => {
   const browser = await puppeteer.launch({
-    headless:'new'
+    args: [
+      "--disable-setuid-sandbox",
+      "--no-sandbox",
+      "--single-process",
+      "--no-zygote",
+    ],
+    executablePath:
+      process.env.NODE_ENV === "production"
+        ? process.env.PUPPETEER_EXECUTABLE_PATH
+        : puppeteer.executablePath(),
   });
+  try {
+    const page = await browser.newPage();
 
-  // Abre uma nova página
-  const page = await browser.newPage();
+    await page.goto("https://developer.chrome.com/");
 
-  // Navega até o Google
-  await page.goto('https://www.google.com');
+    // Set screen size
+    await page.setViewport({ width: 1080, height: 1024 });
 
-  // Obtém o título da página
-  const pageTitle = await page.title();
+    // Type into search box
+    await page.type(".search-box__input", "automate beyond recorder");
 
-  // Imprime o título no console
-  console.log('Título da Página:', pageTitle);
+    // Wait and click on first result
+    const searchResultSelector = ".search-box__link";
+    await page.waitForSelector(searchResultSelector);
+    await page.click(searchResultSelector);
 
-  // Tira uma captura de tela da página do Google
-  await page.screenshot({ path: 'google.png' });
+    // Locate the full title with a unique string
+    const textSelector = await page.waitForSelector(
+      "text/Customize and automate"
+    );
+    const fullTitle = await textSelector.evaluate((el) => el.textContent);
 
-  // Fecha o navegador
-  await browser.close();
-}
-
+    // Print the full title
+    const logStatement = `The title of this blog post is ${fullTitle}`;
+    console.log(logStatement);
+    res.send(logStatement);
+  } catch (e) {
+    console.error(e);
+    res.send(`Something went wrong while running Puppeteer: ${e}`);
+  } finally {
+    await browser.close();
+  }
+};
 
 
 const processFiles = async function* (data) {
@@ -118,8 +139,11 @@ result = result.flat()
     res.status(500).send('Erro ao processar o arquivo CSV.');
   }
 });
+app.get("/scrape", (req, res) => {
+  scrapeLogic(res);
+});
 
 app.listen(port, async() => {
   console.log(`Servidor rodando em http://localhost:${port}`);
-  await runPuppeteer()
+  
 });
