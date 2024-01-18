@@ -21,8 +21,8 @@ RUN apt-get update \
 # Define o diretório de trabalho
 WORKDIR /usr/src/app
 
-# Copia apenas os arquivos necessários
-COPY --from=builder /usr/src/app/package.json /usr/src/app/yarn.lock ./
+# Copia apenas os arquivos necessários do estágio de construção
+COPY --from=builder /usr/src/app .
 
 # Instalação apenas das dependências de produção
 RUN yarn install --production
