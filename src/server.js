@@ -23,9 +23,7 @@ const scrapeLogic = async (res) => {
   headless: 'new',
           args: ['--no-sandbox'],
     executablePath:
-      process.env.NODE_ENV === "production"
-        ? process.env.PUPPETEER_EXECUTABLE_PATH
-        : puppeteer.executablePath(),
+        puppeteer.executablePath(),
 
   });
   try {
