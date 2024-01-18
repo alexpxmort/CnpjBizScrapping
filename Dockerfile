@@ -6,7 +6,7 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock ./
+COPY package.json  ./
 RUN yarn
 COPY . .
 CMD [ "yarn", "start" ]
