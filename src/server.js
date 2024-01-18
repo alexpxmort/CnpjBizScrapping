@@ -7,7 +7,7 @@ const fs = require('fs')
 const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
-const { writeXLS } = require('../helper/excel');
+const { writeXLS, getXLSBase64 } = require('../helper/excel');
 
 dotenv.config();
 
@@ -153,19 +153,21 @@ result = result.flat()
 
 
 // Chamada da função helper
-  await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  result.flat());
+  //await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  result.flat());
 
-  const filePath = path.join(__dirname, xlsFileName);
+   const data = await getXLSBase64(xlsSheetName,xlsHeader,result.flat())
+  return res.json({data})
+  // const filePath = path.join(__dirname, xlsFileName);
 
-  res.download(filePath, 'output.xlsx', (error) => {
-    if (error) {
-      console.error('Erro ao enviar o arquivo para o cliente:', error);
-      res.status(500).send('Erro ao enviar o arquivo.');
-    } else {
-      console.log('Arquivo enviado com sucesso.');
-       fs.unlinkSync(filePath);
-    }
-  });
+  // res.download(filePath, 'output.xlsx', (error) => {
+  //   if (error) {
+  //     console.error('Erro ao enviar o arquivo para o cliente:', error);
+  //     res.status(500).send('Erro ao enviar o arquivo.');
+  //   } else {
+  //     console.log('Arquivo enviado com sucesso.');
+  //      fs.unlinkSync(filePath);
+  //   }
+  // });
 
   } catch (error) {
     console.error(error);
