@@ -7,7 +7,7 @@ const fs = require('fs')
 const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
-const { writeXLS, getXLSBase64 } = require('../helper/excel');
+const { writeXLS, getXLSBase64ExcelJs } = require('../helper/excel');
 
 dotenv.config();
 
@@ -121,6 +121,7 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
     let jsonResult = await csvtojson().fromString(buffer.toString());
     jsonResult = lowercaseArray(jsonResult)
 
+    jsonResult = jsonResult.filter((val) => !val?.whatslink)
     if(cached){
      cached= JSON.parse(cached)
       console.log('cache usado')
@@ -167,7 +168,7 @@ result = result.flat()
   if(result.flat().length > 0){
     console.log('result')
     console.log(result.flat())
-    const data = await getXLSBase64(xlsSheetName,xlsHeader,result.flat())
+    const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,result.flat())
     return res.json({data})
   }else{
     return res.json({data:[]})

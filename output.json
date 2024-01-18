@@ -5008,259 +5008,364 @@
   {
     "cnpj": "42.837.472/0001-43",
     "nome": "J & G COMERCIO DE CHOCOLATES LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.837.472/0001-43"
+    "phone": "5541991047051",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991047051",
+    "socio": "Alessandra Maria Hladczuk Borba "
   },
   {
     "cnpj": "42.453.814/0001-21",
     "nome": "AVANTGARDE ALFAIATARIA LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.453.814/0001-21"
+    "phone": "5541988287469",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988287469",
+    "socio": "Daniela de Oliveira Testa "
   },
   {
     "cnpj": "42.640.204/0001-37",
     "nome": "COP BOX LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.640.204/0001-37"
+    "phone": "5541997746520",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997746520",
+    "socio": "Luca Ribeiro e Oliveira "
   },
   {
     "cnpj": "42.024.602/0001-29",
     "nome": "TAURUS IMPORTS IMPORTACAO E EXPORTACAO LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.024.602/0001-29"
+    "phone": "5541998662075",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998662075",
+    "socio": "Isabel Bandeira Perussi "
   },
   {
     "cnpj": "41.998.983/0001-84",
     "nome": "AROEIRA COMERCIO DE VINHOS, BEBIDAS E ALIMENTOS LTDA,Ativa",
-    "situação": "http://cnpj.biz/41.998.983/0001-84"
+    "phone": "5541992625210",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992625210",
+    "socio": "Leandro de Lima "
   },
   {
     "cnpj": "42.044.403/0001-82",
     "nome": "ELAINE CRISTINA BARBOSA LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.044.403/0001-82"
+    "phone": "5541992056339",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992056339",
+    "socio": "Elaine Cristina Barbosa "
   },
   {
     "cnpj": "44.171.801/0001-95",
     "nome": "JHENIFER APARECIDA FORASTEIRO LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/44.171.801/0001-95"
+    "phone": "5541996240649",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996240649",
+    "socio": "Jhenifer Aparecida Forasteiro "
   },
   {
     "cnpj": "42.379.482/0001-82",
     "nome": "MAGNA SAUDE LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.379.482/0001-82"
+    "phone": "5541999196908",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999196908",
+    "socio": "Wagner Leite Ribeiro "
   },
   {
     "cnpj": "42.334.152/0001-70",
     "nome": "M. DE FATIMA ESPERANDIO - COMERCIO ALIMENTICIO LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/42.334.152/0001-70"
+    "phone": "5541999245331",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999245331",
+    "socio": "Magali de Fatima Esperandio "
   },
   {
     "cnpj": "44.620.646/0001-47",
     "nome": "ECOMMERCE COMERCIAL LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/44.620.646/0001-47"
+    "phone": "5541991275455",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991275455",
+    "socio": "Adriana Pivovar "
   },
   {
     "cnpj": "44.588.453/0001-56",
     "nome": "VILLALON LTDA",
-    "situação": "Ativa",
-    "link": "http://cnpj.biz/44.588.453/0001-56"
+    "phone": "5541988222774",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988222774",
+    "socio": "Danielle Besel Villalon "
   },
   {
     "cnpj": "43.753.120/0001-72",
     "nome": "MKJUVEVE CAFES ESPECIAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.753.120/0001-72"
+    "link": "http://cnpj.biz/43.753.120/0001-72",
+    "phone": "5541999220219",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999220219",
+    "socio": " Guilherme Henrique Lucavei - Sócio-Administrador  "
   },
   {
     "cnpj": "43.998.336/0001-06",
     "nome": "ARGILA BOTANICA COMERCIO DE PLANTAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.998.336/0001-06"
+    "link": "http://cnpj.biz/43.998.336/0001-06",
+    "phone": "5541999968627",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999968627",
+    "socio": " Marcos Henrique de Souza Bernini - Sócio-Administrador  "
   },
   {
     "cnpj": "43.117.403/0001-28",
     "nome": "CERVEJARIA JRJ LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.117.403/0001-28"
+    "link": "http://cnpj.biz/43.117.403/0001-28",
+    "phone": "5541996520620",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996520620",
+    "socio": " Juliano Ferreira de Lima - Sócio-Administrador  Viviane Beatriz Rodrigues Godoy - Sócio-Administrador  "
   },
   {
     "cnpj": "44.505.175/0001-26",
     "nome": "G M MACEDO COMERCIO DE ROUPAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.505.175/0001-26"
+    "link": "http://cnpj.biz/44.505.175/0001-26",
+    "phone": "5541996869828",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996869828",
+    "socio": " Gustavo Miranda Macedo - Sócio-Administrador  "
   },
   {
     "cnpj": "44.624.824/0001-08",
     "nome": "ALLVARO MELO MENDONCA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.624.824/0001-08"
+    "link": "http://cnpj.biz/44.624.824/0001-08",
+    "phone": "5541996869828",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996869828",
+    "socio": " Allvaro Melo Mendonca - Sócio-Administrador  "
   },
   {
     "cnpj": "44.583.042/0001-78",
     "nome": "E K KASPERSKI COMERCIO DE ELETROELETRONICOS",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.583.042/0001-78"
+    "link": "http://cnpj.biz/44.583.042/0001-78",
+    "phone": "5541984059899",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984059899"
   },
   {
     "cnpj": "41.831.428/0002-44",
     "nome": "SACOLAO DE FRUTAS E VERDURAS LORENZETTI LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.831.428/0002-44"
+    "link": "http://cnpj.biz/41.831.428/0002-44",
+    "phone": "5549999561416",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5549999561416",
+    "socio": " Jussara Campagnolo - Sócio-Administrador  "
   },
   {
     "cnpj": "43.666.078/0001-52",
     "nome": "VITORIA INVESTMENT LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.666.078/0001-52"
+    "link": "http://cnpj.biz/43.666.078/0001-52",
+    "phone": "5541999004336",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999004336",
+    "socio": " Thais Richertt dos Santos - Sócio-Administrador  "
   },
   {
     "cnpj": "43.311.416/0001-33",
     "nome": "DESIREE ILLESCAS WITHERS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.311.416/0001-33"
+    "link": "http://cnpj.biz/43.311.416/0001-33",
+    "phone": "5541996869828",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996869828",
+    "socio": " Desiree Illescas Withers Neves Ferreira - Sócio-Administrador  "
   },
   {
     "cnpj": "41.703.741/0001-16",
     "nome": "TROPICALLE STORE LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.703.741/0001-16"
+    "link": "http://cnpj.biz/41.703.741/0001-16",
+    "phone": "5515997541413",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5515997541413",
+    "socio": " Thais Aparecida Vieira - Sócio-Administrador  "
   },
   {
     "cnpj": "41.148.283/0001-09",
     "nome": "AD ASTRA AEROESPACIAL LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.148.283/0001-09"
+    "link": "http://cnpj.biz/41.148.283/0001-09",
+    "phone": "5541998179739",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998179739",
+    "socio": " Jean Phillipe de Campos Andreghetto - Sócio-Administrador  "
   },
   {
     "cnpj": "42.266.547/0001-83",
     "nome": "C T COMERCIO DE ALIMENTOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.266.547/0001-83"
+    "link": "http://cnpj.biz/42.266.547/0001-83",
+    "phone": "5541988564897",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988564897",
+    "socio": " Hillary Christy Silva de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "41.497.989/0002-59",
     "nome": "ARIANE DE MOURA COMERCIO DE COLCHOES E ARTIGOS HOSPITALARES LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.497.989/0002-59"
+    "link": "http://cnpj.biz/41.497.989/0002-59",
+    "phone": "5541998235230",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998235230",
+    "socio": " Ariane de Moura - Sócio-Administrador  "
   },
   {
     "cnpj": "42.982.407/0001-01",
     "nome": "ERMES COMERCIO DE BEBIDAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.982.407/0001-01"
+    "link": "http://cnpj.biz/42.982.407/0001-01",
+    "phone": "5541996869828",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996869828",
+    "socio": " Gabriel Felipe Gasparoto Lenglube Lisboa - Sócio-Administrador  "
   },
   {
     "cnpj": "41.751.226/0001-01",
     "nome": "BARRANCO METAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.751.226/0001-01"
+    "link": "http://cnpj.biz/41.751.226/0001-01",
+    "phone": "5541984070900",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984070900",
+    "socio": " Ariel Barranco - Sócio-Administrador  Rafael Muratori Barranco - Sócio-Administrador  "
   },
   {
     "cnpj": "41.369.753/0001-56",
     "nome": "INSTITUTO ELO: PESQUISA E DESENVOLVIMENTO EM PSICOLOGIA APRENDIZAGEM LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.369.753/0001-56"
+    "link": "http://cnpj.biz/41.369.753/0001-56",
+    "phone": "5541984169307",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984169307",
+    "socio": " Graziela Sapienza - Sócio-Administrador  Raquel Pinto de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "44.302.756/0001-60",
     "nome": "BARBARA BIONI PADILHA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.302.756/0001-60"
+    "link": "http://cnpj.biz/44.302.756/0001-60",
+    "phone": "5541996844743",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996844743"
   },
   {
     "cnpj": "44.026.754/0001-96",
     "nome": "C BOCON NEW SPORTES PNEUS",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.026.754/0001-96"
+    "link": "http://cnpj.biz/44.026.754/0001-96",
+    "phone": "5541998689154",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998689154"
   },
   {
     "cnpj": "44.202.940/0001-39",
     "nome": "GODOI GAS COMERCIO DE GLP LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.202.940/0001-39"
+    "link": "http://cnpj.biz/44.202.940/0001-39",
+    "phone": "5541984751767",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984751767",
+    "socio": " Elton Carlos de Campos - Sócio-Administrador  "
   },
   {
     "cnpj": "41.305.526/0001-67",
     "nome": "JB COMERCIO DE UTILIDADES LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.305.526/0001-67"
+    "link": "http://cnpj.biz/41.305.526/0001-67",
+    "phone": "5541997214246",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997214246",
+    "socio": " Bianca Pilato Silveira - Sócio-Administrador  "
   },
   {
     "cnpj": "44.361.556/0001-89",
     "nome": "QUEDA DAGUA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.361.556/0001-89"
+    "link": "http://cnpj.biz/44.361.556/0001-89",
+    "phone": "5541995273511",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995273511",
+    "socio": " Luiz Felipe Almeida Martins - Sócio Menor (Assistido/Representado) Representado por Renata Almeida da Cruz - Mãe  Renata Almeida da Cruz - Sócio-Administrador  "
   },
   {
     "cnpj": "44.265.769/0001-07",
     "nome": "SENIOR SHOP ACESSORIOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.265.769/0001-07"
+    "link": "http://cnpj.biz/44.265.769/0001-07",
+    "phone": "5541997796410",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997796410",
+    "socio": " Ricardo Farhat - Sócio-Administrador  "
   },
   {
     "cnpj": "44.021.728/0001-75",
     "nome": "PICNIC TIME COMERCIO E SERVICOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.021.728/0001-75"
+    "link": "http://cnpj.biz/44.021.728/0001-75",
+    "phone": "5541999594074",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999594074",
+    "socio": " Daniele Ferreira Barbosa dos Santos Baltazar - Sócio  Phellype Maximino Baltazar - Sócio-Administrador  "
   },
   {
     "cnpj": "44.039.786/0001-26",
     "nome": "ALFLORES COMERCIO DE FLORES E PLANTAS ORNAMENTAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.039.786/0001-26"
+    "link": "http://cnpj.biz/44.039.786/0001-26",
+    "phone": "5541998653909",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998653909",
+    "socio": " Renan Felipe dos Reis Santos - Sócio-Administrador  "
   },
   {
     "cnpj": "43.598.902/0001-84",
     "nome": "WENDLER FARMA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.598.902/0001-84"
+    "link": "http://cnpj.biz/43.598.902/0001-84",
+    "phone": "5541988522686",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988522686",
+    "socio": " Etieli Mara Wendler - Sócio-Administrador  Priscila Luane Wendler de Miranda - Sócio-Administrador  "
   },
   {
     "cnpj": "41.449.277/0001-83",
     "nome": "FERNANDES & ESPERIDIAO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.449.277/0001-83"
+    "link": "http://cnpj.biz/41.449.277/0001-83",
+    "phone": "5541999294798",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999294798",
+    "socio": " Larissa Gramlich Fernandes - Sócio-Administrador  Melissa Esperidiao Franca - Sócio-Administrador  "
   },
   {
     "cnpj": "41.056.297/0001-94",
     "nome": "IRON SUPLEMENTOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.056.297/0001-94"
+    "link": "http://cnpj.biz/41.056.297/0001-94",
+    "phone": "5541995142666",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995142666",
+    "socio": " Gabriel Henrique Cabral - Sócio-Administrador  "
   },
   {
     "cnpj": "44.277.478/0001-39",
     "nome": "ECOMM COMERCIO DE TUDO E MAIS UM POUCO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.277.478/0001-39"
+    "link": "http://cnpj.biz/44.277.478/0001-39",
+    "phone": "5541991275455",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991275455",
+    "socio": " Adriana Pivovar - Sócio-Administrador  Rodrigo Otavio de Bittencourt Druszcz - Sócio  "
   },
   {
     "cnpj": "42.078.304/0001-11",
     "nome": "MULTI KULTURE LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.078.304/0001-11"
+    "link": "http://cnpj.biz/42.078.304/0001-11",
+    "phone": "5541999175401",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999175401",
+    "socio": " Danielle Pereira Fagundes - Sócio-Administrador  Marco Antonio Pessanha Fagundes - Administrador  "
   },
   {
     "cnpj": "26.542.177/0002-94",
     "nome": "MEIZINHA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/26.542.177/0002-94"
+    "link": "http://cnpj.biz/26.542.177/0002-94",
+    "phone": "5541992435801",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992435801",
+    "socio": " Marlus Rossa - Sócio-Administrador  "
   },
   {
     "cnpj": "44.019.376/0001-13",
     "nome": "RDB COMERCIO DE ROUPAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.019.376/0001-13"
+    "link": "http://cnpj.biz/44.019.376/0001-13",
+    "phone": "5541999661325",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999661325",
+    "socio": " Monica Alfena Pozzato - Sócio-Administrador  "
   },
   {
     "cnpj": "44.303.472/0001-99",
     "nome": "ATACADO DE ACOS CURITIBA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.303.472/0001-99"
+    "link": "http://cnpj.biz/44.303.472/0001-99",
+    "phone": "5541988589001",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988589001",
+    "socio": " Fernando Rigo - Sócio-Administrador  "
   },
   {
     "cnpj": "43.584.202/0001-30",
@@ -5281,49 +5386,73 @@
     "cnpj": "44.361.326/0001-10",
     "nome": "COMERCIO VAREJISTA DE RACOES E CEREAIS SANTA FELICIDADE LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.361.326/0001-10"
+    "link": "http://cnpj.biz/44.361.326/0001-10",
+    "phone": "5541996520830",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996520830",
+    "socio": " Pedro Mauro Teixeira - Sócio-Administrador  "
   },
   {
     "cnpj": "41.125.985/0001-69",
     "nome": "CACHIATORI E BAIARDI LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.125.985/0001-69"
+    "link": "http://cnpj.biz/41.125.985/0001-69",
+    "phone": "5541995488393",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995488393",
+    "socio": " Alexander Cachiatori - Sócio-Administrador  Natal Cachiatori - Sócio-Administrador  "
   },
   {
     "cnpj": "42.941.946/0001-00",
     "nome": "REVENBR COMERCIO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.941.946/0001-00"
+    "link": "http://cnpj.biz/42.941.946/0001-00",
+    "phone": "5541997886159",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997886159",
+    "socio": " Danilo Antonio Perez - Sócio-Administrador  "
   },
   {
     "cnpj": "42.005.557/0001-65",
     "nome": "CELSO RAMOS COMERCIAL EXPORTADORA E IMPORTADORA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.005.557/0001-65"
+    "link": "http://cnpj.biz/42.005.557/0001-65",
+    "phone": "5541997282071",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997282071",
+    "socio": " Volni Zanoni - Sócio-Administrador  Willian Santos Guidio da Cruz - Sócio-Administrador  "
   },
   {
     "cnpj": "43.274.069/0001-16",
     "nome": "DJ DISTRIBUIDORA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.274.069/0001-16"
+    "link": "http://cnpj.biz/43.274.069/0001-16",
+    "phone": "5584999585770",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5584999585770",
+    "socio": " Diego Luis da Silva - Sócio-Administrador  "
   },
   {
     "cnpj": "41.994.974/0001-15",
     "nome": "HB4M COMERCIO DE ARTIGOS DOMESTICOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.994.974/0001-15"
+    "link": "http://cnpj.biz/41.994.974/0001-15",
+    "phone": "5541988119559",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988119559",
+    "socio": " Jose Marcio Mendel - Sócio-Administrador  Marcelo Paulo Mendel - Sócio  "
   },
   {
     "cnpj": "41.670.619/0001-90",
     "nome": "VITORIA FESTAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.670.619/0001-90"
+    "link": "http://cnpj.biz/41.670.619/0001-90",
+    "phone": "5541999092503",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999092503",
+    "socio": " Ana Maria Rogiski - Sócio-Administrador  "
   },
   {
     "cnpj": "43.702.663/0001-60",
     "nome": "DISTRIBUIDORA COLD BEER LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.702.663/0001-60"
+    "link": "http://cnpj.biz/43.702.663/0001-60",
+    "phone": "5541995303373",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995303373",
+    "socio": " Jaime Nalepa - Sócio-Administrador  Jessica Riscarolli Rodrigues - Sócio-Administrador  "
   },
   {
     "cnpj": "43.965.872/0001-05",
@@ -5338,61 +5467,91 @@
     "cnpj": "41.217.452/0001-07",
     "nome": "CRIAR BOX PAPELARIA E SCRAPBOOK LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.217.452/0001-07"
+    "link": "http://cnpj.biz/41.217.452/0001-07",
+    "phone": "5541992057778",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992057778",
+    "socio": " Gabrielle Sampaio dos Santos - Sócio-Administrador  Lucas Alexandre Gubert Schier - Sócio-Administrador  "
   },
   {
     "cnpj": "42.834.781/0001-60",
     "nome": "MG2 DISTRIBUIDORA DE SUPLEMENTOS ALIMENTARES E COSMETICOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.834.781/0001-60"
+    "link": "http://cnpj.biz/42.834.781/0001-60",
+    "phone": "5541992090884",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992090884",
+    "socio": " Tatyanna Hyczy Kaminski Lima - Sócio-Administrador  "
   },
   {
     "cnpj": "42.843.830/0001-20",
     "nome": "ANDRADE NEDBAILUK COMERCIO DE PRODUTOS NATURAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.843.830/0001-20"
+    "link": "http://cnpj.biz/42.843.830/0001-20",
+    "phone": "5541984309136",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984309136",
+    "socio": " Soraya Rosana Franco de Andrade Nedbailuk - Sócio-Administrador  "
   },
   {
     "cnpj": "43.744.627/0001-60",
     "nome": "KOM COMERCIO DE ARTIGOS PARA ANIMAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.744.627/0001-60"
+    "link": "http://cnpj.biz/43.744.627/0001-60",
+    "phone": "5541988116661",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541988116661",
+    "socio": " Eliana Regina Karwowski Machado - Sócio  Oliveiros Machado Neto - Sócio-Administrador  "
   },
   {
     "cnpj": "44.171.801/0002-76",
     "nome": "JHENIFER APARECIDA FORASTEIRO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.171.801/0002-76"
+    "link": "http://cnpj.biz/44.171.801/0002-76",
+    "phone": "5541996240649",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996240649",
+    "socio": " Jhenifer Aparecida Forasteiro - Sócio-Administrador  "
   },
   {
     "cnpj": "44.460.449/0001-08",
     "nome": "BELLE FATALE LOJA DE DEPARTAMENTOS E MAGAZINE LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.460.449/0001-08"
+    "link": "http://cnpj.biz/44.460.449/0001-08",
+    "phone": "5541998222116",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998222116",
+    "socio": " Neuci Bueno Turini - Sócio-Administrador  "
   },
   {
     "cnpj": "42.214.897/0001-04",
     "nome": "V7 DW COMERCIO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.214.897/0001-04"
+    "link": "http://cnpj.biz/42.214.897/0001-04",
+    "phone": "5543999609960",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5543999609960",
+    "socio": " Daniel Volpini Silva - Sócio-Administrador  "
   },
   {
     "cnpj": "43.341.537/0001-28",
     "nome": "CONFORTAVEL COLCHOES LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.341.537/0001-28"
+    "link": "http://cnpj.biz/43.341.537/0001-28",
+    "phone": "5541998412652",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998412652",
+    "socio": " Isaias Teotonio de Araujo - Sócio-Administrador  "
   },
   {
     "cnpj": "41.454.309/0001-39",
     "nome": "VAI DE VINHO BY DEBORA BREGINSKI LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.454.309/0001-39"
+    "link": "http://cnpj.biz/41.454.309/0001-39",
+    "phone": "5541991150650",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991150650",
+    "socio": " Debora Maria Breginski de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "44.124.376/0001-83",
     "nome": "PARTITO ARTIGOS PARA FESTAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.124.376/0001-83"
+    "link": "http://cnpj.biz/44.124.376/0001-83",
+    "phone": "5541999426025",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999426025",
+    "socio": " Fernanda Baptistao Heck - Sócio-Administrador  "
   },
   {
     "cnpj": "43.853.286/0001-60",
@@ -5422,7 +5581,10 @@
     "cnpj": "44.151.706/0001-20",
     "nome": "NOGUEIRA DECORA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.151.706/0001-20"
+    "link": "http://cnpj.biz/44.151.706/0001-20",
+    "phone": "5541999228885",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999228885",
+    "socio": " Fabio Nogueira Reis - Sócio-Administrador  "
   },
   {
     "cnpj": "44.385.967/0001-04",
@@ -5434,186 +5596,277 @@
     "cnpj": "44.661.298/0001-56",
     "nome": "GOLES E TRAGOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.661.298/0001-56"
+    "link": "http://cnpj.biz/44.661.298/0001-56",
+    "phone": "5541998659632",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998659632",
+    "socio": " Pietro Freitag Bittencourt de Souza - Sócio-Administrador  "
   },
   {
     "cnpj": "42.894.903/0001-03",
     "nome": "RK COMERCIO DE TELEFONES E ACESSORIOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.894.903/0001-03"
+    "link": "http://cnpj.biz/42.894.903/0001-03",
+    "phone": "5541991430093",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991430093",
+    "socio": " Rafael Belem Kowalski - Sócio-Administrador  "
   },
   {
     "cnpj": "43.473.448/0001-35",
     "nome": "ANA SUPLEMENTOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.473.448/0001-35"
+    "link": "http://cnpj.biz/43.473.448/0001-35",
+    "phone": "5541999745081",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999745081",
+    "socio": " Ana Laura da Freiria - Sócio-Administrador  "
   },
   {
     "cnpj": "44.335.137/0001-72",
     "nome": "ELAMOR COMERCIO DE PRODUTOS DE BELEZA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.335.137/0001-72"
+    "link": "http://cnpj.biz/44.335.137/0001-72",
+    "phone": "5541991332801",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991332801",
+    "socio": " Maria Eduarda de Moura Cruz - Sócio  Wagner Daniel de Moura Paranhos - Sócio-Administrador  "
   },
   {
     "cnpj": "42.242.668/0001-95",
     "nome": "PG COMERCIO DE UTENSILIOS EM METAL E MADEIRA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.242.668/0001-95"
+    "link": "http://cnpj.biz/42.242.668/0001-95",
+    "phone": "5541999017887",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999017887",
+    "socio": " Marcel Alexandre Kriegl - Sócio-Administrador  Matheus Pontes de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "43.850.706/0001-55",
     "nome": "R2 COMERCIO E VAREJO ROUPAS E ACESSORIOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.850.706/0001-55"
+    "link": "http://cnpj.biz/43.850.706/0001-55",
+    "phone": "5541999248838",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999248838",
+    "socio": " Fabiano Ricardo Pereira - Sócio-Administrador  "
   },
   {
     "cnpj": "42.313.980/0001-22",
     "nome": "VESTINDO A MULHER, COMERCIO E CONFECCAO DE ROUPAS LTDA,Ativa",
-    "situação": "http://cnpj.biz/42.313.980/0001-22"
+    "situação": "http://cnpj.biz/42.313.980/0001-22",
+    "phone": "5541999190748",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999190748",
+    "socio": " Elizabeth Batista Machado de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "41.788.235/0001-77",
     "nome": "UTENSILIOS CWB LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.788.235/0001-77"
+    "link": "http://cnpj.biz/41.788.235/0001-77",
+    "phone": "5541996140204",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996140204",
+    "socio": " Jose Ricardo Rodrigues dos Santos - Sócio-Administrador  "
   },
   {
     "cnpj": "36.757.542/0002-31",
     "nome": "SENA MOTORS AUTOMOVEIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/36.757.542/0002-31"
+    "link": "http://cnpj.biz/36.757.542/0002-31",
+    "phone": "5541995071364",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995071364",
+    "socio": " Ana Paula do Nascimento - Sócio  Claudinei Alves Sena - Sócio-Administrador  "
   },
   {
     "cnpj": "42.082.160/0001-77",
     "nome": "DORMENTES CURITIBA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.082.160/0001-77"
+    "link": "http://cnpj.biz/42.082.160/0001-77",
+    "phone": "5541991022481",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541991022481",
+    "socio": " Debora Dias do Nascimento - Sócio-Administrador  "
   },
   {
     "cnpj": "44.108.673/0001-35",
     "nome": "BEAGAH COMERCIO DE ELETRONICOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.108.673/0001-35"
+    "link": "http://cnpj.biz/44.108.673/0001-35",
+    "phone": "5541998172027",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998172027",
+    "socio": " Taher Haissam - Sócio-Administrador  Victor Cassel Brisolara - Sócio-Administrador  "
   },
   {
     "cnpj": "43.027.303/0001-00",
     "nome": "DZIBANSKEI COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.027.303/0001-00"
+    "link": "http://cnpj.biz/43.027.303/0001-00",
+    "phone": "5541996286129",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996286129",
+    "socio": " Viviane Dzibanskei - Sócio-Administrador  "
   },
   {
     "cnpj": "42.377.431/0001-11",
     "nome": "GABRIEL PEREIRA PERDIGAO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.377.431/0001-11"
+    "link": "http://cnpj.biz/42.377.431/0001-11",
+    "phone": "5541996869828",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996869828",
+    "socio": " Gabriel Pereira Perdigao - Sócio-Administrador  "
   },
   {
     "cnpj": "42.438.768/0001-91",
     "nome": "LOZ COMERCIO DE PRODUTOS EROTICOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.438.768/0001-91"
+    "link": "http://cnpj.biz/42.438.768/0001-91",
+    "phone": "5541996493262",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996493262",
+    "socio": " Helena Maria de Lima Belem - Sócio-Administrador  Isabella Sartori de Cesar Valeixo - Sócio  Jorge Mauricio Gil Belem - Sócio-Administrador  "
   },
   {
     "cnpj": "42.492.925/0001-47",
     "nome": "ADTT COMERCIAL LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.492.925/0001-47"
+    "link": "http://cnpj.biz/42.492.925/0001-47",
+    "phone": "5541987713447",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541987713447",
+    "socio": " Antonio Deonel Teixeira Trappel - Sócio-Administrador  "
   },
   {
     "cnpj": "42.657.490/0001-43",
     "nome": "VERCATTO BOUTIQUE SAUDAVEL LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.657.490/0001-43"
+    "link": "http://cnpj.biz/42.657.490/0001-43",
+    "phone": "5541992442749",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992442749",
+    "socio": " Giovana Dockhorn Brehmer - Sócio-Administrador  "
   },
   {
     "cnpj": "09.243.830/0002-03",
     "nome": "DEBORA GONCALVES FERREIRA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/09.243.830/0002-03"
+    "link": "http://cnpj.biz/09.243.830/0002-03",
+    "phone": "5541997030091",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997030091"
   },
   {
     "cnpj": "43.286.881/0001-61",
     "nome": "FULL MOBILE ASSISTENCIA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.286.881/0001-61"
+    "link": "http://cnpj.biz/43.286.881/0001-61",
+    "phone": "5541995446519",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995446519",
+    "socio": " Joelma Sforca - Sócio-Administrador  "
   },
   {
     "cnpj": "43.627.799/0001-53",
     "nome": "VAGALUME BEER DISTRIBUIDORA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.627.799/0001-53"
+    "link": "http://cnpj.biz/43.627.799/0001-53",
+    "phone": "5541996210091",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996210091",
+    "socio": " Anderson Felipe Ferreira dos Reis - Sócio-Administrador  "
   },
   {
     "cnpj": "42.954.641/0001-25",
     "nome": "WELDOG AGROPECUARIA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.954.641/0001-25"
+    "link": "http://cnpj.biz/42.954.641/0001-25",
+    "phone": "5541997919859",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997919859",
+    "socio": " Welker da Silva Garcia - Sócio-Administrador  "
   },
   {
     "cnpj": "42.882.026/0001-50",
     "nome": "VINICIUS DUARTE LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.882.026/0001-50"
+    "link": "http://cnpj.biz/42.882.026/0001-50",
+    "phone": "5541998475054",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998475054",
+    "socio": " Vinicius Duarte - Sócio-Administrador  "
   },
   {
     "cnpj": "41.990.374/0001-89",
     "nome": "TIME'S BEER COMERCIO DE BEBIDAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.990.374/0001-89"
+    "link": "http://cnpj.biz/41.990.374/0001-89",
+    "phone": "5541995742098",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995742098",
+    "socio": " Gerson Goncalves Braga - Sócio-Administrador  "
   },
   {
     "cnpj": "44.414.717/0001-55",
     "nome": "DIRCEU RAMOS PRIME AUTO PECAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.414.717/0001-55"
+    "link": "http://cnpj.biz/44.414.717/0001-55",
+    "phone": "5541987109063",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541987109063",
+    "socio": " Dirceu Ramos Camargo - Sócio-Administrador  "
   },
   {
     "cnpj": "41.650.154/0001-06",
     "nome": "MR PRODUTOS ALIMENTICIOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.650.154/0001-06"
+    "link": "http://cnpj.biz/41.650.154/0001-06",
+    "phone": "5511999464257",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5511999464257",
+    "socio": " Mariana Alexandrino da Silva - Sócio-Administrador  "
   },
   {
     "cnpj": "44.105.496/0001-33",
     "nome": "OLIVEIRA COMERCIO DE MOVEIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.105.496/0001-33"
+    "link": "http://cnpj.biz/44.105.496/0001-33",
+    "phone": "5541984625561",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984625561",
+    "socio": " Cleverson Rosa de Oliveira - Sócio-Administrador  "
   },
   {
     "cnpj": "42.888.767/0001-49",
     "nome": "PERFUMES LABIRINTO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.888.767/0001-49"
+    "link": "http://cnpj.biz/42.888.767/0001-49",
+    "phone": "5541997003537",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541997003537",
+    "socio": " Araceli de Campos Guimaraes - Sócio-Administrador  "
   },
   {
     "cnpj": "42.071.476/0001-63",
     "nome": "NEUPA - REPRESENTACOES COMERCIAIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.071.476/0001-63"
+    "link": "http://cnpj.biz/42.071.476/0001-63",
+    "phone": "5541996620984",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996620984",
+    "socio": " Neuclarir Paulino - Sócio-Administrador  "
   },
   {
     "cnpj": "41.188.072/0001-91",
     "nome": "LIA MOURAO DA VEIGA COMERCIO VAREJISTA DE ROUPAS E ACESSORIOS",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.188.072/0001-91"
+    "link": "http://cnpj.biz/41.188.072/0001-91",
+    "phone": "5541984159815",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541984159815"
   },
   {
     "cnpj": "41.744.073/0001-75",
     "nome": "TAG COMERCIO DE CARNES LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.744.073/0001-75"
+    "link": "http://cnpj.biz/41.744.073/0001-75",
+    "phone": "5541995358000",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995358000",
+    "socio": " Isabel de Paula Morais - Sócio-Administrador  "
   },
   {
     "cnpj": "41.731.161/0001-32",
     "nome": "BEN FARMACIA DE MANIPULACAO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.731.161/0001-32"
+    "link": "http://cnpj.biz/41.731.161/0001-32",
+    "phone": "5511976847678",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5511976847678",
+    "socio": " Maria de Lourdes Salbego Ben - Sócio-Administrador  "
   },
   {
     "cnpj": "42.912.026/0005-80",
     "nome": "MICHELS DO BRASIL DISTRIBUICAO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.912.026/0005-80"
+    "link": "http://cnpj.biz/42.912.026/0005-80",
+    "phone": "5545999317235",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5545999317235",
+    "socio": " Marc William Michels - Sócio Pessoa Física Residente no Exterior (Paraguai) Representado por Miriam Mari Biazus Michels - Procurador  Miriam Mari Biazus Michels - Administrador  "
   },
   {
     "cnpj": "42.472.661/0001-60",
@@ -5637,25 +5890,37 @@
     "cnpj": "43.871.181/0001-34",
     "nome": "MLZ EMPORIO LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.871.181/0001-34"
+    "link": "http://cnpj.biz/43.871.181/0001-34",
+    "phone": "5541999755207",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541999755207",
+    "socio": " Marlos Lazzari - Sócio-Administrador  "
   },
   {
     "cnpj": "43.953.042/0001-50",
     "nome": "PALMIERE COMERCIAL LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/43.953.042/0001-50"
+    "link": "http://cnpj.biz/43.953.042/0001-50",
+    "phone": "5541998527282",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998527282",
+    "socio": " Mauricio Palmieri - Sócio-Administrador  "
   },
   {
     "cnpj": "42.022.311/0001-00",
     "nome": "FSK IMPORTACAO DE ESSENCIAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.022.311/0001-00"
+    "link": "http://cnpj.biz/42.022.311/0001-00",
+    "phone": "5541992551937",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541992551937",
+    "socio": " Fabio Silva Krieger - Sócio-Administrador  "
   },
   {
     "cnpj": "41.920.096/0001-93",
     "nome": "TASHI ALIMENTOS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/41.920.096/0001-93"
+    "link": "http://cnpj.biz/41.920.096/0001-93",
+    "phone": "5541996064103",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541996064103",
+    "socio": " Bruna Campos Ribas de Souza - Sócio  Carlos Humberto de Souza Filho - Sócio-Administrador  "
   },
   {
     "cnpj": "42.170.945/0001-00",
@@ -5670,25 +5935,37 @@
     "cnpj": "42.055.695/0001-59",
     "nome": "BRABUS LUB COMERCIO ATACADISTA DE LUBRFICANTES LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/42.055.695/0001-59"
+    "link": "http://cnpj.biz/42.055.695/0001-59",
+    "phone": "5519998244802",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5519998244802",
+    "socio": " Brabus Lub Comercio Atacadista de Lubrficantes LTDA - CNPJ: 42055695000159 - Cotas em Tesouraria  Vanessa Araujo Moreira - Sócio-Administrador  "
   },
   {
     "cnpj": "44.488.769/0001-76",
     "nome": "CANECARIA CURITIBANA LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.488.769/0001-76"
+    "link": "http://cnpj.biz/44.488.769/0001-76",
+    "phone": "5541998606060",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541998606060",
+    "socio": " Lessandro Santana Bonato - Sócio-Administrador  "
   },
   {
     "cnpj": "44.032.115/0001-33",
     "nome": "NIETH COSMETICOS E AROMAS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.032.115/0001-33"
+    "link": "http://cnpj.biz/44.032.115/0001-33",
+    "phone": "5541987533330",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541987533330",
+    "socio": " Raphael Gomes Fonseca - Sócio-Administrador  "
   },
   {
     "cnpj": "44.586.263/0001-08",
     "nome": "SOLARSIM ENERGIAS RENOVAVEIS LTDA",
     "situação": "Ativa",
-    "link": "http://cnpj.biz/44.586.263/0001-08"
+    "link": "http://cnpj.biz/44.586.263/0001-08",
+    "phone": "5541995353226",
+    "whatsLink": "https://api.whatsapp.com/send?phone=5541995353226",
+    "socio": " Matheus Henrique Pazetto Fonseca - Sócio-Administrador  Samuel Morais Carlos - Sócio  "
   },
   {
     "cnpj": "41.198.966/0001-62",

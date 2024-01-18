@@ -136,7 +136,7 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           console.log(`Título da página: ${title}`);
 
           item.phone = phone;
-          item.whatsLink = links[0];
+          item.whatsLink =  links[0];
           item.socio = socios[0];
 
           if (!item.whatsLink) {
