@@ -9,7 +9,7 @@ WORKDIR /usr/src/app
 
 # Copia apenas os arquivos necessários para instalar as dependências
 
-
+COPY package.json ./
 # Instala as dependências
 RUN yarn
 
