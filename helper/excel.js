@@ -106,12 +106,7 @@ async function getXLSBase64(sheetName, header, data) {
   });
 }
 
-ChatGPT
-O código parece bem estruturado, mas algumas otimizações podem ser implementadas. Aqui estão algumas sugestões:
 
-Async/Await Consistente: Você já está usando async/await na função, mas considere remover o async na declaração da função, pois você está usando await em uma única promessa. Isso simplifica a leitura do código.
-javascript
-Copy code
 function getXLSBase64(sheetName, header, data) {
   return new Promise((resolve, reject) => {
     try {
