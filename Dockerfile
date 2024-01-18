@@ -1,29 +1,30 @@
+# Estágio de construção
 FROM node:18.18.2-bullseye-slim AS builder
 
 WORKDIR /usr/src/app
 
 COPY package.json yarn.lock ./
 
-RUN yarn install --production
+# Instalação completa das dependências (incluindo desenvolvimento)
+RUN yarn install
 
 COPY . .
 
-
-
+# Estágio final
 FROM node:18.18.2-bullseye-slim
 
-RUN  apt-get update \
-     && apt-get install -y chromium \
-     && rm -rf `yarn cache dir` \
-     && rm -rf /root/.cache \
-     && apt-get clean
+# Instalação do Chromium
+RUN apt-get update \
+    && apt-get install -y chromium \
+    && rm -rf /var/lib/apt/lists/*
 
+# Define o diretório de trabalho
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock ./
+# Copia apenas os arquivos necessários
+COPY --from=builder /usr/src/app/package.json /usr/src/app/yarn.lock ./
 
+# Instalação apenas das dependências de produção
 RUN yarn install --production
 
-CMD ["yarn","start"]
-
- 
+CMD ["yarn", "start"]
