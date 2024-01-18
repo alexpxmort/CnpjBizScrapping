@@ -165,6 +165,8 @@ result = result.flat()
   //await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  result.flat());
 
   if(result.flat().length > 0){
+    console.log('result')
+    console.log(result.flat())
     const data = await getXLSBase64(xlsSheetName,xlsHeader,result.flat())
     return res.json({data})
   }else{

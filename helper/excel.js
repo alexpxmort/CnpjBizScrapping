@@ -49,8 +49,9 @@ async function writeXLS(fileName, sheetName, header, data) {
 
 // Função helper para obter uma string base64 de um arquivo Excel (.xls)
 async function getXLSBase64(sheetName, header, data) {
-  return new Promise((resolve, reject) => {
+  return await new Promise((resolve, reject) => {
     try {
+      console.log('aqui')
       const workbook = new xl.Workbook();
       const worksheet = workbook.addWorksheet(sheetName);
 
@@ -83,6 +84,8 @@ async function getXLSBase64(sheetName, header, data) {
       // Obtém o buffer do arquivo Excel
       workbook.writeToBuffer((error, buffer) => {
         if (error) {
+          console.log('err')
+          console.log(error)
           reject(error);
         } else {
           // Converte o buffer para uma string base64
