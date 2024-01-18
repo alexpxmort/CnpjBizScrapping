@@ -129,9 +129,9 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
 
     }
     jsonResult = jsonResult.slice(0,limit)
-    cache.set(`${req.file.filename}`,JSON.stringify(jsonResult.slice(0,limit),null,2))
+    cache.set(`${req.file.filename}`,JSON.stringify(jsonResult,null,2))
     let result = [];
-    const processor = processFiles(jsonResult.slice(0,limit));
+    const processor = processFiles(jsonResult);
 
     // Iterate over the generator function
     for await (const processedData of processor) {
