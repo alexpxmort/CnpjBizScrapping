@@ -122,14 +122,22 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
     jsonResult = lowercaseArray(jsonResult)
 
     if(cached){
+     cached= JSON.parse(cached)
       console.log('cache usado')
-      const cachedCnpjs = JSON.parse(cached)?.map((val) => val?.cnpj) ?? [];
+      let cachedCnpjs = cached?.map((val) => val?.cnpj) ?? [];
       console.log(cachedCnpjs.length)
       jsonResult =  jsonResult.filter((val) => !cachedCnpjs.includes(val?.cnpj));
 
     }
     jsonResult = jsonResult.slice(0,limit)
-    cache.set(`${req.file.filename}`,JSON.stringify(jsonResult,null,2))
+    if(cached){
+      const dataCache = [...jsonResult,...cached]
+      cache.set(`${req.file.filename}`,JSON.stringify(dataCache,null,2))
+
+    }else{
+      cache.set(`${req.file.filename}`,JSON.stringify(jsonResult,null,2))
+
+    }
     let result = [];
     const processor = processFiles(jsonResult);
 
