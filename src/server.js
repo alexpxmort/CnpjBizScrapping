@@ -59,7 +59,7 @@ const processFiles = async function* (data) {
       const result = await visitPagesSequentially([row]); // Assuming visitPagesSequentially returns a promise
 
       // Simulate some asynchronous processing
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      // await new Promise((resolve) => setTimeout(resolve, 800));
 
       yield { status: 'success', result, row };
     } catch (error) {

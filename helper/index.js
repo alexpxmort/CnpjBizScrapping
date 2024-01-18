@@ -140,11 +140,15 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           item.socio = socios[0];
 
           if (!item.whatsLink) {
+            console.log('noZap')
+            console.log(item)
               item.whatsLink = null;
               item.noZap = true;
               await browser.close();
               continue;
           }
+          console.log('item')
+          console.log(item)
 
           results.push(item)
 
