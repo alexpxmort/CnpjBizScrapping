@@ -20,7 +20,9 @@ const puppeteer = require('puppeteer');
 
 async function runPuppeteer() {
   // Inicia o navegador
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless:'new'
+  });
 
   // Abre uma nova página
   const page = await browser.newPage();
@@ -117,7 +119,7 @@ result = result.flat()
   }
 });
 
-app.listen(port, () => {
+app.listen(port, async() => {
   console.log(`Servidor rodando em http://localhost:${port}`);
-  runPuppeteer()
+  await runPuppeteer()
 });
