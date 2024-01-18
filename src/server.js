@@ -156,8 +156,13 @@ result = result.flat()
 // Chamada da função helper
   //await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  result.flat());
 
-   const data = await getXLSBase64(xlsSheetName,xlsHeader,result.flat())
-  return res.json({data})
+  if(result.flat().length > 0){
+    const data = await getXLSBase64(xlsSheetName,xlsHeader,result.flat())
+    return res.json({data})
+  }else{
+    return res.json({data:[]})
+  }
+  
   // const filePath = path.join(__dirname, xlsFileName);
 
   // res.download(filePath, 'output.xlsx', (error) => {
