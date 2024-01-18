@@ -49,18 +49,11 @@ async function writeXLS(fileName, sheetName, header, data) {
   });
 }
 
-ChatGPT 3.5
-
-User
-Meu buffer base 64 com excel4node tá demorado
-
-ChatGPT
-Se o seu código usando o excel4node para manipulação de buffers base64 está lento, considere otimizar o código para melhorar o desempenho. Isso pode incluir revisar a lógica de processamento, evitar operações desnecessárias e verificar se há atualizações ou correções na biblioteca. Se precisar de mais ajuda, compartilhe trechos relevantes do seu código para que eu possa oferecer sugestões específicas.
 
 
 
 
-User
+
 // Função helper para obter uma string base64 de um arquivo Excel (.xls)
 async function getXLSBase64(sheetName, header, data) {
   return await new Promise((resolve, reject) => {
