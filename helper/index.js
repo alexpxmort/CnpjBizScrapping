@@ -119,7 +119,7 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           // Configurar o agente de usuário personalizado
           await page.setUserAgent(USER_AGENT);
 
-          await page.goto(isURLValid(item.link) ?item.link: `https://cnpj.biz/${removerMascaraCNPJ(item.cnpj)}`, { waitUntil: 'domcontentloaded' });
+          await page.goto(isURLValid(item?.link ?? '') ?item?.link: `https://cnpj.biz/${removerMascaraCNPJ(item.cnpj)}`, { waitUntil: 'domcontentloaded' });
 
           const socios = await extractDataFromParagraph(page, 'p');
           let links = await extractDataFromLinks(page, 'a');
