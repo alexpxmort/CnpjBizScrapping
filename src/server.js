@@ -29,7 +29,7 @@ const scrapeLogic = async (res) => {
   try {
     const page = await browser.newPage();
 
-    await page.goto("https://www.google.com");
+    await page.goto("https://github.com");
 
     
 
