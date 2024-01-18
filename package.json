@@ -9,7 +9,8 @@
   },
   "scripts": {
     "postinstall": " npx puppeteer browsers install chrome",
-    "start": "node src/server.js",
+    "server": "node src/server.js",
+    "start": "sudo npm run server",
     "dev": "node script.js",
     "start2": "node script-2.js",
     "excel": "node script-excel.js"
