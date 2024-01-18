@@ -1,13 +1,11 @@
 const express = require('express');
 const multer = require('multer');
 const csvtojson = require('csvtojson');
-const path = require('path');
 const app = express();
-const fs = require('fs')
 const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
-const { writeXLS, getXLSBase64ExcelJs } = require('../helper/excel');
+const {  getXLSBase64ExcelJs } = require('../helper/excel');
 
 dotenv.config();
 
@@ -19,6 +17,8 @@ const upload = multer({ storage: storage });
 
 const puppeteer = require('puppeteer');
 const cache = require('../helper/cache');
+const { arrayObjectToCSVBuffer } = require('../helper/csv');
+const { postApi } = require('../helper/api');
 
 const scrapeLogic = async (res) => {
   const browser = await puppeteer.launch({
@@ -80,25 +80,9 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
     razao_social,
     link:`http://cnpj.biz/${cnpj}`
   }))
-  const xlsFileName = 'casa-dados-pag-1.xls';
-  const xlsSheetName = 'Planilha1';
-  const xlsHeader = ['Cnpj','NomeFantasia','RazaoSocial','Link'];
-
-
-// Chamada da função helper
-  await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  cnpjs);
-
-  const filePath = path.join(__dirname,'..',xlsFileName);
-
-  res.download(filePath, 'output.xlsx', (error) => {
-    if (error) {
-      console.error('Erro ao enviar o arquivo para o cliente:', error);
-      res.status(500).send('Erro ao enviar o arquivo.');
-    } else {
-      console.log('Arquivo enviado com sucesso.');
-       fs.unlinkSync(filePath);
-    }
-  });
+ 
+  const data = await arrayObjectToCSVBuffer(cnpjs)
+  return res.json({data})
 
   
 })
