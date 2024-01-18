@@ -109,6 +109,8 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           const browser = await puppeteer.launch({
             headless: 'new',
             args: ['--no-sandbox', '--disable-setuid-sandbox'],
+            executablePath:
+            puppeteer.executablePath(),
   
           });
 

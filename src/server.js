@@ -16,6 +16,40 @@ const port = process.env.PORT || 3000;
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
+
+const puppeteer = require('puppeteer');
+
+const scrapeLogic = async (res) => {
+  const browser = await puppeteer.launch({
+  headless: 'new',
+          args: ['--no-sandbox'],
+    executablePath:
+        puppeteer.executablePath(),
+
+  });
+  try {
+    const page = await browser.newPage();
+
+    await page.goto("https://github.com");
+
+    
+
+    
+    const fullTitle = await page.title()
+
+    // Print the full title
+    const logStatement = `The title of this blog post is ${fullTitle}`;
+    console.log(logStatement);
+    res.send(logStatement);
+  } catch (e) {
+    console.error(e);
+    res.send(`Something went wrong while running Puppeteer: ${e}`);
+  } finally {
+    await browser.close();
+  }
+};
+
+
 const processFiles = async function* (data) {
   for (const row of data) {
     try {
@@ -123,7 +157,11 @@ result = result.flat()
     res.status(500).send('Erro ao processar o arquivo CSV.');
   }
 });
+app.get("/scrape", (req, res) => {
+  scrapeLogic(res);
+});
 
-app.listen(port, () => {
+app.listen(port, async() => {
   console.log(`Servidor rodando em http://localhost:${port}`);
+  
 });
