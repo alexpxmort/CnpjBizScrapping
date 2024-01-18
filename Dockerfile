@@ -1,20 +1,29 @@
-FROM ghcr.io/puppeteer/puppeteer:19.7.2
+FROM node:18.18.2-bullseye-slim AS builder
 
-# Define variáveis de ambiente
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
-    PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
-
-# Define o diretório de trabalho
 WORKDIR /usr/src/app
 
-# Copia apenas os arquivos necessários para instalar as dependências
+COPY package.json yarn.lock ./
 
-COPY package.json ./
-# Instala as dependências
-RUN yarn
+RUN yarn install --production
 
-# Copia todos os arquivos restantes
 COPY . .
 
-# Comando padrão para iniciar o aplicativo
-CMD [ "yarn", "start" ]
+
+
+FROM node:18.18.2-bullseye-slim
+
+RUN  apt-get update \
+     && apt-get install -y chromium \
+     && rm -rf `yarn cache dir` \
+     && rm -rf /root/.cache \
+     && apt-get clean
+
+WORKDIR /usr/src/app
+
+COPY package.json yarn.lock ./
+
+RUN yarn install --production
+
+CMD ['yarn','start']
+
+ 
