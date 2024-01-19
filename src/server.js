@@ -74,8 +74,7 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
   let json  = JSON.parse(buffer.toString())
   const cnpjs = json.data.cnpj?.map(({cnpj,nome_fantasia,razao_social}) => ({
     cnpj,
-    nome_fantasia,
-    razao_social,
+    nome:nome_fantasia ?? razao_social,
     link:`http://cnpj.biz/${cnpj}`
   }))
  
