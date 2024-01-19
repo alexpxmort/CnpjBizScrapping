@@ -74,7 +74,7 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
   let json  = JSON.parse(buffer.toString())
   const cnpjs = json.data.cnpj?.map(({cnpj,nome_fantasia,razao_social}) => ({
     cnpj,
-    nome:nome_fantasia ?? razao_social,
+    nome: nome_fantasia !="" ? nome_fantasia : razao_social,
     link:`http://cnpj.biz/${cnpj}`
   }))
  
@@ -130,21 +130,30 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
 
 result = result.flat()
     
+function getFirstName(fullName) {
+  // Divida o nome completo em partes usando o espaço como delimitador
+  const nameParts = fullName?.split(" ") ?? [];
+
+  // O primeiro elemento do array resultante será o primeiro nome
+  const firstName = nameParts?.[0] ?? "";
+
+  // Retorne o primeiro nome
+  return firstName;
+}
+
    result = result.map(({cnpj,nome,phone,whatsLink,socio}) =>({
     cnpj,
     nome,
     phone,
     whatsLink,
-    socio:socio?.trim()?.split('-')?.[0] ?? `${nome}`
+    socio:getFirstName(socio?.trim()?.split('-')?.[0]) ?? `${nome}`
    }))
 
-   const xlsFileName = 'contatos-pagina-1-teste.xls';
   const xlsSheetName = 'Planilha1';
   const xlsHeader = ['Cnpj','Nome','Phone','WhatsLink','Socio'];
 
 
-// Chamada da função helper
-  //await writeXLS(xlsFileName, xlsSheetName, xlsHeader,  result.flat());
+
 
   if(result.flat().length > 0){
     console.log('result')
@@ -155,17 +164,7 @@ result = result.flat()
     return res.json({data:[]})
   }
   
-  // const filePath = path.join(__dirname, xlsFileName);
-
-  // res.download(filePath, 'output.xlsx', (error) => {
-  //   if (error) {
-  //     console.error('Erro ao enviar o arquivo para o cliente:', error);
-  //     res.status(500).send('Erro ao enviar o arquivo.');
-  //   } else {
-  //     console.log('Arquivo enviado com sucesso.');
-  //      fs.unlinkSync(filePath);
-  //   }
-  // });
+ 
 
   } catch (error) {
     console.error(error);
