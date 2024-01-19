@@ -146,7 +146,7 @@ function getFirstName(fullName) {
     nome,
     phone,
     whatsLink,
-    socio:getFirstName(socio?.trim()?.split('-')?.[0]) ?? `${nome}`
+    socio:getFirstName(socio?.trim()?.split('-')?.[0])!="" ? getFirstName(socio?.trim()?.split('-')?.[0]): `${nome}`
    }))
 
   const xlsSheetName = 'Planilha1';
