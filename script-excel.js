@@ -11,17 +11,16 @@ const { writeXLS } = require('./helper/excel');
    result = result.filter((val) => val?.whatsLink)
 
 
-   result = result.map(({cnpj,nome,phone,whatsLink,socio}) =>({
+   result = result.map(({cnpj,nome,phone,whatsLink}) =>({
     cnpj,
     nome,
     phone,
-    whatsLink,
-    socio:socio?.trim()?.split('-')?.[0] ?? `${nome}`
+    whatsLink
    }))
 
    const xlsFileName = 'contatos-pagina-1.xls';
 const xlsSheetName = 'Planilha1';
-const xlsHeader = ['Cnpj','Nome','Phone','WhatsLink','Socio'];
+const xlsHeader = ['Cnpj','Nome','Phone','WhatsLink'];
 
 
 // Chamada da função helper

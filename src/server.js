@@ -122,7 +122,7 @@ result = result.flat()
    }))
 
   const xlsSheetName = 'Planilha1';
-  const xlsHeader = ['Cnpj','Nome','Phone','WhatsLink','Socio'];
+  const xlsHeader = ['Cnpj','Nome','Phone','WhatsLink'];
 
 
 
