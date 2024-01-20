@@ -127,7 +127,7 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
 
           await page.goto(isURLValid(item?.link ?? '') ?item?.link: `https://cnpj.biz/${removerMascaraCNPJ(item.cnpj)}`, { waitUntil: 'domcontentloaded' });
 
-          const socios = await extractDataFromParagraph(page, 'p');
+          //const socios = await extractDataFromParagraph(page, 'p');
           let links = await extractDataFromLinks(page, 'a');
           links = links?.filter((link) => link.includes('phone='));
           const phone = links.map((link) => link.split('phone=')[1])?.[0];
@@ -137,7 +137,7 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
 
           item.phone = phone;
           item.whatsLink =  links[0];
-          item.socio = socios[0];
+          //item.socio = socios[0];
 
           if (!item.whatsLink) {
             console.log('noZap')

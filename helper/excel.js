@@ -1,7 +1,16 @@
 const xl = require('excel4node');
 const ExcelJS = require('exceljs');
+const xlsx = require('xlsx')
 
+const readExcel = async (buffer) => {
+  const workbook = xlsx.read(buffer, { type: 'buffer' });
+  const sheetName = workbook.SheetNames[0];
+  const jsonData = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
 
+ 
+
+  return jsonData;
+}
 // Função helper para escrever em um arquivo Excel (.xls)
 async function writeXLS(fileName, sheetName, header, data) {
   return new Promise((resolve, reject) => {
@@ -123,4 +132,4 @@ async function getXLSBase64ExcelJs(sheetName, header, data) {
     throw error;
   }
 }
-module.exports = { writeXLS,getXLSBase64,getXLSBase64ExcelJs };
+module.exports = { writeXLS,getXLSBase64,getXLSBase64ExcelJs,readExcel };

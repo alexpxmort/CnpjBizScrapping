@@ -15,7 +15,6 @@ const upload = multer();
 
 
 const puppeteer = require('puppeteer');
-const cache = require('../helper/cache');
 const { arrayObjectToCSVBuffer } = require('../helper/csv');
 
 const scrapeLogic = async (res) => {
@@ -74,7 +73,7 @@ app.post('/data-house',upload.single('data'),async(req,res)=>{
   let json  = JSON.parse(buffer.toString())
   const cnpjs = json.data.cnpj?.map(({cnpj,nome_fantasia,razao_social}) => ({
     cnpj,
-    nome: nome_fantasia !="" ? nome_fantasia : razao_social,
+    nome: razao_social !="" ? razao_social : nome_fantasia,
     link:`http://cnpj.biz/${cnpj}`
   }))
  
@@ -95,7 +94,6 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
 
     const buffer = req.file.buffer;
 
-    let cached = cache.get(`${req.file.filename}`);
 
   
     // Convertendo o conteúdo do arquivo CSV para JSON
@@ -103,23 +101,8 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
     jsonResult = lowercaseArray(jsonResult)
 
     jsonResult = jsonResult.filter((val) => !val?.whatslink)
-    if(cached){
-     cached= JSON.parse(cached)
-      console.log('cache usado')
-      let cachedCnpjs = cached?.map((val) => val?.cnpj) ?? [];
-      console.log(cachedCnpjs.length)
-      jsonResult =  jsonResult.filter((val) => !cachedCnpjs.includes(val?.cnpj));
-
-    }
     jsonResult = jsonResult.slice(0,limit)
-    if(cached){
-      const dataCache = [...jsonResult,...cached]
-      cache.set(`${req.file.filename}`,JSON.stringify(dataCache,null,2))
 
-    }else{
-      cache.set(`${req.file.filename}`,JSON.stringify(jsonResult,null,2))
-
-    }
     let result = [];
     const processor = processFiles(jsonResult);
 
@@ -130,23 +113,12 @@ app.post('/upload/:limit', upload.single('csvFile'), async (req, res) => {
 
 result = result.flat()
     
-function getFirstName(fullName) {
-  // Divida o nome completo em partes usando o espaço como delimitador
-  const nameParts = fullName?.split(" ") ?? [];
 
-  // O primeiro elemento do array resultante será o primeiro nome
-  const firstName = nameParts?.[0] ?? "";
-
-  // Retorne o primeiro nome
-  return firstName;
-}
-
-   result = result.map(({cnpj,nome,phone,whatsLink,socio}) =>({
+   result = result.map(({cnpj,nome,phone,whatsLink}) =>({
     cnpj,
     nome,
     phone,
-    whatsLink,
-    socio:getFirstName(socio?.trim()?.split('-')?.[0])!="" ? getFirstName(socio?.trim()?.split('-')?.[0]): `${nome}`
+    whatsLink
    }))
 
   const xlsSheetName = 'Planilha1';

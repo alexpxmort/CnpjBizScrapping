@@ -11,7 +11,6 @@
     "postinstall": " npx puppeteer browsers install chrome",
     "start": "node src/server.js",
     "dev": "node script.js",
-    "start2": "node script-2.js",
     "excel": "node script-excel.js"
   },
   "dependencies": {
@@ -24,6 +23,7 @@
     "multer": "^1.4.5-lts.1",
     "node-cache": "^5.1.2",
     "papaparse": "^5.4.1",
-    "puppeteer": "^21.0.3"
+    "puppeteer": "^21.0.3",
+    "xlsx": "^0.18.5"
   }
 }
