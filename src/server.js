@@ -16,6 +16,7 @@ const upload = multer();
 
 const puppeteer = require('puppeteer');
 const { arrayObjectToCSVBuffer } = require('../helper/csv');
+const { KNOWN_CNPJS, KNOWN_PHONES } = require('../helper/exists');
 
 const scrapeLogic = async (res) => {
   const browser = await puppeteer.launch({
@@ -128,9 +129,14 @@ result = result.flat()
 
 
   if(result.flat().length > 0){
+    let resultData = result.flat()
     console.log('result')
-    console.log(result.flat())
-    const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,result.flat())
+    console.log(resultData)
+    
+    resultData = resultData.filter((val) => !KNOWN_CNPJS.includes(val.cnpj) && !KNOWN_PHONES.includes(val.phone))
+    console.log('result filtered')
+    console.log(resultData)
+    const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,resultData)
     return res.json({data})
   }else{
     return res.json({data:[]})
