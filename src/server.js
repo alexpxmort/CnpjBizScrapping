@@ -6,7 +6,9 @@ const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
 const {  getXLSBase64ExcelJs } = require('../helper/excel');
+const qrcode = require('qrcode-terminal');
 
+const { Client,NoAuth, LocalAuth   } = require('whatsapp-web.js');
 dotenv.config();
 
 const port = process.env.PORT || 3000;
@@ -155,5 +157,48 @@ app.get("/scrape", (req, res) => {
 
 app.listen(port, async() => {
   console.log(`Servidor rodando em http://localhost:${port}`);
-  
+ 
 });
+
+
+ const allSessionsObj = {}
+ 
+const client = new Client(
+  {restartOnAuthFail: true,
+    qrTimeoutMs: 0,
+    authTimeoutMs: 0,
+    takeoverOnConflict: true,
+    authStrategy: new LocalAuth({
+      clientId:'ID'
+    }),
+    puppeteer: {
+      headless: false,
+      ignoreHTTPSErrors: true,
+      ignoreHTTPSErrors: true,
+      args: ['--no-sandbox','--disable-setuid-sandbox']
+    }
+  }
+);
+
+client.on('qr', (qr) => {
+  console.log('QR RECEIVED', qr);
+    //qrcode.generate(qr, { small: true });
+});
+
+
+client.on('message', async (msg) => {
+  console.log(msg)
+
+  // if(msg.from === '554198696955@c.us'){
+  //   client.sendMessage('554198696955@c.us','ola estou ocupado! assim que tiver disponivel respondo!')
+
+  // }
+});
+
+client.on('ready', () => {
+    console.log('Client is ready!');
+
+   
+});
+
+ client.initialize();
