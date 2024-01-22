@@ -189,10 +189,9 @@ client.on('qr', (qr) => {
 client.on('message', async (msg) => {
   console.log(msg)
 
-  // if(msg.from === '554198696955@c.us'){
-  //   client.sendMessage('554198696955@c.us','ola estou ocupado! assim que tiver disponivel respondo!')
-
-  // }
+  if(msg.from !== '554198696955@c.us'){
+    client.sendMessage(msg.from,'ola estou ocupado! assim que tiver disponivel respondo! um otimo dia')
+  }
 });
 
 client.on('ready', () => {
