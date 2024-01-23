@@ -6,6 +6,8 @@ const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
 const {  getXLSBase64ExcelJs } = require('../helper/excel');
+const {parse} = require('csv-parse');
+const {stringify} = require('csv-stringify');
 
 dotenv.config();
 
@@ -149,6 +151,69 @@ result = result.flat()
     res.status(500).send('Erro ao processar o arquivo CSV.');
   }
 });
+
+app.post('/generateCSV', upload.single('csvFile'), (req, res) => {
+  const { targetPhoneNumber,qtdLine } = req.body;
+
+  if(qtdLine){
+    const inputBuffer = req.file.buffer.toString('utf8');
+
+  return parse(inputBuffer, { columns: true }, async (err, records) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({ error: 'Erro ao fazer o parse do CSV enviado.' });
+    }
+
+
+    const idx = parseInt(qtdLine-1);
+      const removedRecords = records.slice(0,idx+1);
+      const filteredRecords = records.slice(idx+1);
+
+      console.log(`
+      ${removedRecords.map((val) => `"${val.Phone}"`).join(',\n')}
+      `)
+      console.log(removedRecords.map((val) => `"${val.Cnpj}"`).join(',\n'))
+      
+      const data = await arrayObjectToCSVBuffer(filteredRecords)
+      return res.json({data})
+      
+  });
+  }
+  
+  if (!targetPhoneNumber) {
+    return res.status(400).json({ error: 'O número de telefone alvo não foi fornecido.' });
+  }
+
+  if (!req.file) {
+    return res.status(400).json({ error: 'Nenhum arquivo CSV enviado.' });
+  }
+
+  const inputBuffer = req.file.buffer.toString('utf8');
+
+ return parse(inputBuffer, { columns: true },async  (err, records) => {
+    if (err) {
+      console.error(err);
+      return res.status(500).json({ error: 'Erro ao fazer o parse do CSV enviado.' });
+    }
+
+    const targetIndex = records.findIndex(record => record.Phone === targetPhoneNumber);
+
+    if (targetIndex !== -1) {
+      const removedRecords = records.slice(0,targetIndex+1);
+      const filteredRecords = records.slice(targetIndex+1);
+
+      console.log(`
+      ${removedRecords.map((val) => `"${val.Phone}"`).join(',\n')}
+      `)
+      console.log(removedRecords.map((val) => `"${val.Cnpj}"`).join(',\n'))
+      const data = await arrayObjectToCSVBuffer(filteredRecords)
+      return res.json({data})
+    } else {
+     return res.status(404).json({ error:` Número ${targetPhoneNumber} não encontrado no CSV enviado.` });
+    }
+  });
+});
+
 app.get("/scrape", (req, res) => {
   scrapeLogic(res);
 });
