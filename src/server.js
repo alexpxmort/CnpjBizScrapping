@@ -134,9 +134,9 @@ result = result.flat()
     let resultData = result.flat()
     
     resultData = resultData.filter((val) => !KNOWN_CNPJS.includes(val.cnpj) && !KNOWN_PHONES.includes(val.phone))
-    const uniqueCnpjs = [...new Set(resultData.map(val => val.cnpj))];
-    const uniquePhones = [...new Set(resultData.map(val => val.phone))];
-   resultData = [...uniqueCnpjs, ...uniquePhones];
+  //   const uniqueCnpjs = [...new Set(resultData.map(val => val.cnpj))];
+  //   const uniquePhones = [...new Set(resultData.map(val => val.phone))];
+  //  resultData = [...uniqueCnpjs, ...uniquePhones];
 
     console.log('result filtered')
     console.log(resultData)
