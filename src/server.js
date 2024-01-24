@@ -137,7 +137,12 @@ result = result.flat()
     
     resultData = resultData.filter((val) => !KNOWN_CNPJS.includes(val.cnpj) && !KNOWN_PHONES.includes(val.phone))
     console.log('result filtered')
-    console.log(resultData)
+    console.log(`
+    ${resultData.map((val) => `"${val.Phone}"`).join(',\n')}
+    `)
+    console.log(resultData.map((val) => `"${val.Cnpj}"`).join(',\n'))
+    
+    console.log(resultData.length)
     const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,resultData)
     return res.json({data})
   }else{
