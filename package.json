@@ -26,6 +26,7 @@
     "node-cache": "^5.1.2",
     "papaparse": "^5.4.1",
     "puppeteer": "^21.0.3",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "xlsx": "^0.18.5"
   }
 }
