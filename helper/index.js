@@ -122,6 +122,36 @@ const extractDataFromParagraph = async (page, linksSelector) => {
   return resultLinks;
 };
 
+
+const getNaturezaJuridica = async (page) => {
+  const links = await page.$$('label');
+  let result = [];
+
+  for (const link of links) {
+      const linkText = await page.evaluate(el => el.textContent, link);
+
+      if (linkText.toLowerCase().includes('natureza jurídica:')) {
+      
+        const paragraphs = await page.evaluate(el => {
+          const parent = el.parentElement; // Pega o elemento pai
+          const childParagraphs = parent.querySelectorAll('p'); // Seleciona todos os <p> filhos
+  
+          // Extrai o texto de todos os parágrafos filhos
+          return Array.from(childParagraphs).map(p => p.textContent.trim());
+        }, link);
+
+        paragraphs?.forEach((val)=>{
+          result.push(val);
+        })
+
+          
+      }
+  }
+
+  return result;
+};
+
+
 const visitPagesSequentially = async (result,saveFile = undefined) => {
   const results  = [ ]
   for (const item of result) {
@@ -148,6 +178,13 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           await page.goto(item?.link , { waitUntil: 'domcontentloaded' });
 
           const socios = await extractDataFromParagraph(page, 'label');
+          const naturezaJuridica = await getNaturezaJuridica(page);
+          if(naturezaJuridica.length > 0){
+            if(naturezaJuridica?.[0]?.includes('PRODUTOR RURAL')){
+              console.log('PRODUTOR RURAL')
+              continue;
+            }
+          }
           let links = await extractDataFromLinks(page, 'a');
           links = links?.filter((link) => link.includes('phone='));
           const phone = links.map((link) => link.split('phone=')[1])?.[0];
@@ -190,4 +227,4 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
 };
 
 
-module.exports ={convertCsvToJson,delay,removeDuplicatesWithPriority,removerMascaraCNPJ,isURLValid,visitPagesSequentially,lowercaseArray}
+module.exports ={convertCsvToJson,getNaturezaJuridica,delay,removeDuplicatesWithPriority,removerMascaraCNPJ,isURLValid,visitPagesSequentially,lowercaseArray}
