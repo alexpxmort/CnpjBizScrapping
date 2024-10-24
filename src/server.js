@@ -5,9 +5,11 @@ const app = express();
 const cors = require('cors')
 const dotenv = require('dotenv');
 const { visitPagesSequentially, lowercaseArray } = require('../helper');
-const {  getXLSBase64ExcelJs } = require('../helper/excel');
+const {  getXLSBase64ExcelJs,getXLSBuffer } = require('../helper/excel');
 const {parse} = require('csv-parse');
 const _ = require('lodash');
+const path =  require('path')
+const fs = require('fs')
 
 dotenv.config();
 
@@ -17,7 +19,7 @@ const upload = multer();
 
 
 const puppeteer = require('puppeteer');
-const { arrayObjectToCSVBuffer } = require('../helper/csv');
+const { arrayObjectToCSVBuffer,arrayObjectToCSVBufferFile } = require('../helper/csv');
 const { KNOWN_CNPJS, KNOWN_PHONES } = require('../helper/exists');
 
 const scrapeLogic = async (res) => {
@@ -70,18 +72,40 @@ const processFiles = async function* (data) {
 };
 
 app.use(cors())
+
 app.post('/data-house',upload.single('data'),async(req,res)=>{
+  function sanitizeInput(input) {
+    return input.toLowerCase().replace(/\s+/g, '-');
+  }
 
   const buffer = req.file.buffer;
   let json  = JSON.parse(buffer.toString())
   const cnpjs = json.data.cnpj?.map(({cnpj,nome_fantasia,razao_social}) => ({
     cnpj,
     nome: razao_social !="" ? razao_social : nome_fantasia,
-    link:`http://cnpj.biz/${cnpj}`
+    link:`https://casadosdados.com.br/solucao/cnpj/${sanitizeInput(razao_social)}-${cnpj}`
   }))
  
-  const data = await arrayObjectToCSVBuffer(cnpjs)
-  return res.json({data})
+  // const data = await arrayObjectToCSVBuffer(cnpjs)
+  // return res.json({data})
+
+  const data = await arrayObjectToCSVBufferFile(cnpjs);
+  // Create a temporary file path
+  const filePath = path.join(__dirname, 'output.csv');
+
+  // Write the CSV string to a file
+  fs.writeFileSync(filePath, data);
+
+  // Send the file as a response to be downloaded
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      console.error('Error sending file:', err);
+      res.status(500).send('Error downloading file');
+    } else {
+      // Optionally, delete the file after sending it
+      fs.unlinkSync(filePath);
+    }
+  });
 
   
 })
@@ -146,8 +170,27 @@ result = result.flat()
     console.log(resultData.map((val) => `"${val.cnpj}"`).join(',\n'))
     
     console.log(resultData.length)
-    const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,resultData)
-    return res.json({data})
+    // const data = await getXLSBase64ExcelJs(xlsSheetName,xlsHeader,resultData)
+    // return res.json({data})
+
+    
+  const data = await getXLSBuffer(xlsSheetName,xlsHeader,resultData);
+  // Create a temporary file path
+  const filePath = path.join(__dirname, 'output.csv');
+
+  // Write the CSV string to a file
+  fs.writeFileSync(filePath, data);
+
+  // Send the file as a response to be downloaded
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      console.error('Error sending file:', err);
+      res.status(500).send('Error downloading file');
+    } else {
+      // Optionally, delete the file after sending it
+      fs.unlinkSync(filePath);
+    }
+  });
   }else{
     return res.json({data:[]})
   }

@@ -1,3350 +1,407 @@
 {
-  "data": {
-    "cnpj": [
-      {
-        "cnpj": "43.977.504/0001-79",
-        "razao_social": "TECHTOOLS REFRIGERACAO LTDA"
-      },
-      {
-        "cnpj": "42.468.735/0001-94",
-        "razao_social": "FERNANDES COMERCIO E MATERIAIS PARA CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "42.859.774/0001-12",
-        "razao_social": "G H C MEDEIROS LTDA"
-      },
-      {
-        "cnpj": "41.487.175/0001-52",
-        "razao_social": "AMCF PROMOCAO E COMERCIO VAREJISTA LTDA"
-      },
-      {
-        "cnpj": "41.030.681/0002-07",
-        "razao_social": "BK PR COMERCIO DE BRINQUEDOS LTDA"
-      },
-      {
-        "cnpj": "43.374.408/0001-36",
-        "razao_social": "NATURALZEN COMERCIO DE PRODUTOS PARA IOGA E MEDITACAO LTDA."
-      },
-      {
-        "cnpj": "43.647.441/0001-92",
-        "razao_social": "COMERCIAL CWB DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.666.198/0001-12",
-        "razao_social": "ALEXANDRE ELIAS INACIO LTDA"
-      },
-      {
-        "cnpj": "44.385.767/0001-51",
-        "razao_social": "GROCHOCKI E ALMEIDA BIKE SHOP LTDA"
-      },
-      {
-        "cnpj": "42.963.852/0001-24",
-        "razao_social": "BASSO DRULA LTDA"
-      },
-      {
-        "cnpj": "41.076.490/0001-97",
-        "razao_social": "MORAIS FRIOS LTDA"
-      },
-      {
-        "cnpj": "41.391.353/0001-47",
-        "razao_social": "ISRAEL J PEREIRA"
-      },
-      {
-        "cnpj": "41.676.912/0001-65",
-        "razao_social": "BAZZOM STORE LTDA"
-      },
-      {
-        "cnpj": "42.189.517/0001-10",
-        "razao_social": "DFSHOP E-COMMERCE LTDA"
-      },
-      {
-        "cnpj": "44.448.522/0001-26",
-        "razao_social": "GARAGE 536 COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "44.499.219/0001-52",
-        "razao_social": "ARTE DE VESTIR LTDA"
-      },
-      {
-        "cnpj": "44.580.930/0001-37",
-        "razao_social": "MAGIA URBANA LTDA"
-      },
-      {
-        "cnpj": "44.385.895/0001-03",
-        "razao_social": "LOJA VITA SAUDE PRODUTOS MEDICOS E ORTOPEDICOS LTDA"
-      },
-      {
-        "cnpj": "43.626.111/0001-10",
-        "razao_social": "VIEIRA PROMOCAO E COMERCIO DE COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "41.399.907/0001-52",
-        "razao_social": "DONNA DONUTS COMERCIO DE DOCES LTDA"
-      },
-      {
-        "cnpj": "41.092.535/0001-17",
-        "razao_social": "DUFF'S PUB COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.921.639/0001-50",
-        "razao_social": "ALEXANDRE SAVI SUPLEMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.161.255/0001-13",
-        "razao_social": "UZ VENDAS LTDA"
-      },
-      {
-        "cnpj": "43.583.747/0001-22",
-        "razao_social": "ISA SEMIJOIAS GOLD LTDA"
-      },
-      {
-        "cnpj": "41.383.923/0001-57",
-        "razao_social": "LERSI ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "41.649.178/0001-45",
-        "razao_social": "TW SEMIJOIAS PREMIUM LTDA"
-      },
-      {
-        "cnpj": "41.548.233/0001-00",
-        "razao_social": "NUTRI ACQUA COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.647.112/0001-41",
-        "razao_social": "TRIUNFO COMERCIO DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "43.958.703/0001-30",
-        "razao_social": "N P LIMA CONFECCOES"
-      },
-      {
-        "cnpj": "42.016.925/0001-70",
-        "razao_social": "BEATRIZ COTOVICZ KRAUZ"
-      },
-      {
-        "cnpj": "41.788.848/0001-04",
-        "razao_social": "R.PARANA SERVICOS ESPECIALIZADOS PARA CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "42.651.743/0001-71",
-        "razao_social": "FIGUEPARTS AUTO PECAS LTDA"
-      },
-      {
-        "cnpj": "41.988.043/0001-04",
-        "razao_social": "DISTRIBUIDORA HIGIE-LONAS LTDA"
-      },
-      {
-        "cnpj": "41.981.487/0001-18",
-        "razao_social": "PNZ COMERCIO DE ARTEFATOS PLASTICOS LTDA"
-      },
-      {
-        "cnpj": "41.286.607/0001-67",
-        "razao_social": "FARMACIA E DROGARIA BOQUEIRAO LTDA"
-      },
-      {
-        "cnpj": "43.370.094/0001-01",
-        "razao_social": "D ALE ACAI - PETISCOS E SORVETES LTDA"
-      },
-      {
-        "cnpj": "42.650.224/0001-99",
-        "razao_social": "DISTRIBUIDORA DE BEBIDAS KARINA GABRIEL LTDA"
-      },
-      {
-        "cnpj": "44.616.141/0001-09",
-        "razao_social": "BORGES DISTRIBUIDORA DE BEBIDAS E MERCEARIA LTDA"
-      },
-      {
-        "cnpj": "42.334.856/0001-43",
-        "razao_social": "FABIO DE OLIVEIRA DE SOUZA COMERCIO DE INFORMATICA"
-      },
-      {
-        "cnpj": "43.738.272/0001-04",
-        "razao_social": "SIED7 PLAYTEC COMERCIO LTDA"
-      },
-      {
-        "cnpj": "42.276.937/0001-34",
-        "razao_social": "RENATO LECHINSKI COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "43.825.359/0001-00",
-        "razao_social": "SR MARQUES RESIDUOS LTDA"
-      },
-      {
-        "cnpj": "43.169.397/0001-52",
-        "razao_social": "XUN SHOP IMPORTACAO E EXPORTACAO E COMERCIO DE ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "41.844.274/0001-44",
-        "razao_social": "R CARDOSO FERREIRA LOJA DO LAVA CAR LTDA"
-      },
-      {
-        "cnpj": "41.710.557/0001-01",
-        "razao_social": "ANNELISE GEVAERD COMERCIO VAREJISTA DE COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "41.446.136/0001-07",
-        "razao_social": "EGLAIR FERNANDA DO PRADO"
-      },
-      {
-        "cnpj": "41.823.513/0001-80",
-        "razao_social": "FLORICULTURA SHEKINAH LTDA"
-      },
-      {
-        "cnpj": "42.089.315/0001-05",
-        "razao_social": "SELECT MOTORS LTDA"
-      },
-      {
-        "cnpj": "42.509.990/0001-38",
-        "razao_social": "JUNIOR MARTINS CERQUEIRA - GAS."
-      },
-      {
-        "cnpj": "41.354.485/0001-07",
-        "razao_social": "LDR VARIEDADES LTDA"
-      },
-      {
-        "cnpj": "41.402.320/0001-55",
-        "razao_social": "SACOLAO JUSSARA HORTIFRUTI LTDA"
-      },
-      {
-        "cnpj": "42.528.381/0001-26",
-        "razao_social": "SASSY CHIC COMERCIO VAREJISTA DE ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "41.582.500/0001-66",
-        "razao_social": "OLIVERCLICK MARKETING DIGITAL LTDA"
-      },
-      {
-        "cnpj": "43.560.920/0001-77",
-        "razao_social": "JB SERVICOS E SUPRIMENTOS DE INFORMATICA LTDA"
-      },
-      {
-        "cnpj": "44.246.396/0001-27",
-        "razao_social": "XADREZ DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.197.350/0001-65",
-        "razao_social": "ALEXANDRO FERNANDO DA SILVA COMERCIO"
-      },
-      {
-        "cnpj": "44.108.226/0001-86",
-        "razao_social": "LEAO DE JUDA COMERCIO DE ACAI LTDA"
-      },
-      {
-        "cnpj": "42.709.284/0001-30",
-        "razao_social": "ENEKIN COMERCIO DE CARNES LTDA"
-      },
-      {
-        "cnpj": "42.369.698/0001-67",
-        "razao_social": "PAULO HENRIQUE MARTINS VALVERDE LTDA"
-      },
-      {
-        "cnpj": "42.357.395/0001-24",
-        "razao_social": "G DA S FERRAREZI"
-      },
-      {
-        "cnpj": "41.885.875/0001-03",
-        "razao_social": "FALCON COMBAT LTDA"
-      },
-      {
-        "cnpj": "42.287.152/0001-67",
-        "razao_social": "JFC COMERCIO DE ARTEFATOS DE MADEIRAS E EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "42.823.984/0001-50",
-        "razao_social": "WAGNER SQUEDINO FALLS ELETRONICOS"
-      },
-      {
-        "cnpj": "44.468.871/0001-00",
-        "razao_social": "ELM MERCADO AUTONOMO LTDA"
-      },
-      {
-        "cnpj": "44.386.606/0001-82",
-        "razao_social": "M.S. PRIME TECNOLOGIA, COMERCIO E SERVICO PARA CELULARES LTDA"
-      },
-      {
-        "cnpj": "42.642.383/0001-41",
-        "razao_social": "KAVERNA MOTOS LTDA"
-      },
-      {
-        "cnpj": "41.831.415/0001-94",
-        "razao_social": "RENAN ARAGUARY AYRES DO NASCIMENTO"
-      },
-      {
-        "cnpj": "28.736.107/0002-00",
-        "razao_social": "OTICA WW PRODUTOS OPTICOS LTDA"
-      },
-      {
-        "cnpj": "41.764.094/0001-52",
-        "razao_social": "FERNANDO ALVES PETRY"
-      },
-      {
-        "cnpj": "42.544.045/0001-77",
-        "razao_social": "ARMANDO SELL'S LTDA"
-      },
-      {
-        "cnpj": "41.928.005/0001-66",
-        "razao_social": "CARE GLOVES COMERCIO DE EQUIPAMENTOS DE SEGURANCA LTDA"
-      },
-      {
-        "cnpj": "41.931.012/0001-17",
-        "razao_social": "BIN COMERCIO DE FRIOS E LATICINIOS LTDA"
-      },
-      {
-        "cnpj": "44.165.415/0001-90",
-        "razao_social": "MOREIRA CHOPP COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.229.776/0001-65",
-        "razao_social": "AROMAS BRASIL LTDA"
-      },
-      {
-        "cnpj": "42.016.610/0001-23",
-        "razao_social": "M. S. CASA DE RACOES LTDA"
-      },
-      {
-        "cnpj": "41.843.698/0001-94",
-        "razao_social": "TEIXEIRA & NUNES MOVEIS E COLCHOES LTDA"
-      },
-      {
-        "cnpj": "41.263.899/0001-12",
-        "razao_social": "DIONIR MORGEROT COMERCIO DE ALIMENTOS"
-      },
-      {
-        "cnpj": "36.231.299/0002-13",
-        "razao_social": "B. CORDEIRO COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "44.404.650/0001-78",
-        "razao_social": "MESQUITA COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "41.863.095/0001-54",
-        "razao_social": "BELLO'S COMERCIO DE TECIDOS E ARMARINHOS LTDA"
-      },
-      {
-        "cnpj": "42.712.894/0001-92",
-        "razao_social": "AVIARIO E PET SHOP SCARANTE LTDA"
-      },
-      {
-        "cnpj": "43.134.552/0001-03",
-        "razao_social": "ALP COMERCIO DE PRODUTOS PARA SAUDE LTDA"
-      },
-      {
-        "cnpj": "41.173.186/0001-68",
-        "razao_social": "S S DISTRIBUIDORA DE SUBLIMACAO LTDA"
-      },
-      {
-        "cnpj": "43.945.309/0001-67",
-        "razao_social": "FRUDECK AMS LTDA"
-      },
-      {
-        "cnpj": "43.064.589/0001-02",
-        "razao_social": "KS TINTAS LTDA"
-      },
-      {
-        "cnpj": "42.766.903/0001-28",
-        "razao_social": "DJP COMERCIO DE PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "43.262.892/0001-01",
-        "razao_social": "SS ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "43.538.200/0001-05",
-        "razao_social": "A A C CORREA D2 VEICULOS PARTS"
-      },
-      {
-        "cnpj": "43.687.509/0001-67",
-        "razao_social": "BLACK BEAR BEBIDAS E TABACARIA LTDA"
-      },
-      {
-        "cnpj": "44.386.646/0001-24",
-        "razao_social": "ALLEGRA DECOR LTDA"
-      },
-      {
-        "cnpj": "41.858.798/0001-94",
-        "razao_social": "JBR SORVETES E ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.661.118/0001-48",
-        "razao_social": "NO PONTO BAR E DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.877.432/0001-98",
-        "razao_social": "BOX SETE AUTOMOVEIS E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "43.542.757/0001-10",
-        "razao_social": "JCSS COMERCIO E SERVICO LTDA"
-      },
-      {
-        "cnpj": "41.936.216/0001-40",
-        "razao_social": "GUILHERME BINDEMANN COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "41.039.184/0001-80",
-        "razao_social": "AG MOTORS VEICULOS LTDA"
-      },
-      {
-        "cnpj": "43.912.398/0001-45",
-        "razao_social": "EDERSON MATOS TUBOS DE PAPEL LTDA"
-      },
-      {
-        "cnpj": "43.014.816/0001-87",
-        "razao_social": "P H PETZA CALHAS"
-      },
-      {
-        "cnpj": "42.780.522/0001-01",
-        "razao_social": "PROKAP CAPACHOS PERSONALIZADOS LTDA"
-      },
-      {
-        "cnpj": "83.674.747/0002-33",
-        "razao_social": "DISTRIBUIDORA CATARINENSE DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.398.034/0001-63",
-        "razao_social": "FRANCO COMERCIO DE PRODUTOS MEDICOS LTDA"
-      },
-      {
-        "cnpj": "41.551.880/0001-71",
-        "razao_social": "RW MOTOS COMERCIO DE VEICULOS AUTOMOTIVOS LTDA."
-      },
-      {
-        "cnpj": "43.607.336/0001-20",
-        "razao_social": "JEAN CARLOS MARQUES CELULARES"
-      },
-      {
-        "cnpj": "43.995.041/0001-78",
-        "razao_social": "DEXMONTE COMERCIO DE PECAS AUTOMOTIVAS LTDA"
-      },
-      {
-        "cnpj": "43.740.197/0001-08",
-        "razao_social": "M H WEBER LTDA"
-      },
-      {
-        "cnpj": "42.159.185/0001-21",
-        "razao_social": "KAIO HENRIQUE DOS SANTOS - SUPERMERCADO LTDA"
-      },
-      {
-        "cnpj": "44.630.954/0001-53",
-        "razao_social": "K H M DA SILVA LTDA"
-      },
-      {
-        "cnpj": "13.481.036/0002-67",
-        "razao_social": "D R M IVANSKI"
-      },
-      {
-        "cnpj": "35.761.748/0003-53",
-        "razao_social": "VERARDO E ARENHART LOJA DE VARIEDADES LTDA"
-      },
-      {
-        "cnpj": "41.150.031/0001-06",
-        "razao_social": "ANDRE MARCELO GOMES FORTES"
-      },
-      {
-        "cnpj": "42.115.046/0001-04",
-        "razao_social": "MINITEX ECO ELETRONICOS COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "44.362.542/0001-80",
-        "razao_social": "SHOP-CWB ELETROELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "42.026.686/0001-30",
-        "razao_social": "EDVALDO CARNIELLI"
-      },
-      {
-        "cnpj": "42.608.971/0001-69",
-        "razao_social": "MAGGI UNIFORMES LTDA"
-      },
-      {
-        "cnpj": "43.328.576/0001-95",
-        "razao_social": "ALDS COMERCIO VAREJISTA ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "42.897.339/0001-82",
-        "razao_social": "V8 COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.697.968/0001-21",
-        "razao_social": "BOLSA BEBE COMERCIO DE PRODUTOS INFANTIS LTDA"
-      },
-      {
-        "cnpj": "43.673.422/0001-30",
-        "razao_social": "KME MOTORS COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "42.597.991/0001-81",
-        "razao_social": "EMPORIO DAI LTDA"
-      },
-      {
-        "cnpj": "42.254.307/0001-69",
-        "razao_social": "COMERCIO DE BEBIDAS SAIDEIRA LTDA"
-      },
-      {
-        "cnpj": "42.468.273/0001-05",
-        "razao_social": "ROSA CALI SEMIJOIAS LTDA"
-      },
-      {
-        "cnpj": "43.255.889/0001-60",
-        "razao_social": "IPIRANGA DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "42.003.424/0001-50",
-        "razao_social": "NEGOSEKI COMERCIO VAREJISTA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.154.212/0001-73",
-        "razao_social": "ELEVEN ONE COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.946.104/0001-04",
-        "razao_social": "PAPUM DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.324.001/0001-67",
-        "razao_social": "D C DE LIMA JUNIOR LAVI DESIGN & COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.116.894/0001-92",
-        "razao_social": "VELVET COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "43.092.654/0001-03",
-        "razao_social": "ISAGLASS COMERCIO DE VIDROS LTDA"
-      },
-      {
-        "cnpj": "43.669.777/0001-56",
-        "razao_social": "GIGA TECNOLOGIA LTDA"
-      },
-      {
-        "cnpj": "41.682.829/0001-07",
-        "razao_social": "SELECT MARKET LTDA"
-      },
-      {
-        "cnpj": "41.412.831/0001-58",
-        "razao_social": "ATTOS CAR MULTIMARCAS ADS LTDA"
-      },
-      {
-        "cnpj": "41.649.843/0001-09",
-        "razao_social": "T4 ACESSORIOS E ARTIGOS PARA ESPORTE LTDA"
-      },
-      {
-        "cnpj": "41.278.428/0001-88",
-        "razao_social": "PLC COMERCIO DE VESTUARIOS LTDA"
-      },
-      {
-        "cnpj": "44.572.627/0001-92",
-        "razao_social": "LIVECWBBARIGUI ROUPAS ESPORTIVAS LTDA"
-      },
-      {
-        "cnpj": "41.394.201/0001-06",
-        "razao_social": "SANDRA LYRIO COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.852.739/0001-34",
-        "razao_social": "SIDE STRIPE LTDA"
-      },
-      {
-        "cnpj": "42.046.746/0001-86",
-        "razao_social": "HPA COMERCIO DE CARNES LTDA"
-      },
-      {
-        "cnpj": "42.223.218/0001-55",
-        "razao_social": "CHELSEA COMERCIO DE CONFECCOES LTDA"
-      },
-      {
-        "cnpj": "43.902.640/0001-08",
-        "razao_social": "COMERCIO ATACADISTA SG LTDA"
-      },
-      {
-        "cnpj": "01.687.411/0005-93",
-        "razao_social": "KAZULLO INDUSTRIA E COMERCIO DE CONFECCOES LTDA"
-      },
-      {
-        "cnpj": "42.000.771/0001-29",
-        "razao_social": "LA VIE FRAGRANCIAS E PRESENTES LTDA"
-      },
-      {
-        "cnpj": "44.002.826/0001-65",
-        "razao_social": "OLIVEIRA DOMINHAKI COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "41.809.495/0001-81",
-        "razao_social": "NERO - COMERCIO DE VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "10.285.590/0348-51",
-        "razao_social": "GRUPO DE MODA SOMA SA"
-      },
-      {
-        "cnpj": "21.636.358/0020-48",
-        "razao_social": "DS COMERCIO DE PNEUS LTDA"
-      },
-      {
-        "cnpj": "43.117.161/0001-72",
-        "razao_social": "M G Z BARROS MGZ BARROS LTDA"
-      },
-      {
-        "cnpj": "44.223.026/0001-74",
-        "razao_social": "CONERGE 004 FAAD ENERGY PLACAS FOTOVOLTAICAS SPE LTDA"
-      },
-      {
-        "cnpj": "44.352.266/0001-79",
-        "razao_social": "TRIX MOTORS VEICULOS LTDA"
-      },
-      {
-        "cnpj": "43.277.501/0001-22",
-        "razao_social": "S RIBEIRO"
-      },
-      {
-        "cnpj": "41.697.179/0001-65",
-        "razao_social": "ISIQUIEL DIAS DA SILVA - COMERCIO DE SUCATAS LTDA"
-      },
-      {
-        "cnpj": "42.777.646/0001-20",
-        "razao_social": "EMITTEX COMERCIO VAREJISTA LTDA"
-      },
-      {
-        "cnpj": "41.866.612/0001-49",
-        "razao_social": "SOBERANA JOIAS LTDA"
-      },
-      {
-        "cnpj": "42.712.122/0001-50",
-        "razao_social": "P E DMENGEON HORTIFRUTIGRANJEIRO"
-      },
-      {
-        "cnpj": "43.157.918/0001-51",
-        "razao_social": "STAR MOTOS COMERCIO DE MOTOS LTDA"
-      },
-      {
-        "cnpj": "43.985.889/0001-16",
-        "razao_social": "FRANCIELLE GONCALVES SANTOS LTDA"
-      },
-      {
-        "cnpj": "43.995.593/0001-86",
-        "razao_social": "M I DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.526.665/0001-09",
-        "razao_social": "4K PREMIUM COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "44.414.413/0001-98",
-        "razao_social": "VINICIUS CUBAS SCHRAIBER DISTRIBUIDORA BEBIDAS"
-      },
-      {
-        "cnpj": "43.249.355/0001-21",
-        "razao_social": "COQUEIROS ICE COMERCIO DE PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "43.581.288/0001-48",
-        "razao_social": "FRANCIELLE DE ANDRADE LTDA"
-      },
-      {
-        "cnpj": "42.313.849/0001-65",
-        "razao_social": "VALOR FERTIL COMERCIO DE ACIDO HUMICO E FULVICO LTDA"
-      },
-      {
-        "cnpj": "43.056.672/0001-21",
-        "razao_social": "VOLKS ANTIGOS ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.383.862/0001-53",
-        "razao_social": "JJ COMERCIO DE MOVEIS LTDA"
-      },
-      {
-        "cnpj": "43.307.900/0001-99",
-        "razao_social": "A DA SILVA PEREIRA BEBIDAS"
-      },
-      {
-        "cnpj": "42.835.886/0001-33",
-        "razao_social": "MADE IN BRAZIL COMERCIO E REPRESENTACOES LTDA"
-      },
-      {
-        "cnpj": "43.252.916/0001-41",
-        "razao_social": "VITOR LUIZ DA S CAES COMERCIO DE MATERIAIS CONSTRUCAO"
-      },
-      {
-        "cnpj": "43.662.565/0001-47",
-        "razao_social": "DOIS IRMAOS COMERCIO DE FRUTAS E VERDURAS LTDA"
-      },
-      {
-        "cnpj": "43.804.920/0001-75",
-        "razao_social": "CHARM PRATAS PERSONALIZADAS LTDA"
-      },
-      {
-        "cnpj": "44.155.051/0001-68",
-        "razao_social": "LUCAS GOSTENSKI BARBOSA LTDA"
-      },
-      {
-        "cnpj": "44.096.111/0001-19",
-        "razao_social": "SALES BIKE CENTER LTDA"
-      },
-      {
-        "cnpj": "44.164.637/0001-99",
-        "razao_social": "R A CALCADOS LTDA"
-      },
-      {
-        "cnpj": "41.981.735/0001-20",
-        "razao_social": "LM MODAS LTDA"
-      },
-      {
-        "cnpj": "41.949.591/0001-25",
-        "razao_social": "VANDAMARA COZER COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "34.663.487/0004-57",
-        "razao_social": "GAROTAS FASHION COMERCIO VAREJISTA DE ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "28.907.503/0002-45",
-        "razao_social": "PINGO DOCE - COMERCIO DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.189.521/0001-16",
-        "razao_social": "EDSON DOMINGOS DE MORAES"
-      },
-      {
-        "cnpj": "42.120.982/0001-03",
-        "razao_social": "L. E. SZOLOMICKI COMERCIO DE BEBIDAS"
-      },
-      {
-        "cnpj": "42.071.304/0001-90",
-        "razao_social": "M2 COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.265.039/0001-06",
-        "razao_social": "TAREK COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "43.719.502/0001-80",
-        "razao_social": "ACCV MOTORS LTDA"
-      },
-      {
-        "cnpj": "43.666.273/0001-82",
-        "razao_social": "BOUTIQUE AZUL JEANS LTDA"
-      },
-      {
-        "cnpj": "41.910.899/0001-67",
-        "razao_social": "OCCHI COMERCIO DE ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "42.425.574/0002-32",
-        "razao_social": "L A BORGES TINTAS E MATERIAIS DE CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "42.965.629/0001-16",
-        "razao_social": "AVIPETS AVIARIO E PET SHOP LTDA"
-      },
-      {
-        "cnpj": "43.811.598/0001-01",
-        "razao_social": "ALINE EVELYN DE CRISTO"
-      },
-      {
-        "cnpj": "43.553.979/0001-38",
-        "razao_social": "ECOMMERCE CURITIBA LTDA"
-      },
-      {
-        "cnpj": "43.400.609/0001-60",
-        "razao_social": "NY COMERCIO DE PRODUTOS OPTICOS LTDA"
-      },
-      {
-        "cnpj": "43.387.904/0001-24",
-        "razao_social": "A S MULTIMARCAS LTDA"
-      },
-      {
-        "cnpj": "42.891.535/0001-40",
-        "razao_social": "CASA DE CARNES BUTCHERS PRIME LTDA"
-      },
-      {
-        "cnpj": "43.287.546/0001-88",
-        "razao_social": "EXCLUSIVA MORENA CALCADOS LTDA"
-      },
-      {
-        "cnpj": "44.692.205/0001-50",
-        "razao_social": "SILVA E ANDRADE DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.280.064/0001-70",
-        "razao_social": "PITBULL DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.195.498/0001-72",
-        "razao_social": "E. A. S - COMERCIO DE PNEUMATICOS LTDA."
-      },
-      {
-        "cnpj": "41.140.836/0001-79",
-        "razao_social": "MARIANO COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "41.721.324/0001-04",
-        "razao_social": "TANGARA AVIARIO LTDA"
-      },
-      {
-        "cnpj": "42.954.720/0001-36",
-        "razao_social": "ALES BEER LTDA"
-      },
-      {
-        "cnpj": "42.950.651/0001-92",
-        "razao_social": "RPO COMERCIO DE EQUIPAMENTOS ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "42.664.270/0001-47",
-        "razao_social": "R R DE OLIVEIRA LOJA VIRTUAL"
-      },
-      {
-        "cnpj": "42.015.135/0001-70",
-        "razao_social": "BRUNA KOSTIANOVICZ DE OLIVEIRA"
-      },
-      {
-        "cnpj": "41.590.705/0001-93",
-        "razao_social": "G V O LIMPEZA E HIGIENE LTDA"
-      },
-      {
-        "cnpj": "43.271.010/0001-74",
-        "razao_social": "CG COMERCIO DE SUCATAS LTDA"
-      },
-      {
-        "cnpj": "43.544.131/0001-42",
-        "razao_social": "EDUARDO LUCIANO CELULARES"
-      },
-      {
-        "cnpj": "44.217.296/0001-72",
-        "razao_social": "A M ZANONA SERVICOS E COMERCIO DE AUTO PECAS"
-      },
-      {
-        "cnpj": "43.760.726/0001-35",
-        "razao_social": "CAMILO COMERCIO DE CARNES LTDA"
-      },
-      {
-        "cnpj": "44.315.812/0001-00",
-        "razao_social": "TIAGO ERIKE PEREIRA"
-      },
-      {
-        "cnpj": "44.476.072/0001-85",
-        "razao_social": "F Z MENDES EMBALAGENS DE PAPEL"
-      },
-      {
-        "cnpj": "42.399.641/0001-00",
-        "razao_social": "QUATI BABY COMERCIO DE ARTIGO DO VESTUARIO INFANTIL LTDA"
-      },
-      {
-        "cnpj": "43.404.494/0001-82",
-        "razao_social": "R Q CERVEJAS ARTESANAIS E VINHOS LTDA"
-      },
-      {
-        "cnpj": "42.745.058/0001-04",
-        "razao_social": "FRESH EXPRESS LTDA"
-      },
-      {
-        "cnpj": "41.598.462/0001-30",
-        "razao_social": "DMD COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.339.711/0001-72",
-        "razao_social": "J. C. SIQUEIRA DOS SANTOS FERRAGENS"
-      },
-      {
-        "cnpj": "44.215.474/0001-26",
-        "razao_social": "A DE S B DIAS"
-      },
-      {
-        "cnpj": "41.433.226/0001-63",
-        "razao_social": "JARDINS SUPERMERCADOS LTDA"
-      },
-      {
-        "cnpj": "44.413.056/0001-43",
-        "razao_social": "DESTAQUE INTERMEDIACOES LTDA"
-      },
-      {
-        "cnpj": "44.461.215/0001-85",
-        "razao_social": "LFCM CANDY STORE COMERCIO E CONFECCAO DE ROUPAS LIMITADA"
-      },
-      {
-        "cnpj": "43.782.826/0001-62",
-        "razao_social": "SEMIJOIAS CURITIBA LTDA"
-      },
-      {
-        "cnpj": "43.655.607/0001-12",
-        "razao_social": "DENGUINHO MEGA STORE LTDA"
-      },
-      {
-        "cnpj": "44.190.217/0001-87",
-        "razao_social": "MULTIPACK SOLUCOES LTDA"
-      },
-      {
-        "cnpj": "42.350.412/0001-00",
-        "razao_social": "C PHARMA LTDA"
-      },
-      {
-        "cnpj": "42.320.400/0001-24",
-        "razao_social": "MERCADO OLA LTDA"
-      },
-      {
-        "cnpj": "44.061.452/0001-59",
-        "razao_social": "RODRIGO RIMANSKI AUTOPECAS LTDA"
-      },
-      {
-        "cnpj": "43.981.568/0001-43",
-        "razao_social": "DELCAR MULTIMARCAS LTDA"
-      },
-      {
-        "cnpj": "44.334.082/0001-86",
-        "razao_social": "MISIAK AUTO CENTER LTDA"
-      },
-      {
-        "cnpj": "43.809.837/0001-99",
-        "razao_social": "IP CTBA LTDA"
-      },
-      {
-        "cnpj": "41.637.789/0001-73",
-        "razao_social": "LEMOS E DOS ANJOS PROMOCAO DE VENDAS LTDA"
-      },
-      {
-        "cnpj": "42.839.339/0001-26",
-        "razao_social": "MWR MOTORS LTDA"
-      },
-      {
-        "cnpj": "43.060.039/0001-07",
-        "razao_social": "T S NASSER"
-      },
-      {
-        "cnpj": "44.659.089/0001-78",
-        "razao_social": "MV IMPORTS LTDA"
-      },
-      {
-        "cnpj": "41.598.265/0001-10",
-        "razao_social": "IURK COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "44.175.525/0001-33",
-        "razao_social": "IMPERIUM LTDA"
-      },
-      {
-        "cnpj": "42.292.689/0001-15",
-        "razao_social": "TRATUS MODA INTIMA LTDA"
-      },
-      {
-        "cnpj": "42.570.438/0001-55",
-        "razao_social": "ENVIRONTECH EQUIPAMENTOS LTDA"
-      },
-      {
-        "cnpj": "42.000.301/0001-65",
-        "razao_social": "FONTANA & VERCELINO LTDA"
-      },
-      {
-        "cnpj": "41.548.647/0001-30",
-        "razao_social": "E. J. FERRAZ COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.595.593/0001-99",
-        "razao_social": "VEST BY TECH - ARTIGOS TERAPEUTICOS LTDA"
-      },
-      {
-        "cnpj": "44.340.687/0001-80",
-        "razao_social": "ARTI COMERCIO VIRTUAL DO BRASIL LTDA"
-      },
-      {
-        "cnpj": "42.438.840/0001-80",
-        "razao_social": "MERCADO ADAMS LTDA"
-      },
-      {
-        "cnpj": "44.378.249/0001-00",
-        "razao_social": "HEY, YOU COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "28.440.515/0006-36",
-        "razao_social": "S R F COMERCIO DE MOVEIS LTDA"
-      },
-      {
-        "cnpj": "43.667.564/0001-95",
-        "razao_social": "BIBIVIAMORE COMERCIO DE COLCHOES E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "41.497.989/0001-78",
-        "razao_social": "ARIANE DE MOURA COMERCIO DE COLCHOES E ARTIGOS HOSPITALARES LTDA"
-      },
-      {
-        "cnpj": "42.041.868/0001-80",
-        "razao_social": "MVV HORTIFRUTIGRANJEIROS LTDA"
-      },
-      {
-        "cnpj": "42.303.519/0001-99",
-        "razao_social": "ARTHORIUS MAXIMUS PERFUMARIA LTDA"
-      },
-      {
-        "cnpj": "44.340.120/0001-03",
-        "razao_social": "DOLINI COMERCIO DE SORVETES LTDA"
-      },
-      {
-        "cnpj": "42.063.608/0001-05",
-        "razao_social": "SORVETES LAVANDA LTDA"
-      },
-      {
-        "cnpj": "43.600.937/0001-00",
-        "razao_social": "POTULSKI DISTRIBUIDORA DE PRODUTOS PET LTDA"
-      },
-      {
-        "cnpj": "41.071.076/0001-95",
-        "razao_social": "WM BIKE STORE LTDA"
-      },
-      {
-        "cnpj": "44.049.511/0001-73",
-        "razao_social": "CPAP MAP COMERCIO ELETRONICO DE EQUIPAMENTOS MEDICOS LTDA"
-      },
-      {
-        "cnpj": "44.033.036/0001-47",
-        "razao_social": "CPAP VAP COMERCIO ELETRONICO DE EQUIPAMENTOS MEDICOS LTDA"
-      },
-      {
-        "cnpj": "41.573.102/0001-83",
-        "razao_social": "BIOPAN COMERCIO ATACADISTA DE ALIMENTOS DE PANIFICACAO E CONFEITARIA LTDA"
-      },
-      {
-        "cnpj": "43.992.741/0001-09",
-        "razao_social": "GLOW HALF COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "42.560.818/0001-09",
-        "razao_social": "A.L. MIQUELETO GRAMA E TERRA"
-      },
-      {
-        "cnpj": "41.357.821/0001-67",
-        "razao_social": "F. MENDES COMERCIO VAREJISTA DE CORTINAS LTDA"
-      },
-      {
-        "cnpj": "41.905.104/0001-22",
-        "razao_social": "CLN MASTER PHONES COMERCIO DE ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "42.903.373/0001-12",
-        "razao_social": "LONDON AMBIENTES LTDA"
-      },
-      {
-        "cnpj": "42.965.248/0001-37",
-        "razao_social": "LZ GOURMET LTDA"
-      },
-      {
-        "cnpj": "43.049.974/0001-72",
-        "razao_social": "DZK ARTIGOS PARA CICLISMO LTDA"
-      },
-      {
-        "cnpj": "44.541.974/0001-58",
-        "razao_social": "UP BIKE ARTIGOS PARA CICLISMO LTDA"
-      },
-      {
-        "cnpj": "01.393.849/0004-88",
-        "razao_social": "HOMEOFARMACIA HOMEOPATIA E MANIPULACAO LTDA"
-      },
-      {
-        "cnpj": "41.812.537/0001-33",
-        "razao_social": "WR COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.324.721/0001-34",
-        "razao_social": "AUTO CAR CWB LTDA"
-      },
-      {
-        "cnpj": "41.367.824/0001-81",
-        "razao_social": "AJX MANUTENCAO E REPARACAO LTDA"
-      },
-      {
-        "cnpj": "42.378.347/0001-12",
-        "razao_social": "PITOCO BRECHO INFANTIL LTDA"
-      },
-      {
-        "cnpj": "44.251.714/0001-48",
-        "razao_social": "TULE HOME DECOR LTDA"
-      },
-      {
-        "cnpj": "41.572.449/0001-01",
-        "razao_social": "MITH 3D IMPRESSOES LTDA"
-      },
-      {
-        "cnpj": "03.020.689/0005-38",
-        "razao_social": "PRIMA COMERCIO DE MATERIAIS ARTISTICOS LTDA"
-      },
-      {
-        "cnpj": "41.195.086/0001-32",
-        "razao_social": "ARRUDA COMERCIO DE GAS E BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.325.110/0001-73",
-        "razao_social": "LUIZ CLAUDIOMIRO ZAMPIERI COMERCIO E SERVICOS INDUSTRIAIS"
-      },
-      {
-        "cnpj": "41.987.507/0001-68",
-        "razao_social": "SOLLUS SOLUCAO EM HIGIENE LTDA"
-      },
-      {
-        "cnpj": "42.130.413/0001-30",
-        "razao_social": "DISTRIBUIDORA DE BEBIDAS BAH LTDA"
-      },
-      {
-        "cnpj": "42.825.546/0001-21",
-        "razao_social": "RO TORTELLI TRICOS INVERNO E VERAO LTDA"
-      },
-      {
-        "cnpj": "41.178.940/0001-52",
-        "razao_social": "LAGO & DE LIMA COMERCIO DE ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "43.311.442/0001-61",
-        "razao_social": "LE PAPELARIA E PRESENTES LTDA"
-      },
-      {
-        "cnpj": "43.410.052/0001-49",
-        "razao_social": "MILKA PET COMERCIO DE PRODUTOS ANIMAIS LTDA"
-      },
-      {
-        "cnpj": "42.817.302/0001-05",
-        "razao_social": "MAYER PRODUTOS E ACESSORIOS CIRURGICOS LTDA"
-      },
-      {
-        "cnpj": "43.212.353/0001-68",
-        "razao_social": "FAHRT LTDA"
-      },
-      {
-        "cnpj": "42.710.409/0001-41",
-        "razao_social": "LANSTOC COMERCIO DE MATERIAL ELETRICO LTDA"
-      },
-      {
-        "cnpj": "31.612.854/0002-33",
-        "razao_social": "WINE NOT - COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.296.980/0001-24",
-        "razao_social": "CAPACHO EXPRESS COMERCIO DE TAPETES E CAPACHOS LTDA"
-      },
-      {
-        "cnpj": "41.919.890/0001-17",
-        "razao_social": "RAV TECNOLOGIA E PRODUTOS AUTOMOTIVOS LTDA"
-      },
-      {
-        "cnpj": "43.078.326/0001-44",
-        "razao_social": "VENUS FITNESS COMERCIO DE ROUPAS DE ARTIGOS ESPORTIVOS LTDA"
-      },
-      {
-        "cnpj": "41.359.224/0001-71",
-        "razao_social": "L MARIA GOUVEIA ENXOVAIS"
-      },
-      {
-        "cnpj": "44.133.818/0001-58",
-        "razao_social": "YABA LTDA"
-      },
-      {
-        "cnpj": "44.356.504/0001-14",
-        "razao_social": "MM COMERCIO DE BOLSAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.663.740/0001-10",
-        "razao_social": "TRUST MED FARMACIA DE MANIPULACAO SOCIEDADE UNIPESSOAL LTDA"
-      },
-      {
-        "cnpj": "43.109.224/0001-49",
-        "razao_social": "AK SERVICOS E VENDA DE EQUIPAMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.824.728/0001-15",
-        "razao_social": "EVA- AGRICULTURA URBANA LTDA"
-      },
-      {
-        "cnpj": "44.564.352/0001-45",
-        "razao_social": "TENDZ LTDA"
-      },
-      {
-        "cnpj": "44.139.151/0001-09",
-        "razao_social": "TIGER COMERCIO DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "41.147.202/0001-48",
-        "razao_social": "PRINCESA COMERCIO DE PRODUTOS ARTESANAIS LTDA"
-      },
-      {
-        "cnpj": "41.075.159/0001-52",
-        "razao_social": "TECH BOOSTER COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "42.995.989/0001-60",
-        "razao_social": "LEON COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "41.420.062/0001-30",
-        "razao_social": "BIDALU COMERCIO DE ROUPAS E PRESENTES LTDA"
-      },
-      {
-        "cnpj": "42.168.640/0001-55",
-        "razao_social": "TRICOPEDIA CURSOS E COMERCIO DE ARMARINHOS LTDA"
-      },
-      {
-        "cnpj": "43.975.714/0001-28",
-        "razao_social": "IPLAY COMERCIO DE COLECIONAVEIS LTDA"
-      },
-      {
-        "cnpj": "44.564.525/0001-25",
-        "razao_social": "KEPECAS COMERCIO DE PECAS AUTOMOTIVAS LTDA"
-      },
-      {
-        "cnpj": "44.365.487/0001-81",
-        "razao_social": "RIC DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "44.246.204/0001-82",
-        "razao_social": "MAESTRO MULTIMARCAS LTDA"
-      },
-      {
-        "cnpj": "43.849.927/0001-03",
-        "razao_social": "L E MANUTENCAO DE COMPUTADORES LTDA"
-      },
-      {
-        "cnpj": "41.957.169/0001-11",
-        "razao_social": "MTOS O IMPERADOR DOS COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "42.363.361/0001-42",
-        "razao_social": "PLANTARE CONSULTORIA E COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.687.348/0001-01",
-        "razao_social": "JP VAREJISTA LTDA"
-      },
-      {
-        "cnpj": "42.508.347/0001-90",
-        "razao_social": "TERRA SUL AGRONEGOCIO LTDA"
-      },
-      {
-        "cnpj": "43.531.373/0001-00",
-        "razao_social": "TORK DESMANCHE E COMERCIO DE PECAS, PARTES E ACESSORIOS DE VEICULOS USADOS LTDA"
-      },
-      {
-        "cnpj": "44.334.713/0001-67",
-        "razao_social": "VM ESPORTES LTDA"
-      },
-      {
-        "cnpj": "43.636.374/0001-00",
-        "razao_social": "PRINTER CLOUD APLICATIVOS INTEGRADOS LTDA"
-      },
-      {
-        "cnpj": "41.454.348/0001-36",
-        "razao_social": "IMPORT - R3 COMERCIO DE PRODUTOS DE HIGIENE E DESCARTAVEIS LTDA"
-      },
-      {
-        "cnpj": "44.002.325/0001-89",
-        "razao_social": "DC COMERCIO E IMPORTACAO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.513.801/0001-38",
-        "razao_social": "BERAMAR DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "44.640.931/0001-20",
-        "razao_social": "ANGELA RIBEIRO DA LUZ LTDA"
-      },
-      {
-        "cnpj": "42.736.057/0001-01",
-        "razao_social": "N. A. COMERCIO DE PECAS E ACESSORIOS INDUSTRIAIS LTDA"
-      },
-      {
-        "cnpj": "44.375.560/0001-04",
-        "razao_social": "F G R DE BARROS - OPEN THE BOX"
-      },
-      {
-        "cnpj": "42.687.678/0001-34",
-        "razao_social": "CORAL DISTRIBUIDORA DE PECAS LTDA"
-      },
-      {
-        "cnpj": "41.751.556/0001-05",
-        "razao_social": "BOM GAS COMERCIO DE GAS LIQUEFEITO DE PETROLEO LTDA"
-      },
-      {
-        "cnpj": "43.870.628/0001-50",
-        "razao_social": "A CORREIA COMERCIO DE MATERIAIS DE CONSTRUCAO E PISCINAS"
-      },
-      {
-        "cnpj": "43.786.619/0001-86",
-        "razao_social": "TECSYSTEM SOLUCOES EM HIGIENIZACAO LTDA"
-      },
-      {
-        "cnpj": "42.443.429/0001-01",
-        "razao_social": "VICTOR GALISA DOS SANTOS LTDA"
-      },
-      {
-        "cnpj": "30.328.472/0003-09",
-        "razao_social": "SACOLAO CAPITAL COMERCIO DE HORTIFRUTI LTDA"
-      },
-      {
-        "cnpj": "42.648.225/0001-07",
-        "razao_social": "BELETI COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "44.103.709/0001-98",
-        "razao_social": "CRISTIANO SIMER DE RAMOS RECICLAGEM"
-      },
-      {
-        "cnpj": "42.344.413/0001-33",
-        "razao_social": "JOSE LUIZ MAROCHI"
-      },
-      {
-        "cnpj": "41.575.407/0001-24",
-        "razao_social": "DISTRIBUIDORA BOM DE GAS LTDA"
-      },
-      {
-        "cnpj": "43.577.075/0001-42",
-        "razao_social": "N S PITON COMERCIO DE ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "41.702.265/0001-19",
-        "razao_social": "EDIVAL CARDOSO GONCALVES"
-      },
-      {
-        "cnpj": "43.768.455/0001-64",
-        "razao_social": "ANA R BEMBEM MERCEARIA E ARMAZEM"
-      },
-      {
-        "cnpj": "41.612.346/0001-28",
-        "razao_social": "J & R PAPELARIA E VARIEDADES LTDA"
-      },
-      {
-        "cnpj": "03.853.867/0002-69",
-        "razao_social": "PIEROBOM COMERCIO DE SEMIJOIAS LTDA"
-      },
-      {
-        "cnpj": "41.228.741/0001-01",
-        "razao_social": "RONIVAN MENDES PINHEIRO LOPES LTDA"
-      },
-      {
-        "cnpj": "41.124.518/0001-14",
-        "razao_social": "AFC HORTIFRUTIGRANJEIROS LTDA"
-      },
-      {
-        "cnpj": "42.524.428/0001-83",
-        "razao_social": "LAIA COMERCIO DE PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "44.057.706/0001-65",
-        "razao_social": "J. A SOUZA MOVEIS PLANEJADOS LTDA"
-      },
-      {
-        "cnpj": "43.849.049/0001-26",
-        "razao_social": "FERNANDINHO COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.272.084/0001-62",
-        "razao_social": "COMPANY INOX ASER LTDA"
-      },
-      {
-        "cnpj": "43.921.019/0001-83",
-        "razao_social": "COMERCIO FIX LTDA"
-      },
-      {
-        "cnpj": "30.178.873/0002-30",
-        "razao_social": "J. R. DEL GROSSI COMERCIO"
-      },
-      {
-        "cnpj": "42.746.988/0001-82",
-        "razao_social": "LINEA COMERCIO DE COMPONENTES ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "44.180.547/0001-91",
-        "razao_social": "NIEHUES MODA PRAIA E FITNESS LTDA"
-      },
-      {
-        "cnpj": "42.598.586/0001-88",
-        "razao_social": "LUCIANE SANTANA"
-      },
-      {
-        "cnpj": "42.929.217/0001-20",
-        "razao_social": "LYNX AIR COMERCIO DE PECAS LTDA"
-      },
-      {
-        "cnpj": "43.925.725/0001-01",
-        "razao_social": "ROSAS DE SAL LTDA"
-      },
-      {
-        "cnpj": "41.174.008/0001-51",
-        "razao_social": "JARDIM 420 LTDA"
-      },
-      {
-        "cnpj": "41.702.510/0001-98",
-        "razao_social": "MTG COMERCIO DE JOGOS E ENTRETENIMENTOS LTDA"
-      },
-      {
-        "cnpj": "42.065.804/0001-19",
-        "razao_social": "CENTRAL OLEO AUTO COMERCIO DE LUBRIFICANTES LTDA"
-      },
-      {
-        "cnpj": "41.148.980/0001-51",
-        "razao_social": "INOVE COMERCIO DE PRODUTOS TECNOLOGICOS LTDA"
-      },
-      {
-        "cnpj": "41.429.425/0001-06",
-        "razao_social": "CONSTTELART PRODUTOS & ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.429.917/0001-19",
-        "razao_social": "OBBY COMERCIO DE ALIMENTOS SAUDAVEIS LTDA"
-      },
-      {
-        "cnpj": "42.455.571/0001-60",
-        "razao_social": "GOTTEC IMPORTADORA LTDA"
-      },
-      {
-        "cnpj": "43.517.863/0001-43",
-        "razao_social": "K.STONE MARBLE E DESIGN LTDA"
-      },
-      {
-        "cnpj": "44.430.492/0001-20",
-        "razao_social": "BCA COMERCIO DE PRODUTOS PARA A SAUDE LTDA"
-      },
-      {
-        "cnpj": "41.858.216/0001-70",
-        "razao_social": "F.P.H. MATERIAIS DE CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "42.090.135/0001-35",
-        "razao_social": "RAFAEL DOS SANTOS MEDEIROS COMERCIO VAREJISTA E REPRESENTANTE COMERCIAL DE PECAS AUTOMOTIVAS NOVAS E USADAS LTDA"
-      },
-      {
-        "cnpj": "42.591.650/0001-07",
-        "razao_social": "HELP GLASS VIDRACARIA LTDA"
-      },
-      {
-        "cnpj": "33.103.305/0002-69",
-        "razao_social": "REFRISELL COMERCIO DE EQUIPAMENTOS PARA REFRIGERACAO LTDA"
-      },
-      {
-        "cnpj": "43.427.873/0001-98",
-        "razao_social": "LOW PRESSURE COMERCIO, ENSINO E PRODUCAO AUDIOVISUAL LTDA"
-      },
-      {
-        "cnpj": "41.191.276/0001-81",
-        "razao_social": "MTM DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.497.618/0001-59",
-        "razao_social": "MACLIMP LTDA"
-      },
-      {
-        "cnpj": "44.681.598/0001-05",
-        "razao_social": "WINE SPIRIT LTDA"
-      },
-      {
-        "cnpj": "42.910.772/0001-00",
-        "razao_social": "SS COMERCIO CRIATIVO LTDA"
-      },
-      {
-        "cnpj": "43.882.676/0001-69",
-        "razao_social": "MF BOX 1 LTDA"
-      },
-      {
-        "cnpj": "43.160.452/0001-43",
-        "razao_social": "KM FARAH LTDA"
-      },
-      {
-        "cnpj": "43.130.817/0001-97",
-        "razao_social": "RE - COMMERCE LTDA"
-      },
-      {
-        "cnpj": "42.722.999/0001-22",
-        "razao_social": "A. ROCHA TERASAKA COMERCIAL"
-      },
-      {
-        "cnpj": "41.419.056/0001-62",
-        "razao_social": "JRA DISTRIBUIDORA DE PRODUTOS OPTICOS LTDA"
-      },
-      {
-        "cnpj": "41.301.033/0001-59",
-        "razao_social": "NUTRION COMERCIO DE SUPLEMENTOS ALIMENTARES LTDA"
-      },
-      {
-        "cnpj": "43.893.798/0001-50",
-        "razao_social": "PANQUECA E PIRULITO SUPPLIES E CURSOS ONLINE LTDA"
-      },
-      {
-        "cnpj": "43.940.244/0001-67",
-        "razao_social": "NEW TAG INTERMEDIACAO DE NEGOCIOS LTDA"
-      },
-      {
-        "cnpj": "42.031.125/0001-29",
-        "razao_social": "LEMON SOLUCOES PARA EVENTOS LTDA"
-      },
-      {
-        "cnpj": "42.223.258/0001-05",
-        "razao_social": "CHERISH COMERCIO DE CONFECCOES LTDA"
-      },
-      {
-        "cnpj": "22.487.757/0002-75",
-        "razao_social": "MEDSUL COMERCIO ATACADISTA DE EQUIPAMENTOS HOSPITALARES E DE LABORATORIOS LTDA"
-      },
-      {
-        "cnpj": "41.390.920/0001-40",
-        "razao_social": "JM COMERCIO E INTERMEDIACAO LTDA"
-      },
-      {
-        "cnpj": "44.439.504/0001-88",
-        "razao_social": "SMART PLACE CWB COMERCIO DE PRODUTOS DE AUTOMACAO RESIDENCIAL LTDA"
-      },
-      {
-        "cnpj": "44.108.459/0001-89",
-        "razao_social": "RLF COMERCIO DE ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.945.449/0001-35",
-        "razao_social": "RKNOP COMERCIO DE INFORMATICA LTDA"
-      },
-      {
-        "cnpj": "41.886.179/0001-03",
-        "razao_social": "MARCIANA MARIA MORESCO & CIA LTDA"
-      },
-      {
-        "cnpj": "43.039.138/0001-07",
-        "razao_social": "FG ELETRICA & INFORMATICA LTDA"
-      },
-      {
-        "cnpj": "43.648.209/0001-79",
-        "razao_social": "MALU COMERCIO E EXPORTACAO DE FRUTAS LTDA"
-      },
-      {
-        "cnpj": "43.536.352/0001-79",
-        "razao_social": "MAXIMA COMERCIAL DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.176.256/0001-20",
-        "razao_social": "EXPERIENCE BOX COMERCIO DE CHOCOLATE LTDA"
-      },
-      {
-        "cnpj": "42.161.949/0001-13",
-        "razao_social": "MOTO4 COMERCIO E MANUTENCAO DE MOTOS LTDA"
-      },
-      {
-        "cnpj": "44.014.571/0001-50",
-        "razao_social": "DAYENNE DAL TOSO DE RAMALHO VEICULOS"
-      },
-      {
-        "cnpj": "41.850.444/0001-01",
-        "razao_social": "CAFE E CHOCOLATES CENTRO CIVICO LTDA"
-      },
-      {
-        "cnpj": "43.623.189/0001-81",
-        "razao_social": "BATELCON CONSTRUTORA LTDA"
-      },
-      {
-        "cnpj": "44.352.279/0001-48",
-        "razao_social": "ULTRAFERTIL FERTILIZANTES LTDA"
-      },
-      {
-        "cnpj": "43.855.627/0001-37",
-        "razao_social": "NOVO TEMPO AUTO LTDA"
-      },
-      {
-        "cnpj": "44.585.383/0001-82",
-        "razao_social": "RNH COMERCIO DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "41.086.656/0001-56",
-        "razao_social": "NAWEB MULTIMARCAS LTDA"
-      },
-      {
-        "cnpj": "42.950.481/0001-46",
-        "razao_social": "FRESH MARKET LTDA"
-      },
-      {
-        "cnpj": "43.364.489/0001-93",
-        "razao_social": "BEVI EXPRESS MINI MERCADO LTDA"
-      },
-      {
-        "cnpj": "41.382.395/0001-11",
-        "razao_social": "ECOLOGICOS COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "42.749.407/0001-66",
-        "razao_social": "R.J.B COMERCIO E SERVICOS DE FERRAGENS LTDA"
-      },
-      {
-        "cnpj": "43.068.886/0001-18",
-        "razao_social": "IELETRON ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "43.631.940/0001-91",
-        "razao_social": "BAGLAND COMERCIO DE MOCHILAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "41.906.284/0001-67",
-        "razao_social": "BILLY STORE COMERCIO DE AUTO PECAS E ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "43.952.020/0001-75",
-        "razao_social": "CWB COMERCIO DE CONTAINERS LTDA"
-      },
-      {
-        "cnpj": "41.087.037/0001-86",
-        "razao_social": "CEOLLI COMERCIO ELETRONICO LTDA"
-      },
-      {
-        "cnpj": "41.142.416/0001-21",
-        "razao_social": "NATUCELLUS COMERCIO DE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "44.039.620/0001-00",
-        "razao_social": "TPA GROUP DISTRIBUIDORA DE PECAS LTDA"
-      },
-      {
-        "cnpj": "43.963.478/0001-20",
-        "razao_social": "ABC COMERCIAL DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.247.612/0001-59",
-        "razao_social": "QOPH COMERCIO ELETRONICO LTDA"
-      },
-      {
-        "cnpj": "43.309.168/0001-96",
-        "razao_social": "LAGO E TONSIG COMERCIO DE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "44.564.642/0001-99",
-        "razao_social": "LOLLITHA KIDS E WOMAN LTDA"
-      },
-      {
-        "cnpj": "44.652.492/0001-75",
-        "razao_social": "ELAINE MARTINS NOVELLO COMERCIO DE MOVEIS"
-      },
-      {
-        "cnpj": "44.051.724/0001-30",
-        "razao_social": "AUTO JOTA COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "44.405.586/0001-40",
-        "razao_social": "ARMAZEM SAO VICENTE LTDA"
-      },
-      {
-        "cnpj": "44.116.542/0001-08",
-        "razao_social": "NEW HOPE COSMETICS LTDA"
-      },
-      {
-        "cnpj": "43.163.332/0001-08",
-        "razao_social": "AV OFFICE MOVEIS CORPORATIVOS LTDA"
-      },
-      {
-        "cnpj": "28.624.422/0002-38",
-        "razao_social": "VRX ABRASIVES COMERCIO DE ABRASIVOS LTDA"
-      },
-      {
-        "cnpj": "42.544.378/0001-04",
-        "razao_social": "TAURA DISTRIBUIDORA DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "41.614.450/0001-51",
-        "razao_social": "METAIS PIONEIRO LTDA"
-      },
-      {
-        "cnpj": "41.562.705/0001-80",
-        "razao_social": "FUTURAMA DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.909.139/0001-00",
-        "razao_social": "STALEIRINHO SPORTS LTDA"
-      },
-      {
-        "cnpj": "42.227.054/0001-34",
-        "razao_social": "ROSELI DOMINGUES FERREIRA"
-      },
-      {
-        "cnpj": "43.370.842/0001-48",
-        "razao_social": "CLAUDINEIA APARECIDA VIEIRA DA CRUZ DA SILVA"
-      },
-      {
-        "cnpj": "42.098.990/0001-92",
-        "razao_social": "PROLICO PAPELARIA LTDA"
-      },
-      {
-        "cnpj": "42.238.134/0001-95",
-        "razao_social": "MEEH & CO ARTIGOS DO VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "44.609.262/0001-23",
-        "razao_social": "GARAGEM 245 LTDA"
-      },
-      {
-        "cnpj": "41.576.550/0001-30",
-        "razao_social": "LINAZZI TRANSMISSAO AUTOMATICA LTDA"
-      },
-      {
-        "cnpj": "41.719.687/0001-05",
-        "razao_social": "PETROFORT PETROLEO MERCES LTDA"
-      },
-      {
-        "cnpj": "42.107.424/0001-08",
-        "razao_social": "NSFW COMPRAS CORPOR"
-      },
-      {
-        "cnpj": "41.943.024/0001-61",
-        "razao_social": "ALPAMAYO EQUIPAMENTOS ESPORTIVOS LTDA"
-      },
-      {
-        "cnpj": "43.817.343/0001-56",
-        "razao_social": "FAMILIA MELCHIORETTO CACHACARIA LTDA"
-      },
-      {
-        "cnpj": "43.176.484/0001-37",
-        "razao_social": "KAZI MOBILIARIO LTDA"
-      },
-      {
-        "cnpj": "41.281.686/0001-13",
-        "razao_social": "FOOD 2 GO - MERCADO AUTONOMO LTDA"
-      },
-      {
-        "cnpj": "43.286.159/0001-27",
-        "razao_social": "VARASCHIN DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.151.097/0001-46",
-        "razao_social": "BEKZPOI ENGENHARIA E MANUTENCAO PREDIAL LTDA"
-      },
-      {
-        "cnpj": "41.111.143/0001-58",
-        "razao_social": "LA BELLA COLCHOES E ESTOFADOS LTDA"
-      },
-      {
-        "cnpj": "42.429.059/0001-40",
-        "razao_social": "BRANNA BIONI PADILHA"
-      },
-      {
-        "cnpj": "44.002.070/0001-54",
-        "razao_social": "RAVIDD SAPATILHAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "44.405.255/0001-00",
-        "razao_social": "MERCADO E ACOUGUE HF LTDA"
-      },
-      {
-        "cnpj": "44.497.583/0001-83",
-        "razao_social": "ACOUGUE POENTE LTDA"
-      },
-      {
-        "cnpj": "42.775.301/0002-18",
-        "razao_social": "ALUMINIO JOINVILLE LTDA"
-      },
-      {
-        "cnpj": "42.373.302/0001-55",
-        "razao_social": "LA VITTA COLCHOES LTDA"
-      },
-      {
-        "cnpj": "44.533.790/0001-46",
-        "razao_social": "AGL TECH E CHAVEIROS LTDA"
-      },
-      {
-        "cnpj": "41.326.593/0001-68",
-        "razao_social": "EMPORIO COSMO LTDA"
-      },
-      {
-        "cnpj": "42.922.375/0001-59",
-        "razao_social": "MORANDI & VENTURINI COMERCIO DE BEBIDAS E TABACARIA LTDA"
-      },
-      {
-        "cnpj": "42.024.246/0002-24",
-        "razao_social": "FGC INDUSTRIA E COMERCIO DE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "41.512.837/0001-05",
-        "razao_social": "AUTHENTIC COMERCIO DIGITAL LTDA"
-      },
-      {
-        "cnpj": "41.143.901/0001-10",
-        "razao_social": "MERCADO LUENO LTDA"
-      },
-      {
-        "cnpj": "44.407.011/0001-66",
-        "razao_social": "VIA LOPES MODA MASCULINA LTDA"
-      },
-      {
-        "cnpj": "41.163.422/0001-65",
-        "razao_social": "KAS VESTUARIO ESPORTIVO LTDA"
-      },
-      {
-        "cnpj": "41.159.076/0001-41",
-        "razao_social": "JHOW E FAMILIA LTDA"
-      },
-      {
-        "cnpj": "44.277.985/0001-72",
-        "razao_social": "JCA EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "42.323.124/0001-58",
-        "razao_social": "PAULO CEZAR LOURENCO HAMDAR LTDA."
-      },
-      {
-        "cnpj": "42.694.474/0001-20",
-        "razao_social": "FAZPERFIZ COMERCIO DE ALUMINIO LTDA"
-      },
-      {
-        "cnpj": "41.948.762/0001-00",
-        "razao_social": "MARLON AUGUSTO OLIVA - REFRIGERACAO"
-      },
-      {
-        "cnpj": "43.541.118/0001-30",
-        "razao_social": "GILBERTO BECKMAN CALDAS JUNIOR LTDA"
-      },
-      {
-        "cnpj": "44.152.857/0001-00",
-        "razao_social": "RMF PRODUTOS ODONTOLOGICOS LTDA"
-      },
-      {
-        "cnpj": "44.567.091/0001-17",
-        "razao_social": "J. P DA SILVA E SANTOS LTDA"
-      },
-      {
-        "cnpj": "44.221.246/0001-69",
-        "razao_social": "KS VIDROS LTDA"
-      },
-      {
-        "cnpj": "43.675.522/0001-04",
-        "razao_social": "GUTHS PAPELARIA LTDA"
-      },
-      {
-        "cnpj": "41.281.309/0001-84",
-        "razao_social": "MAURICIO NASCIMENTO DOS SANTOS COMERCIO DE BRINDES LTDA"
-      },
-      {
-        "cnpj": "41.418.315/0001-30",
-        "razao_social": "V. A. IMPORTE LTDA"
-      },
-      {
-        "cnpj": "42.964.186/0001-49",
-        "razao_social": "AC CAPELETTI LTDA"
-      },
-      {
-        "cnpj": "42.223.085/0001-17",
-        "razao_social": "DRINKS ON DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "43.652.178/0001-20",
-        "razao_social": "LOURENCO E HAMDAR LTDA"
-      },
-      {
-        "cnpj": "43.826.705/0001-75",
-        "razao_social": "ZUNIGAFITNESS ROUPAS FITNESS LTDA"
-      },
-      {
-        "cnpj": "43.745.977/0001-40",
-        "razao_social": "77 MOTORS COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "42.909.504/0001-79",
-        "razao_social": "M H DISTRIBUIDORA"
-      },
-      {
-        "cnpj": "42.723.772/0001-00",
-        "razao_social": "TITANIUM EQUIPAMENTOS ELETRONICOS E DE REFRIGERACAO LTDA"
-      },
-      {
-        "cnpj": "43.523.053/0001-08",
-        "razao_social": "OSTEC CELL LTDA"
-      },
-      {
-        "cnpj": "42.819.131/0001-45",
-        "razao_social": "SHOP4YOUBR COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "44.548.240/0001-09",
-        "razao_social": "CASSIA F S GODOY TECNOLOGIA E DISTRIBUICAO DE ALIMENTOS E BEBIDAS"
-      },
-      {
-        "cnpj": "38.091.808/0002-85",
-        "razao_social": "QUIOSQUE DO CHOPP CWB COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.191.076/0001-29",
-        "razao_social": "BINDEMANN GUIME COMERCIO LTDA"
-      },
-      {
-        "cnpj": "41.542.257/0001-52",
-        "razao_social": "GOOD BEER LTDA"
-      },
-      {
-        "cnpj": "43.278.005/0001-93",
-        "razao_social": "MAX COMERCIO DE HORTIFRUTI LTDA"
-      },
-      {
-        "cnpj": "42.608.462/0001-36",
-        "razao_social": "DE PAULA & CAMARGO COMERCIO DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "42.260.293/0001-96",
-        "razao_social": "MUSTELA COMERCIO DE COLECIONAVEIS LTDA"
-      },
-      {
-        "cnpj": "28.557.842/0002-49",
-        "razao_social": "VISOMAIS OTICA LTDA"
-      },
-      {
-        "cnpj": "42.109.328/0001-90",
-        "razao_social": "JARDIM EDEN COMERCIO DE MATERIAIS E EQUIPAMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.054.778/0001-60",
-        "razao_social": "41.054.778 RICARDO ERNESTO KRETZER JUNIOR"
-      },
-      {
-        "cnpj": "42.912.903/0001-99",
-        "razao_social": "RHILTON LUIZ DOS SANTOS DISTRIBUIDORA DE ALIMENTOS"
-      },
-      {
-        "cnpj": "42.286.367/0001-63",
-        "razao_social": "ZEPS COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "43.769.999/0001-40",
-        "razao_social": "KYLBA COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.593.186/0001-05",
-        "razao_social": "DIRETORIA COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.404.281/0001-13",
-        "razao_social": "SECCO TECNOLOGIE COMERCIO DE FERRAMENTAS LTDA"
-      },
-      {
-        "cnpj": "42.949.937/0001-58",
-        "razao_social": "ANDREA APARECIDA TABORDA TRESKA"
-      },
-      {
-        "cnpj": "42.469.040/0001-27",
-        "razao_social": "THIAGO ROCHA DA FONSECA"
-      },
-      {
-        "cnpj": "42.473.908/0001-62",
-        "razao_social": "GIUSTO DESIGN LTDA"
-      },
-      {
-        "cnpj": "43.634.292/0001-27",
-        "razao_social": "KSK MATEUS LTDA"
-      },
-      {
-        "cnpj": "43.590.494/0001-14",
-        "razao_social": "PHARMACO PRIME - FARMACIA DE MANIPULACAO LTDA"
-      },
-      {
-        "cnpj": "42.134.290/0001-06",
-        "razao_social": "MEL & CANELA PRODUTOS NATURAIS LTDA.."
-      },
-      {
-        "cnpj": "43.110.812/0001-00",
-        "razao_social": "JP COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "43.471.299/0001-75",
-        "razao_social": "PLLURAL MODA CIRCULAR LTDA"
-      },
-      {
-        "cnpj": "43.975.931/0001-18",
-        "razao_social": "H&H COMERCIO DE LIVROS LTDA"
-      },
-      {
-        "cnpj": "44.459.483/0001-62",
-        "razao_social": "ARCANJOS MIGUEL E RAFAEL E CIA LTDA"
-      },
-      {
-        "cnpj": "44.211.892/0001-45",
-        "razao_social": "VRIESMANN E RIBAS PRODUTOS FARMACEUTICOS LTDA"
-      },
-      {
-        "cnpj": "41.200.356/0001-56",
-        "razao_social": "ALAFIA COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "43.732.517/0001-88",
-        "razao_social": "TROPICALIENTS SKATEBOARD LTDA"
-      },
-      {
-        "cnpj": "44.563.510/0001-42",
-        "razao_social": "FABI VINCENZI LTDA"
-      },
-      {
-        "cnpj": "41.362.814/0001-53",
-        "razao_social": "LAIS FERNANDA VALADARES LTDA"
-      },
-      {
-        "cnpj": "43.129.700/0001-93",
-        "razao_social": "SELVA COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "28.038.641/0002-35",
-        "razao_social": "BRATRADING COMERCIAL IMPORTADORA E EXPORTADORA LTDA"
-      },
-      {
-        "cnpj": "44.498.080/0001-22",
-        "razao_social": "ALJAN COMERCIO DE LIVROS LTDA"
-      },
-      {
-        "cnpj": "42.167.097/0001-71",
-        "razao_social": "TIK TOK COMERCIO DE MOVEIS LTDA"
-      },
-      {
-        "cnpj": "41.323.271/0001-65",
-        "razao_social": "ORGANIC BOX ORGANICOS E NATURAIS LTDA"
-      },
-      {
-        "cnpj": "42.720.178/0001-57",
-        "razao_social": "MEGA SHOP COMERCIO DE PECAS LTDA"
-      },
-      {
-        "cnpj": "41.866.844/0001-05",
-        "razao_social": "MERCADO CATAO LTDA"
-      },
-      {
-        "cnpj": "43.712.830/0001-54",
-        "razao_social": "YBY COMERCIO LTDA"
-      },
-      {
-        "cnpj": "42.513.555/0001-87",
-        "razao_social": "AZV COMERCIO E LOCACAO DE VEICULOS E BRINQUEDOS LTDA"
-      },
-      {
-        "cnpj": "43.091.033/0001-05",
-        "razao_social": "E A DE SOUZA SERVICOS EM INFOMATICA LTDA"
-      },
-      {
-        "cnpj": "42.645.923/0001-40",
-        "razao_social": "L K M PEREIRA LTDA"
-      },
-      {
-        "cnpj": "44.319.665/0001-38",
-        "razao_social": "JULIPA PAPELARIA CRI"
-      },
-      {
-        "cnpj": "43.317.595/0001-16",
-        "razao_social": "CLAYTON GESSE VAN HAANDEL JUNIOR"
-      },
-      {
-        "cnpj": "42.992.161/0001-59",
-        "razao_social": "RCA COMERCIO DE PRODUTOS DE EXTRACAO MINERAL RDS LTDA"
-      },
-      {
-        "cnpj": "42.323.669/0001-64",
-        "razao_social": "EMPORIO DE PAULA COMERCIO DE CESTAS E DECORACOES LTDA"
-      },
-      {
-        "cnpj": "42.742.415/0001-80",
-        "razao_social": "IMPACTO COMERCIO VAREJISTA DE GAS LTDA"
-      },
-      {
-        "cnpj": "41.558.118/0001-17",
-        "razao_social": "CENTRO OFF ROAD ANDERSON ADRENALINA LTDA"
-      },
-      {
-        "cnpj": "41.660.604/0001-41",
-        "razao_social": "CARLOS HENRIQUE DE OLIVEIRA DA CRUZ - CONFECCOES"
-      },
-      {
-        "cnpj": "42.167.214/0001-05",
-        "razao_social": "MODERNO ESTOFADOS LTDA"
-      },
-      {
-        "cnpj": "42.403.424/0001-47",
-        "razao_social": "SUEMY MIDORI MATSUNAGA KUABARA"
-      },
-      {
-        "cnpj": "43.553.286/0001-45",
-        "razao_social": "RSCD ARTWORKS LTDA"
-      },
-      {
-        "cnpj": "43.358.222/0001-93",
-        "razao_social": "ECOMIZY COMERCIO DE ELETRONICOS DOMESTICOS LTDA"
-      },
-      {
-        "cnpj": "43.502.559/0001-22",
-        "razao_social": "BK POLTRONAS MOVEIS PARA SALAO LTDA"
-      },
-      {
-        "cnpj": "42.089.063/0001-06",
-        "razao_social": "PETRI MODAS COMERCIO DE ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "41.535.069/0001-05",
-        "razao_social": "ACAI E SORVETES SANTA CANDIDA LTDA"
-      },
-      {
-        "cnpj": "41.410.288/0001-50",
-        "razao_social": "HMB MOVEIS E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "31.913.673/0007-51",
-        "razao_social": "PC CELULAR COMERCIO LTDA"
-      },
-      {
-        "cnpj": "41.555.029/0001-17",
-        "razao_social": "MUSTACHE ALEGRIA COMERCIO DE ARTIGOS FESTIVOS LTDA"
-      },
-      {
-        "cnpj": "44.273.355/0001-20",
-        "razao_social": "HCE SINTETICOS LTDA"
-      },
-      {
-        "cnpj": "41.896.229/0001-33",
-        "razao_social": "POPZ COMERCIO E IMPORTACAO LTDA"
-      },
-      {
-        "cnpj": "42.617.334/0001-59",
-        "razao_social": "DCN SINTETICOS LTDA"
-      },
-      {
-        "cnpj": "43.620.615/0001-23",
-        "razao_social": "NILVA APARECIDA VIEIRA HONDA LTDA"
-      },
-      {
-        "cnpj": "41.043.285/0001-25",
-        "razao_social": "P R PINHEIRO ESPINELLI ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.181.868/0001-48",
-        "razao_social": "GOINSKI DE FREITAS E GOINSKI MARINHO LTDA"
-      },
-      {
-        "cnpj": "41.465.702/0001-28",
-        "razao_social": "DEL REI COMERCIO DE VINHOS E BEBIDAS LTDA."
-      },
-      {
-        "cnpj": "42.582.807/0001-20",
-        "razao_social": "BUD BABY STORE LTDA"
-      },
-      {
-        "cnpj": "43.214.502/0001-28",
-        "razao_social": "CASA DU GATO LTDA"
-      },
-      {
-        "cnpj": "42.652.754/0001-76",
-        "razao_social": "NINE STORE COMERCIO DE ELETRONICOS DOMESTICOS LTDA"
-      },
-      {
-        "cnpj": "44.122.410/0001-80",
-        "razao_social": "CONCEITO NER ILUMINACAO COMERCIO LTDA"
-      },
-      {
-        "cnpj": "41.973.373/0001-26",
-        "razao_social": "CLOSET MAKE COMERCIO DE COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "44.533.069/0001-56",
-        "razao_social": "LIDIA BORSSUK"
-      },
-      {
-        "cnpj": "42.924.512/0001-94",
-        "razao_social": "PIRES DE OLIVEIRA DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.731.394/0001-35",
-        "razao_social": "VSTARK ARTIGOS ESPORTIVOS LTDA."
-      },
-      {
-        "cnpj": "42.819.951/0001-37",
-        "razao_social": "JESSE DE ALMEIDA GARRETT DOS REIS"
-      },
-      {
-        "cnpj": "43.646.755/0001-70",
-        "razao_social": "BOLACHAS VOVO ELZA COMERCIO ELETRONICO LTDA"
-      },
-      {
-        "cnpj": "42.954.113/0001-76",
-        "razao_social": "EMPORIO SAN BERNARDO LTDA"
-      },
-      {
-        "cnpj": "43.596.977/0001-26",
-        "razao_social": "CAMARGO & TRIPOLI LTDA"
-      },
-      {
-        "cnpj": "43.610.819/0001-83",
-        "razao_social": "AGRO PIERI LTDA"
-      },
-      {
-        "cnpj": "41.416.544/0001-16",
-        "razao_social": "MEGAFIOS PECAS PARA MOTORES ELETRICOS LTDA"
-      },
-      {
-        "cnpj": "41.113.917/0001-80",
-        "razao_social": "ANOVA ARTIGOS DE CUTELARIA LTDA"
-      },
-      {
-        "cnpj": "41.570.476/0001-45",
-        "razao_social": "CEHA COMERCIO DE AUTO PECAS LTDA"
-      },
-      {
-        "cnpj": "43.401.015/0001-74",
-        "razao_social": "DK STORE LTDA"
-      },
-      {
-        "cnpj": "42.280.085/0001-59",
-        "razao_social": "KMOB COMERCIO VAREJISTA DE MOVEIS LTDA"
-      },
-      {
-        "cnpj": "42.845.761/0001-94",
-        "razao_social": "RSN ARTESANATOS LTDA"
-      },
-      {
-        "cnpj": "41.191.221/0001-71",
-        "razao_social": "LAPA COMERCIO DE SORVETES E ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "42.837.472/0001-43",
-        "razao_social": "J & G COMERCIO DE CHOCOLATES LTDA"
-      },
-      {
-        "cnpj": "42.453.814/0001-21",
-        "razao_social": "AVANTGARDE ALFAIATARIA LTDA"
-      },
-      {
-        "cnpj": "42.640.204/0001-37",
-        "razao_social": "COP BOX LTDA"
-      },
-      {
-        "cnpj": "42.024.602/0001-29",
-        "razao_social": "TAURUS IMPORTS IMPORTACAO E EXPORTACAO LTDA"
-      },
-      {
-        "cnpj": "41.998.983/0001-84",
-        "razao_social": "AROEIRA COMERCIO DE VINHOS, BEBIDAS E ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "42.044.403/0001-82",
-        "razao_social": "ELAINE CRISTINA BARBOSA LTDA"
-      },
-      {
-        "cnpj": "44.171.801/0001-95",
-        "razao_social": "JHENIFER APARECIDA FORASTEIRO LTDA"
-      },
-      {
-        "cnpj": "42.379.482/0001-82",
-        "razao_social": "MAGNA SAUDE LTDA"
-      },
-      {
-        "cnpj": "42.334.152/0001-70",
-        "razao_social": "M. DE FATIMA ESPERANDIO - COMERCIO ALIMENTICIO LTDA"
-      },
-      {
-        "cnpj": "44.620.646/0001-47",
-        "razao_social": "ECOMMERCE COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "44.588.453/0001-56",
-        "razao_social": "VILLALON LTDA"
-      },
-      {
-        "cnpj": "43.753.120/0001-72",
-        "razao_social": "MKJUVEVE CAFES ESPECIAIS LTDA"
-      },
-      {
-        "cnpj": "43.998.336/0001-06",
-        "razao_social": "ARGILA BOTANICA COMERCIO DE PLANTAS LTDA"
-      },
-      {
-        "cnpj": "43.117.403/0001-28",
-        "razao_social": "CERVEJARIA JRJ LTDA"
-      },
-      {
-        "cnpj": "44.505.175/0001-26",
-        "razao_social": "G M MACEDO COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "44.624.824/0001-08",
-        "razao_social": "ALLVARO MELO MENDONCA LTDA"
-      },
-      {
-        "cnpj": "44.583.042/0001-78",
-        "razao_social": "E K KASPERSKI COMERCIO DE ELETROELETRONICOS"
-      },
-      {
-        "cnpj": "41.831.428/0002-44",
-        "razao_social": "SACOLAO DE FRUTAS E VERDURAS LORENZETTI LTDA"
-      },
-      {
-        "cnpj": "43.666.078/0001-52",
-        "razao_social": "VITORIA INVESTMENT LTDA"
-      },
-      {
-        "cnpj": "43.311.416/0001-33",
-        "razao_social": "DESIREE ILLESCAS WITHERS LTDA"
-      },
-      {
-        "cnpj": "41.703.741/0001-16",
-        "razao_social": "TROPICALLE STORE LTDA"
-      },
-      {
-        "cnpj": "41.148.283/0001-09",
-        "razao_social": "AD ASTRA AEROESPACIAL LTDA"
-      },
-      {
-        "cnpj": "42.266.547/0001-83",
-        "razao_social": "C T COMERCIO DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.497.989/0002-59",
-        "razao_social": "ARIANE DE MOURA COMERCIO DE COLCHOES E ARTIGOS HOSPITALARES LTDA"
-      },
-      {
-        "cnpj": "42.982.407/0001-01",
-        "razao_social": "ERMES COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.751.226/0001-01",
-        "razao_social": "BARRANCO METAIS LTDA"
-      },
-      {
-        "cnpj": "41.369.753/0001-56",
-        "razao_social": "INSTITUTO ELO: PESQUISA E DESENVOLVIMENTO EM PSICOLOGIA APRENDIZAGEM LTDA"
-      },
-      {
-        "cnpj": "44.302.756/0001-60",
-        "razao_social": "BARBARA BIONI PADILHA"
-      },
-      {
-        "cnpj": "44.026.754/0001-96",
-        "razao_social": "C BOCON NEW SPORTES PNEUS"
-      },
-      {
-        "cnpj": "44.202.940/0001-39",
-        "razao_social": "GODOI GAS COMERCIO DE GLP LTDA"
-      },
-      {
-        "cnpj": "41.305.526/0001-67",
-        "razao_social": "JB COMERCIO DE UTILIDADES LTDA"
-      },
-      {
-        "cnpj": "44.361.556/0001-89",
-        "razao_social": "QUEDA DAGUA LTDA"
-      },
-      {
-        "cnpj": "44.265.769/0001-07",
-        "razao_social": "SENIOR SHOP ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "44.021.728/0001-75",
-        "razao_social": "PICNIC TIME COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "44.039.786/0001-26",
-        "razao_social": "ALFLORES COMERCIO DE FLORES E PLANTAS ORNAMENTAIS LTDA"
-      },
-      {
-        "cnpj": "43.598.902/0001-84",
-        "razao_social": "WENDLER FARMA LTDA"
-      },
-      {
-        "cnpj": "41.449.277/0001-83",
-        "razao_social": "FERNANDES & ESPERIDIAO LTDA"
-      },
-      {
-        "cnpj": "41.056.297/0001-94",
-        "razao_social": "IRON SUPLEMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.277.478/0001-39",
-        "razao_social": "ECOMM COMERCIO DE TUDO E MAIS UM POUCO LTDA"
-      },
-      {
-        "cnpj": "42.078.304/0001-11",
-        "razao_social": "MULTI KULTURE LTDA"
-      },
-      {
-        "cnpj": "26.542.177/0002-94",
-        "razao_social": "MEIZINHA LTDA"
-      },
-      {
-        "cnpj": "44.019.376/0001-13",
-        "razao_social": "RDB COMERCIO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "44.303.472/0001-99",
-        "razao_social": "ATACADO DE ACOS CURITIBA LTDA"
-      },
-      {
-        "cnpj": "43.584.202/0001-30",
-        "razao_social": "BLINDING COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "44.361.326/0001-10",
-        "razao_social": "COMERCIO VAREJISTA DE RACOES E CEREAIS SANTA FELICIDADE LTDA"
-      },
-      {
-        "cnpj": "41.125.985/0001-69",
-        "razao_social": "CACHIATORI E BAIARDI LTDA"
-      },
-      {
-        "cnpj": "42.941.946/0001-00",
-        "razao_social": "REVENBR COMERCIO LTDA"
-      },
-      {
-        "cnpj": "42.005.557/0001-65",
-        "razao_social": "CELSO RAMOS COMERCIAL EXPORTADORA E IMPORTADORA LTDA"
-      },
-      {
-        "cnpj": "43.274.069/0001-16",
-        "razao_social": "DJ DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "41.994.974/0001-15",
-        "razao_social": "HB4M COMERCIO DE ARTIGOS DOMESTICOS LTDA"
-      },
-      {
-        "cnpj": "41.670.619/0001-90",
-        "razao_social": "VITORIA FESTAS LTDA"
-      },
-      {
-        "cnpj": "43.702.663/0001-60",
-        "razao_social": "DISTRIBUIDORA COLD BEER LTDA"
-      },
-      {
-        "cnpj": "43.965.872/0001-05",
-        "razao_social": "VITAL VENTURA COMERCIO DE ARTIGOS ESPORTIVOS LTDA"
-      },
-      {
-        "cnpj": "41.217.452/0001-07",
-        "razao_social": "CRIAR BOX PAPELARIA E SCRAPBOOK LTDA"
-      },
-      {
-        "cnpj": "42.834.781/0001-60",
-        "razao_social": "MG2 DISTRIBUIDORA DE SUPLEMENTOS ALIMENTARES E COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "42.843.830/0001-20",
-        "razao_social": "ANDRADE NEDBAILUK COMERCIO DE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "43.744.627/0001-60",
-        "razao_social": "KOM COMERCIO DE ARTIGOS PARA ANIMAIS LTDA"
-      },
-      {
-        "cnpj": "44.171.801/0002-76",
-        "razao_social": "JHENIFER APARECIDA FORASTEIRO LTDA"
-      },
-      {
-        "cnpj": "44.460.449/0001-08",
-        "razao_social": "BELLE FATALE LOJA DE DEPARTAMENTOS E MAGAZINE LTDA"
-      },
-      {
-        "cnpj": "42.214.897/0001-04",
-        "razao_social": "V7 DW COMERCIO LTDA"
-      },
-      {
-        "cnpj": "43.341.537/0001-28",
-        "razao_social": "CONFORTAVEL COLCHOES LTDA"
-      },
-      {
-        "cnpj": "41.454.309/0001-39",
-        "razao_social": "VAI DE VINHO BY DEBORA BREGINSKI LTDA"
-      },
-      {
-        "cnpj": "44.124.376/0001-83",
-        "razao_social": "PARTITO ARTIGOS PARA FESTAS LTDA"
-      },
-      {
-        "cnpj": "43.853.286/0001-60",
-        "razao_social": "ABDALLAH & BITTENCOURT JOIAS LTDA"
-      },
-      {
-        "cnpj": "43.972.711/0001-30",
-        "razao_social": "TOCA DA BELINHA - AVIARIO LTDA"
-      },
-      {
-        "cnpj": "44.151.706/0001-20",
-        "razao_social": "NOGUEIRA DECORA LTDA"
-      },
-      {
-        "cnpj": "44.661.298/0001-56",
-        "razao_social": "GOLES E TRAGOS LTDA"
-      },
-      {
-        "cnpj": "42.894.903/0001-03",
-        "razao_social": "RK COMERCIO DE TELEFONES E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.473.448/0001-35",
-        "razao_social": "ANA SUPLEMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.335.137/0001-72",
-        "razao_social": "ELAMOR COMERCIO DE PRODUTOS DE BELEZA LTDA"
-      },
-      {
-        "cnpj": "42.242.668/0001-95",
-        "razao_social": "PG COMERCIO DE UTENSILIOS EM METAL E MADEIRA LTDA"
-      },
-      {
-        "cnpj": "43.850.706/0001-55",
-        "razao_social": "R2 COMERCIO E VAREJO ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "42.313.980/0001-22",
-        "razao_social": "VESTINDO A MULHER, COMERCIO E CONFECCAO DE ROUPAS LTDA"
-      },
-      {
-        "cnpj": "41.788.235/0001-77",
-        "razao_social": "UTENSILIOS CWB LTDA"
-      },
-      {
-        "cnpj": "36.757.542/0002-31",
-        "razao_social": "SENA MOTORS AUTOMOVEIS LTDA"
-      },
-      {
-        "cnpj": "42.082.160/0001-77",
-        "razao_social": "DORMENTES CURITIBA LTDA"
-      },
-      {
-        "cnpj": "44.108.673/0001-35",
-        "razao_social": "BEAGAH COMERCIO DE ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "43.027.303/0001-00",
-        "razao_social": "DZIBANSKEI COMERCIO DE PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "42.377.431/0001-11",
-        "razao_social": "GABRIEL PEREIRA PERDIGAO LTDA"
-      },
-      {
-        "cnpj": "42.438.768/0001-91",
-        "razao_social": "LOZ COMERCIO DE PRODUTOS EROTICOS LTDA"
-      },
-      {
-        "cnpj": "42.492.925/0001-47",
-        "razao_social": "ADTT COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "42.657.490/0001-43",
-        "razao_social": "VERCATTO BOUTIQUE SAUDAVEL LTDA"
-      },
-      {
-        "cnpj": "09.243.830/0002-03",
-        "razao_social": "DEBORA GONCALVES FERREIRA"
-      },
-      {
-        "cnpj": "43.286.881/0001-61",
-        "razao_social": "FULL MOBILE ASSISTENCIA LTDA"
-      },
-      {
-        "cnpj": "43.627.799/0001-53",
-        "razao_social": "VAGALUME BEER DISTRIBUIDORA LTDA"
-      },
-      {
-        "cnpj": "42.954.641/0001-25",
-        "razao_social": "WELDOG AGROPECUARIA LTDA"
-      },
-      {
-        "cnpj": "42.882.026/0001-50",
-        "razao_social": "VINICIUS DUARTE LTDA"
-      },
-      {
-        "cnpj": "41.990.374/0001-89",
-        "razao_social": "TIME'S BEER COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.414.717/0001-55",
-        "razao_social": "DIRCEU RAMOS PRIME AUTO PECAS LTDA"
-      },
-      {
-        "cnpj": "41.650.154/0001-06",
-        "razao_social": "MR PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "44.105.496/0001-33",
-        "razao_social": "OLIVEIRA COMERCIO DE MOVEIS LTDA"
-      },
-      {
-        "cnpj": "42.888.767/0001-49",
-        "razao_social": "PERFUMES LABIRINTO LTDA"
-      },
-      {
-        "cnpj": "42.071.476/0001-63",
-        "razao_social": "NEUPA - REPRESENTACOES COMERCIAIS LTDA"
-      },
-      {
-        "cnpj": "41.188.072/0001-91",
-        "razao_social": "LIA MOURAO DA VEIGA COMERCIO VAREJISTA DE ROUPAS E ACESSORIOS"
-      },
-      {
-        "cnpj": "41.744.073/0001-75",
-        "razao_social": "TAG COMERCIO DE CARNES LTDA"
-      },
-      {
-        "cnpj": "41.731.161/0001-32",
-        "razao_social": "BEN FARMACIA DE MANIPULACAO LTDA"
-      },
-      {
-        "cnpj": "42.912.026/0005-80",
-        "razao_social": "MICHELS DO BRASIL DISTRIBUICAO LTDA"
-      },
-      {
-        "cnpj": "42.472.661/0001-60",
-        "razao_social": "WAAK TECNOLOGIA DA INFORMACAO LTDA"
-      },
-      {
-        "cnpj": "42.946.596/0001-67",
-        "razao_social": "MM3113 COMERCIO DE VEICULOS LTDA"
-      },
-      {
-        "cnpj": "43.871.181/0001-34",
-        "razao_social": "MLZ EMPORIO LTDA"
-      },
-      {
-        "cnpj": "43.953.042/0001-50",
-        "razao_social": "PALMIERE COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "42.022.311/0001-00",
-        "razao_social": "FSK IMPORTACAO DE ESSENCIAS LTDA"
-      },
-      {
-        "cnpj": "41.920.096/0001-93",
-        "razao_social": "TASHI ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "42.170.945/0001-00",
-        "razao_social": "ELISSANDRA MARIA ALMEIDA LTDA"
-      },
-      {
-        "cnpj": "42.055.695/0001-59",
-        "razao_social": "BRABUS LUB COMERCIO ATACADISTA DE LUBRFICANTES LTDA"
-      },
-      {
-        "cnpj": "44.488.769/0001-76",
-        "razao_social": "CANECARIA CURITIBANA LTDA"
-      },
-      {
-        "cnpj": "44.032.115/0001-33",
-        "razao_social": "NIETH COSMETICOS E AROMAS LTDA"
-      },
-      {
-        "cnpj": "44.586.263/0001-08",
-        "razao_social": "SOLARSIM ENERGIAS RENOVAVEIS LTDA"
-      },
-      {
-        "cnpj": "43.221.024/0001-83",
-        "razao_social": "TEK GLOBAL BRASIL LTDA"
-      },
-      {
-        "cnpj": "44.127.315/0001-70",
-        "razao_social": "HOPDOG STORE LTDA"
-      },
-      {
-        "cnpj": "42.837.472/0001-43",
-        "razao_social": "J & G COMERCIO DE CHOCOLATES LTDA"
-      },
-      {
-        "cnpj": "43.977.504/0001-79",
-        "razao_social": "TECHTOOLS REFRIGERACAO LTDA"
-      },
-      {
-        "cnpj": "42.468.735/0001-94",
-        "razao_social": "FERNANDES COMERCIO E MATERIAIS PARA CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "42.859.774/0001-12",
-        "razao_social": "G H C MEDEIROS LTDA"
-      },
-      {
-        "cnpj": "41.487.175/0001-52",
-        "razao_social": "AMCF PROMOCAO E COMERCIO VAREJISTA LTDA"
-      },
-      {
-        "cnpj": "41.030.681/0002-07",
-        "razao_social": "BK PR COMERCIO DE BRINQUEDOS LTDA"
-      },
-      {
-        "cnpj": "43.374.408/0001-36",
-        "razao_social": "NATURALZEN COMERCIO DE PRODUTOS PARA IOGA E MEDITACAO LTDA."
-      },
-      {
-        "cnpj": "43.647.441/0001-92",
-        "razao_social": "COMERCIAL CWB DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.666.198/0001-12",
-        "razao_social": "ALEXANDRE ELIAS INACIO LTDA"
-      },
-      {
-        "cnpj": "44.385.767/0001-51",
-        "razao_social": "GROCHOCKI E ALMEIDA BIKE SHOP LTDA"
-      },
-      {
-        "cnpj": "42.963.852/0001-24",
-        "razao_social": "BASSO DRULA LTDA"
-      },
-      {
-        "cnpj": "41.198.966/0001-62",
-        "razao_social": "AGUIA PEQUENA LTDA"
-      },
-      {
-        "cnpj": "43.101.279/0001-02",
-        "razao_social": "LUJE COMERCIO DE ARTIGOS PARA CASA BEM ESTAR E DECORACAO LTDA"
-      },
-      {
-        "cnpj": "42.045.587/0001-03",
-        "razao_social": "CLUB KOMBUCHA - COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.108.758/0001-98",
-        "razao_social": "CREATIVE BOX CLUB C S LTDA"
-      },
-      {
-        "cnpj": "42.346.863/0001-65",
-        "razao_social": "ADLER WILLIAN G. SCHNEIDER LTDA"
-      },
-      {
-        "cnpj": "08.058.723/0004-04",
-        "razao_social": "LAUS & SILVA LTDA"
-      },
-      {
-        "cnpj": "43.705.791/0001-68",
-        "razao_social": "A PREFERIDA COMERCIO DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "43.822.301/0001-03",
-        "razao_social": "SEVENSUL INOVACAO EM IMPRESSAO LTDA"
-      },
-      {
-        "cnpj": "44.200.170/0001-95",
-        "razao_social": "SENCHUK COMERCIO E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "44.208.412/0001-97",
-        "razao_social": "ORTHOMED EMPREENDIMENTOS MEDICO HOSPITALAR LTDA"
-      },
-      {
-        "cnpj": "42.031.761/0001-50",
-        "razao_social": "KRIEGER IMPORTACOES LTDA"
-      },
-      {
-        "cnpj": "41.749.183/0001-20",
-        "razao_social": "GREEN SHAPE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "41.136.950/0001-25",
-        "razao_social": "AUTOPECAS SCOPEL LTDA"
-      },
-      {
-        "cnpj": "23.042.790/0002-54",
-        "razao_social": "MUSICA MIX - COMERCIO DE INSTRUMENTOS MUSICAIS LTDA"
-      },
-      {
-        "cnpj": "41.787.635/0001-68",
-        "razao_social": "ANTONELLO E LOPES DISTRIBUIDORA DE AUTO PECAS LTDA"
-      },
-      {
-        "cnpj": "41.629.480/0001-31",
-        "razao_social": "A. SCIOLA NETO COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "43.395.761/0001-00",
-        "razao_social": "KAIZEN DISTRIBUICAO E COMERCIO LTDA"
-      },
-      {
-        "cnpj": "42.310.147/0001-28",
-        "razao_social": "JR COMERCIO DE MARMORES E GRANITOS LTDA"
-      },
-      {
-        "cnpj": "43.298.796/0001-13",
-        "razao_social": "LARA COMERCIO DE VEICULOS MULTIMARCAS LTDA"
-      },
-      {
-        "cnpj": "43.350.472/0001-87",
-        "razao_social": "CILAS BARBOSA PRESENTES E VARIEDADES"
-      },
-      {
-        "cnpj": "44.357.327/0001-90",
-        "razao_social": "DANIELE MACHADO DOS SANTOS MALAQUIAS"
-      },
-      {
-        "cnpj": "41.660.803/0001-50",
-        "razao_social": "SUELI MORDZEM DE OLIVEIRA GRABNER"
-      },
-      {
-        "cnpj": "41.711.232/0001-35",
-        "razao_social": "LDP COMERCIO DE PRODUTOS LTDA"
-      },
-      {
-        "cnpj": "42.324.278/0001-64",
-        "razao_social": "MINIMERCADO IMPORIO DU SABOR LTDA"
-      },
-      {
-        "cnpj": "42.821.359/0001-70",
-        "razao_social": "CONVENIENCIA BATEL LTDA"
-      },
-      {
-        "cnpj": "42.337.449/0001-90",
-        "razao_social": "FARMAPAR FARMACIA E DROGARIA LTDA"
-      },
-      {
-        "cnpj": "41.428.260/0001-40",
-        "razao_social": "DOMINUS COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "42.744.692/0001-22",
-        "razao_social": "C & A COMERCIO DE PECAS E ACESSORIOS PARA CAMINHOES LTDA"
-      },
-      {
-        "cnpj": "43.186.414/0001-60",
-        "razao_social": "GH ARTIGOS ESPORTIVOS E PRODUCAO DE VIDEOS LTDA"
-      },
-      {
-        "cnpj": "43.221.213/0001-56",
-        "razao_social": "P.P BRASIL COMERCIO DE UTILIDADES LTDA"
-      },
-      {
-        "cnpj": "42.210.349/0001-06",
-        "razao_social": "RR NEGOCIOS DIGITAIS LTDA"
-      },
-      {
-        "cnpj": "42.143.758/0001-29",
-        "razao_social": "KALOURES COMERCIO DE SUVENIRES LTDA"
-      },
-      {
-        "cnpj": "42.073.483/0001-02",
-        "razao_social": "MERCADO VO PIPO LTDA"
-      },
-      {
-        "cnpj": "42.025.451/0001-23",
-        "razao_social": "M&L PET COMMERCE LTDA"
-      },
-      {
-        "cnpj": "42.899.748/0001-18",
-        "razao_social": "KUMORI LTDA"
-      },
-      {
-        "cnpj": "42.275.682/0001-95",
-        "razao_social": "DORMENTES E PAISAGISMO MARINHO LTDA"
-      },
-      {
-        "cnpj": "41.181.841/0001-20",
-        "razao_social": "FERNANDES & VIEIRA COMERCIO DE PRODUTOS ALIMENTICIOS LTDA"
-      },
-      {
-        "cnpj": "43.269.044/0001-24",
-        "razao_social": "E C COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "44.637.580/0001-06",
-        "razao_social": "ISABELLA B SANTOS COMERCIO DE CALCADOS LTDA"
-      },
-      {
-        "cnpj": "44.167.272/0001-56",
-        "razao_social": "VILARA COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "43.866.648/0001-58",
-        "razao_social": "TECH CELL CELULARES E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "43.606.531/0001-35",
-        "razao_social": "VANILLA COMERCIO DE VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "41.615.862/0001-06",
-        "razao_social": "COMFORT HOUSE SOLUCOES RESIDENCIAIS LTDA"
-      },
-      {
-        "cnpj": "44.012.743/0001-57",
-        "razao_social": "LEMARIN IMPORTACAO E EXPORTACAO LTDA"
-      },
-      {
-        "cnpj": "41.560.705/0001-40",
-        "razao_social": "BCL COMERCIO DE ROUPAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "42.727.774/0001-69",
-        "razao_social": "JERRY SILVA DO COUTO SERVICOS"
-      },
-      {
-        "cnpj": "42.782.803/0001-95",
-        "razao_social": "JAYNE PAVLAK DE CAMARGO LTDA"
-      },
-      {
-        "cnpj": "44.560.793/0001-79",
-        "razao_social": "DILEMMA MOTOS PECAS ACESSORIOS E ELETRO ELETRONICA LTDA"
-      },
-      {
-        "cnpj": "43.749.164/0001-29",
-        "razao_social": "DMN COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "41.750.601/0001-07",
-        "razao_social": "MERKABLE COMERCIO LTDA"
-      },
-      {
-        "cnpj": "44.444.879/0001-36",
-        "razao_social": "ANA FLAVIA MODAS LTDA"
-      },
-      {
-        "cnpj": "44.307.888/0001-85",
-        "razao_social": "LUCASTORE ROUPAS E BRINQUEDOS INFANTIS LTDA"
-      },
-      {
-        "cnpj": "43.627.676/0001-12",
-        "razao_social": "GALANT OUTLET LTDA"
-      },
-      {
-        "cnpj": "30.518.551/0002-93",
-        "razao_social": "ARABIAN DISTRIBUIDORA DE GAS LTDA"
-      },
-      {
-        "cnpj": "39.608.996/0002-39",
-        "razao_social": "JP FABRICACAO DE SALGADOS LTDA"
-      },
-      {
-        "cnpj": "41.319.667/0001-39",
-        "razao_social": "FARMACIA POPULAR CAMPO ALTO LTDA"
-      },
-      {
-        "cnpj": "41.188.165/0002-05",
-        "razao_social": "SEPATUDOO COMERCIO E UTILIDADES LTDA"
-      },
-      {
-        "cnpj": "41.572.107/0001-91",
-        "razao_social": "CRISTIANA SEGURO COMERCIO DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "43.802.923/0001-70",
-        "razao_social": "C S COQUEIRO COMERCIO DE IMPORTADOS LTDA"
-      },
-      {
-        "cnpj": "43.658.650/0001-31",
-        "razao_social": "MULTIMARCAS BRASIL PECAS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "73.300.006/0002-39",
-        "razao_social": "ANATHALLO PIJAMAS LTDA"
-      },
-      {
-        "cnpj": "43.656.159/0001-71",
-        "razao_social": "EMPORIO LATIDOS E MIADOS RACOES E ACESSORIOS PET LTDA"
-      },
-      {
-        "cnpj": "37.082.899/0002-20",
-        "razao_social": "BENDITTA BIJUTERIAS E MODA LTDA"
-      },
-      {
-        "cnpj": "41.544.110/0001-00",
-        "razao_social": "TRIVIA AUTOMOVEIS LTDA"
-      },
-      {
-        "cnpj": "42.143.901/0001-82",
-        "razao_social": "TAVARES & COIMBRA COMERCIO DE VEICULOS E UTILITARIOS LTDA"
-      },
-      {
-        "cnpj": "42.895.132/0001-79",
-        "razao_social": "NAMI BIKES COMERCIO DE BICICLETAS E PECAS LTDA"
-      },
-      {
-        "cnpj": "42.845.423/0001-52",
-        "razao_social": "CARNES BOI NOBRE LTDA"
-      },
-      {
-        "cnpj": "43.367.577/0001-49",
-        "razao_social": "G C DA ROSA PRESENTES"
-      },
-      {
-        "cnpj": "43.195.550/0001-16",
-        "razao_social": "GALIBU ASSADOS E DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.353.762/0001-11",
-        "razao_social": "CASA DO PONTO LTDA"
-      },
-      {
-        "cnpj": "43.521.663/0001-64",
-        "razao_social": "AMARA SERVICOS E DISTRIBUICAO LTDA"
-      },
-      {
-        "cnpj": "43.768.271/0001-02",
-        "razao_social": "G F MENDES COMERCIO DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.709.657/0001-00",
-        "razao_social": "CENTER LAR MOVEIS LTDA"
-      },
-      {
-        "cnpj": "42.293.380/0001-40",
-        "razao_social": "GREEN LIFE PRODUTOS NATURAIS LTDA"
-      },
-      {
-        "cnpj": "41.036.766/0001-03",
-        "razao_social": "ELISA BAGGIO SOARES - TREINAMENTOS"
-      },
-      {
-        "cnpj": "41.274.657/0001-24",
-        "razao_social": "SANTI AUTO PECAS LTDA"
-      },
-      {
-        "cnpj": "44.191.248/0001-52",
-        "razao_social": "CARA HORTIFRUTIGRANJEIROS LTDA"
-      },
-      {
-        "cnpj": "44.606.964/0001-53",
-        "razao_social": "MERCADO FAMILIA SILVA LTDA"
-      },
-      {
-        "cnpj": "41.682.526/0001-86",
-        "razao_social": "CASA DE CARNES GODOI LTDA"
-      },
-      {
-        "cnpj": "42.509.143/0001-73",
-        "razao_social": "SCHNEIDER CELL LTDA"
-      },
-      {
-        "cnpj": "43.482.411/0001-73",
-        "razao_social": "MULHER COMERCIO DE COSMETICO LTDA"
-      },
-      {
-        "cnpj": "44.457.277/0001-13",
-        "razao_social": "BAMBINI & CO BOUTIQUE INFANTIL LTDA"
-      },
-      {
-        "cnpj": "43.610.608/0001-40",
-        "razao_social": "MARIOTTO SOLUCOES E COMERCIO DE EQUIPAMENTOS E SOFTWARE GRAFICOS LTDA"
-      },
-      {
-        "cnpj": "44.641.752/0001-07",
-        "razao_social": "ESTELA BUJATO LTDA"
-      },
-      {
-        "cnpj": "44.301.334/0001-70",
-        "razao_social": "BOX78 MOTOS LTDA"
-      },
-      {
-        "cnpj": "42.066.057/0001-33",
-        "razao_social": "AUTO POSTO GH CURITIBA LTDA"
-      },
-      {
-        "cnpj": "42.388.798/0001-30",
-        "razao_social": "GIGANTE DAS TELHAS LTDA"
-      },
-      {
-        "cnpj": "42.866.906/0001-33",
-        "razao_social": "ROTA ELETRONICOS LTDA"
-      },
-      {
-        "cnpj": "43.310.422/0001-76",
-        "razao_social": "TALITA ZORRILLA ARTIGOS DE VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "41.163.780/0001-78",
-        "razao_social": "LM CALCADOS E ACESSORIOS LTDA"
-      },
-      {
-        "cnpj": "44.311.617/0001-01",
-        "razao_social": "ANA MAGALHAES SHOES LTDA"
-      },
-      {
-        "cnpj": "41.141.264/0001-42",
-        "razao_social": "DISK BEER DISTRIBUIDORA DE BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "41.101.963/0001-69",
-        "razao_social": "MAC BATERIAS LTDA"
-      },
-      {
-        "cnpj": "42.740.656/0001-90",
-        "razao_social": "THAIS TEIXEIRA DE SOUZA LTDA"
-      },
-      {
-        "cnpj": "42.836.598/0001-01",
-        "razao_social": "TMX COMERCIO DE EMBALAGENS LTDA"
-      },
-      {
-        "cnpj": "43.113.574/0001-89",
-        "razao_social": "JEAN FERNANDO DE LARA & CIA LTDA"
-      },
-      {
-        "cnpj": "42.128.253/0001-95",
-        "razao_social": "REGIANE REIS DE MOURA - SOGAMENOVO"
-      },
-      {
-        "cnpj": "41.188.165/0001-16",
-        "razao_social": "SEPATUDOO COMERCIO E UTILIDADES LTDA"
-      },
-      {
-        "cnpj": "41.072.169/0001-34",
-        "razao_social": "DISTRIBUIDORA HORA DA INTERA CWB LTDA"
-      },
-      {
-        "cnpj": "41.414.854/0001-00",
-        "razao_social": "CASA DAS RACOES CURITIBA LTDA"
-      },
-      {
-        "cnpj": "42.668.579/0001-05",
-        "razao_social": "PALAIS DECORACOES LTDA"
-      },
-      {
-        "cnpj": "41.192.211/0001-50",
-        "razao_social": "POLIANA TONIAL LTDA"
-      },
-      {
-        "cnpj": "43.228.429/0001-43",
-        "razao_social": "FRIGO BESSA COMERCIO VAREJISTA DE CARNES LTDA"
-      },
-      {
-        "cnpj": "43.354.294/0001-62",
-        "razao_social": "VIA MULHER MODAS LTDA"
-      },
-      {
-        "cnpj": "44.317.920/0001-03",
-        "razao_social": "PAOLIS CONVENIENCIA LTDA"
-      },
-      {
-        "cnpj": "41.145.577/0001-79",
-        "razao_social": "G S COMERCIO DE COSMESTICOS LTDA"
-      },
-      {
-        "cnpj": "41.346.161/0001-19",
-        "razao_social": "MARINA NASCIMENTO VIEIRA DOS SANTOS"
-      },
-      {
-        "cnpj": "43.348.437/0001-23",
-        "razao_social": "GALERIA ZAVVA LTDA"
-      },
-      {
-        "cnpj": "44.118.318/0001-47",
-        "razao_social": "EDYLSON STINGLIN CIA DAS RESINAS"
-      },
-      {
-        "cnpj": "42.346.327/0001-60",
-        "razao_social": "AMERICA MOTORS VEICULOS LTDA"
-      },
-      {
-        "cnpj": "42.239.161/0002-63",
-        "razao_social": "DISTRIBUIDORA MELO E RUIZ LTDA"
-      },
-      {
-        "cnpj": "42.070.188/0001-94",
-        "razao_social": "IPLAYSTORE - COMERCIO DE CELULARES E ACESSORIOS LTDA."
-      },
-      {
-        "cnpj": "44.177.469/0001-76",
-        "razao_social": "STEPHY BABY LTDA"
-      },
-      {
-        "cnpj": "44.033.487/0001-84",
-        "razao_social": "ARSENAL EMPREENDIMENTOS COMERCIAIS E SERVICOS LTDA"
-      },
-      {
-        "cnpj": "43.462.963/0001-10",
-        "razao_social": "BH CIDADE UTILIDADES DOMESTICAS LTDA"
-      },
-      {
-        "cnpj": "42.856.774/0001-69",
-        "razao_social": "MM EMPREENDIMENTOS LTDA"
-      },
-      {
-        "cnpj": "41.041.313/0001-75",
-        "razao_social": "MIRIANA STORE E OUTLET LTDA"
-      },
-      {
-        "cnpj": "42.352.691/0001-32",
-        "razao_social": "ALFAIATARIA MELLO ARTIGOS MILITARES LTDA"
-      },
-      {
-        "cnpj": "42.226.422/0001-20",
-        "razao_social": "DRN COMERCIO DE HORTIFRUTIGRANJEIROS LTDA"
-      },
-      {
-        "cnpj": "42.236.733/0001-70",
-        "razao_social": "VIVEIRO ARAUCARIAS ZANETTE LTDA"
-      },
-      {
-        "cnpj": "41.879.964/0001-39",
-        "razao_social": "ALEXANDRE LUIS NADOLY"
-      },
-      {
-        "cnpj": "43.642.720/0001-63",
-        "razao_social": "D A DE LIMA VIDROS E ALUMINIO"
-      },
-      {
-        "cnpj": "44.263.022/0001-10",
-        "razao_social": "PEREIRA E PEREIRA LTDA"
-      },
-      {
-        "cnpj": "42.817.864/0001-40",
-        "razao_social": "DOURO DO BRASIL COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "43.866.228/0001-71",
-        "razao_social": "DISTRIBUIDORA DE LUBRIFICANTES NOVA ALIANCA LTDA"
-      },
-      {
-        "cnpj": "44.104.054/0001-72",
-        "razao_social": "JS FERRAMENTAS LTDA"
-      },
-      {
-        "cnpj": "41.870.500/0001-61",
-        "razao_social": "BANADALLAS COMERCIO DE FRUTAS LTDA"
-      },
-      {
-        "cnpj": "43.528.509/0001-14",
-        "razao_social": "SOBERANO COMERCIO DE HORTIFRUTIGRANJEIROS LTDA"
-      },
-      {
-        "cnpj": "41.385.116/0001-73",
-        "razao_social": "V.F.M DISTRIBUIDORA DE DOCES LTDA"
-      },
-      {
-        "cnpj": "41.327.307/0001-89",
-        "razao_social": "JOIA COMERCIO DE ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "43.503.298/0001-65",
-        "razao_social": "AGROVERDE HORTIFRUTI LTDA"
-      },
-      {
-        "cnpj": "43.168.179/0001-01",
-        "razao_social": "FONDUE IN BOX ALIMENTOS LTDA"
-      },
-      {
-        "cnpj": "44.534.199/0001-03",
-        "razao_social": "T R VARGAS COMERCIO VAREGISTA"
-      },
-      {
-        "cnpj": "42.606.705/0001-05",
-        "razao_social": "ACOUGUE BOI NOBRE LTDA"
-      },
-      {
-        "cnpj": "41.952.101/0001-40",
-        "razao_social": "CELEIRO DO MALTE LTDA"
-      },
-      {
-        "cnpj": "43.328.712/0001-47",
-        "razao_social": "R LUNARDON VESTUARIOS"
-      },
-      {
-        "cnpj": "43.672.089/0001-45",
-        "razao_social": "MOCK VAREJO E DISTRIBUICAO LTDA"
-      },
-      {
-        "cnpj": "44.102.576/0001-35",
-        "razao_social": "T.S CASA DE CONDIMENTOS E ESPECIARIAS LTDA"
-      },
-      {
-        "cnpj": "43.944.853/0001-94",
-        "razao_social": "HOMEN.COM LTDA"
-      },
-      {
-        "cnpj": "44.317.664/0001-54",
-        "razao_social": "BRAZIL AUTO PARTS LTDA"
-      },
-      {
-        "cnpj": "43.579.699/0001-07",
-        "razao_social": "D DE S SANTANA FERRO E ACO"
-      },
-      {
-        "cnpj": "39.239.518/0003-80",
-        "razao_social": "PANDORA COMERCIO DE ESTOFADOS LTDA"
-      },
-      {
-        "cnpj": "34.057.236/0002-67",
-        "razao_social": "VANESSA APOLINARIO V.APOLINARIO DISTRIBUIDORA DE GAS E BEBIDAS LTDA"
-      },
-      {
-        "cnpj": "42.527.220/0001-18",
-        "razao_social": "AGROPET VILELA LTDA"
-      },
-      {
-        "cnpj": "42.158.871/0001-88",
-        "razao_social": "TECFAN CURITIBA COMERCIO DE PECAS LTDA"
-      },
-      {
-        "cnpj": "44.512.138/0001-45",
-        "razao_social": "E DA S SALLES COMERCIAL LTDA"
-      },
-      {
-        "cnpj": "41.919.640/0003-49",
-        "razao_social": "SEW DISTRIBUIDORA DE AUTOPECAS DE SAO PAULO LTDA"
-      },
-      {
-        "cnpj": "43.309.941/0001-14",
-        "razao_social": "MATIAS A DE CARVALHO COMERCIO DE PRODUTOS DE LIMPEZA LTDA"
-      },
-      {
-        "cnpj": "42.464.827/0001-04",
-        "razao_social": "ESTAXO MATERIAIS DE CONSTRUCAO LTDA"
-      },
-      {
-        "cnpj": "41.863.348/0001-90",
-        "razao_social": "CLINICA DAS BIKES COMERCIO DE BICICLETAS LTDA"
-      },
-      {
-        "cnpj": "41.375.179/0001-49",
-        "razao_social": "FRUTISOL COMERCIO DE HORTIFRUTI LTDA"
-      },
-      {
-        "cnpj": "39.847.356/0002-81",
-        "razao_social": "PH BIKE SHOP LTDA"
-      },
-      {
-        "cnpj": "42.554.033/0001-23",
-        "razao_social": "SCHMUCK LABORATORIO FOTOGRAFICO LTDA"
-      },
-      {
-        "cnpj": "43.345.088/0001-96",
-        "razao_social": "C JACUBIK COMERCIO VAREJISTA DE MOVEIS E VARIEDADES LTDA"
-      },
-      {
-        "cnpj": "32.034.154/0002-71",
-        "razao_social": "LGL COMERCIO DE PRODUTOS ORTOPEDICOS LTDA"
-      },
-      {
-        "cnpj": "36.840.496/0002-30",
-        "razao_social": "MY PET COMERCIO VAREJISTA E CONFECCAO DE VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "42.073.715/0001-14",
-        "razao_social": "JOSIANE SIZANOSKI SENTER - OTICA"
-      },
-      {
-        "cnpj": "41.951.907/0001-13",
-        "razao_social": "PARFUMS DU MONDE LTDA"
-      },
-      {
-        "cnpj": "43.626.211/0001-47",
-        "razao_social": "VIEIRA & CUSTEL PROMOCAO E COMERCIO DE COSMETICOS LTDA"
-      },
-      {
-        "cnpj": "41.366.275/0001-20",
-        "razao_social": "ZAGUOBINSKI E SILVA COMERCIO DE ARTIGOS DE VESTUARIO LTDA"
-      },
-      {
-        "cnpj": "41.215.306/0001-42",
-        "razao_social": "TOBBY COMERCIO DE ARTIGOS DO VESTUARIO LTDA."
-      },
-      {
-        "cnpj": "42.945.829/0001-07",
-        "razao_social": "O F D L LTDA"
-      },
-      {
-        "cnpj": "43.161.174/0001-49",
-        "razao_social": "J E J COMERCIO DE CALCADOS LTDA"
-      },
-      {
-        "cnpj": "42.178.883/0001-74",
-        "razao_social": "MS IMPORTADOS LTDA"
-      },
-      {
-        "cnpj": "36.401.599/0002-01",
-        "razao_social": "L. DOS REIS DE AQUINO LTDA"
-      },
-      {
-        "cnpj": "15.285.995/0002-32",
-        "razao_social": "FUTURO BETA, SERVICOS E COMERCIO LTDA"
-      },
-      {
-        "cnpj": "42.427.883/0001-60",
-        "razao_social": "ZATTI AMBIENTES PLANEJADOS LTDA"
-      },
-      {
-        "cnpj": "43.996.215/0001-17",
-        "razao_social": "TRISTAO COMERCIO, IMPORTACAO E EXPORTACAO DE MADEIRAS LTDA"
-      },
-      {
-        "cnpj": "42.784.089/0001-74",
-        "razao_social": "ESTOFAMENTOS RIBEIRO LTDA"
-      }
-    ]
-  }
+    "data": {
+        "cnpj": [
+            {
+                "cnpj": "45912406000189",
+                "cnpj_raiz": "45912406",
+                "filial_numero": 1,
+                "razao_social": "MICENO ENGENHARIA LTDA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-04-05T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA BRASIL",
+                "numero": "623",
+                "bairro": "CITY BARRETOS",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "7112000",
+                    "descricao": "Serviços de engenharia"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45066703000150",
+                "cnpj_raiz": "45066703",
+                "filial_numero": 1,
+                "razao_social": "VINICIUS GILMAR DOS SANTOS SILVA E PARCEIROS",
+                "nome_fantasia": "",
+                "data_abertura": "2022-01-28T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RODOVIA BRIGADEIRO FARIA LIMA KM     A DIREITA",
+                "numero": "447",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "0121101",
+                    "descricao": "Horticultura, exceto morango"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45615018000136",
+                "cnpj_raiz": "45615018",
+                "filial_numero": 1,
+                "razao_social": "CLINICA MEDICA FONSECA KAWASAKI LTDA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-03-11T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA QUINZE DE NOVEMBRO",
+                "numero": "785",
+                "bairro": "PEREIRA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "8630503",
+                    "descricao": "Atividade médica ambulatorial restrita a consultas"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45563667000130",
+                "cnpj_raiz": "45563667",
+                "filial_numero": 1,
+                "razao_social": "SYLVIO LUJAN IMOVEIS",
+                "nome_fantasia": "SYLVIO LUJAN NEGOCIOS IMOBILIARIOS",
+                "data_abertura": "2022-03-08T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA VN 24 - MAIRLEIDE MARIA DE BRITO",
+                "numero": "404",
+                "bairro": "CONJUNTO HABITACIONAL VIDA NOVA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "6821801",
+                    "descricao": "Corretagem na compra e venda e avaliação de imóveis"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45543777000130",
+                "cnpj_raiz": "45543777",
+                "filial_numero": 1,
+                "razao_social": "AMARAL ADMINISTRACAO E CONSULTORIA LTDA",
+                "nome_fantasia": "AMARAL ADMINISTRACAO E CONSULTORIA",
+                "data_abertura": "2022-03-07T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA 18",
+                "numero": "235",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "8211300",
+                    "descricao": "Serviços combinados de escritório e apoio administrativo"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46093586000187",
+                "cnpj_raiz": "46093586",
+                "filial_numero": 1,
+                "razao_social": "R R ENGENHARIA E CONSTRUCAO LTDA",
+                "nome_fantasia": "2R ENGENHARIA",
+                "data_abertura": "2022-04-20T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "ALAMEDA ESCOCIA",
+                "numero": "61",
+                "bairro": "CITY BARRETOS",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "7112000",
+                    "descricao": "Serviços de engenharia"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46726913000190",
+                "cnpj_raiz": "46726913",
+                "filial_numero": 1,
+                "razao_social": "TRANSPORTADORA NORTE PAULISTA LTDA",
+                "nome_fantasia": "TRANSPORTADORA NORTE PAULISTA",
+                "data_abertura": "2022-06-09T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA L-9",
+                "numero": "243",
+                "bairro": "LOS ANGELES",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "4930202",
+                    "descricao": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46741445000123",
+                "cnpj_raiz": "46741445",
+                "filial_numero": 1,
+                "razao_social": "JOSE ANTONIO BOCALAO LTDA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-06-10T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA JOSE TEDESCO",
+                "numero": "108",
+                "bairro": "JARDIM CALIFORNIA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "7490104",
+                    "descricao": "Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46944273000195",
+                "cnpj_raiz": "46944273",
+                "filial_numero": 1,
+                "razao_social": "ADMINISTRACAO SP HIGIENE LTDA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-06-28T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA CECAP-14",
+                "numero": "284",
+                "bairro": "BENEDITO REALINDO CORREA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "4789005",
+                    "descricao": "Comércio varejista de produtos saneantes domissanitários"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46552488000160",
+                "cnpj_raiz": "46552488",
+                "filial_numero": 1,
+                "razao_social": "EDUARDO TERUO SILVA 38895766806",
+                "nome_fantasia": "",
+                "data_abertura": "2022-05-26T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "PRACA SAO SEBASTIAO",
+                "numero": "160",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "4543900",
+                    "descricao": "Manutenção e reparação de motocicletas e motonetas"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46958008000166",
+                "cnpj_raiz": "46958008",
+                "filial_numero": 1,
+                "razao_social": "INOVAGRO CONSULTORIA AGRICOLA LTDA",
+                "nome_fantasia": "INOVAGRO",
+                "data_abertura": "2022-06-29T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA PERU",
+                "numero": "1565",
+                "bairro": "AMERICA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "7490103",
+                    "descricao": "Serviços de agronomia e de consultoria às atividades agrícolas e pecuárias"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46746505000109",
+                "cnpj_raiz": "46746505",
+                "filial_numero": 1,
+                "razao_social": "ELIANDRO CASTRO PROBIO",
+                "nome_fantasia": "",
+                "data_abertura": "2022-06-09T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RODOVIA ASSIS CHATEAUBRIAND KM 101 - ENTRADA A ESQUERDA",
+                "numero": "S/N.",
+                "bairro": "ZONA RURAL",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "0151201",
+                    "descricao": "Criação de bovinos para corte"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46459812000109",
+                "cnpj_raiz": "46459812",
+                "filial_numero": 1,
+                "razao_social": "CAMILO COFFEE ROASTERS LTDA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-05-19T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA SEICHO-NO-IE",
+                "numero": "280",
+                "bairro": "DISTRITO INDUSTRIAL I",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "5611203",
+                    "descricao": "Lanchonetes, casas de chá, de sucos e similares"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "46945583000124",
+                "cnpj_raiz": "46945583",
+                "filial_numero": 1,
+                "razao_social": "CLEITON LUIS MEDEIROS",
+                "nome_fantasia": "TEMPERO DO PAI",
+                "data_abertura": "2022-06-28T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA VN 5 - IRLANDINO NETTO SANDOVAL",
+                "numero": "130",
+                "bairro": "CONJUNTO HABITACIONAL VIDA NOVA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "5620104",
+                    "descricao": "Fornecimento de alimentos preparados preponderantemente para consumo domiciliar"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "11932741000399",
+                "cnpj_raiz": "11932741",
+                "filial_numero": 3,
+                "razao_social": "ANSELMO LEONEL DOS SANTOS",
+                "nome_fantasia": "",
+                "data_abertura": "2022-02-07T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "CHACARA BARRETOS AREA 3",
+                "numero": "S/N",
+                "bairro": "AREA RURAL DE BARRETOS",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "0116401",
+                    "descricao": "Cultivo de amendoim"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45319371000179",
+                "cnpj_raiz": "45319371",
+                "filial_numero": 1,
+                "razao_social": "MARCOS BICALHO EVENTOS SOCIEDADE UNIPESSOAL LTDA",
+                "nome_fantasia": "SALES LEILOES",
+                "data_abertura": "2022-02-16T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "ESTRADA VICINAL LUIZ DONATO, KM 3",
+                "numero": "S/N",
+                "bairro": "AREA RURAL DE BARRETOS",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "8230001",
+                    "descricao": "Serviços de organização de feiras, congressos, exposições e festas"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45497634000130",
+                "cnpj_raiz": "45497634",
+                "filial_numero": 1,
+                "razao_social": "FERNANDA MACHADO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+                "nome_fantasia": "",
+                "data_abertura": "2022-02-25T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA 26",
+                "numero": "608",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "6911701",
+                    "descricao": "Serviços advocatícios"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45446439000180",
+                "cnpj_raiz": "45446439",
+                "filial_numero": 1,
+                "razao_social": "WILLIAM ANDRADE LIZI",
+                "nome_fantasia": "",
+                "data_abertura": "2022-02-24T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA 18",
+                "numero": "942",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "4789005",
+                    "descricao": "Comércio varejista de produtos saneantes domissanitários"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "45255581000140",
+                "cnpj_raiz": "45255581",
+                "filial_numero": 1,
+                "razao_social": "AG BASSO TRANSPORTES",
+                "nome_fantasia": "",
+                "data_abertura": "2022-02-11T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "AVENIDA 49",
+                "numero": "1650",
+                "bairro": "MARILIA",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "4924800",
+                    "descricao": "Transporte escolar"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            },
+            {
+                "cnpj": "44769323000110",
+                "cnpj_raiz": "44769323",
+                "filial_numero": 1,
+                "razao_social": "SATD CONSULTORIA EM TECNOLOGIA DA INFORMACAO LTDA",
+                "nome_fantasia": "CLARIDATA",
+                "data_abertura": "2022-01-06T00:00:00Z",
+                "situacao_cadastral": "ATIVA",
+                "logradouro": "RUA 8",
+                "numero": "1339",
+                "bairro": "CENTRO",
+                "municipio": "BARRETOS",
+                "uf": "SP",
+                "atividade_principal": {
+                    "codigo": "6204000",
+                    "descricao": "Consultoria em tecnologia da informação"
+                },
+                "cnpj_mei": false,
+                "versao": "v3"
+            }
+        ],
+        "count": 183
+    }
 }

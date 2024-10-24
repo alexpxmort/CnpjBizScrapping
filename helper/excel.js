@@ -104,6 +104,31 @@ async function getXLSBase64(sheetName, header, data) {
 }
 
 
+async function getXLSBuffer(sheetName, header, data) {
+  try {
+    const workbook = new ExcelJS.Workbook();
+    const worksheet = workbook.addWorksheet(sheetName);
+
+    // Estiliza o cabeçalho
+    const headerRow = worksheet.addRow(header);
+    headerRow.eachCell((cell) => {
+      cell.font = { bold: true, color: { argb: '000000' }, size: 12 };
+      cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFF00' } };
+    });
+
+    // Adiciona os dados
+    data.forEach((rowData) => {
+      worksheet.addRow(Object.values(rowData));
+    });
+
+    // Obtém o buffer do arquivo Excel
+    const buffer = await workbook.xlsx.writeBuffer();
+
+    return buffer; // Retorna o buffer do arquivo
+  } catch (error) {
+    throw error;
+  }
+}
 
 async function getXLSBase64ExcelJs(sheetName, header, data) {
   try {
@@ -132,4 +157,4 @@ async function getXLSBase64ExcelJs(sheetName, header, data) {
     throw error;
   }
 }
-module.exports = { writeXLS,getXLSBase64,getXLSBase64ExcelJs,readExcel };
+module.exports = { writeXLS,getXLSBase64,getXLSBase64ExcelJs,readExcel,getXLSBuffer };

@@ -102,7 +102,20 @@ const extractDataFromParagraph = async (page, linksSelector) => {
       const linkText = await page.evaluate(el => el.textContent, link);
 
       if (linkText.toLowerCase().includes('sócio')) {
-          resultLinks.push(linkText);
+      
+        const paragraphs = await page.evaluate(el => {
+          const parent = el.parentElement; // Pega o elemento pai
+          const childParagraphs = parent.querySelectorAll('p'); // Seleciona todos os <p> filhos
+  
+          // Extrai o texto de todos os parágrafos filhos
+          return Array.from(childParagraphs).map(p => p.textContent.trim());
+        }, link);
+
+        paragraphs?.forEach((val)=>{
+          resultLinks.push(val?.split('-')?.[0]?.trim());
+        })
+
+          
       }
   }
 
@@ -127,9 +140,14 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
           // Configurar o agente de usuário personalizado
           await page.setUserAgent(USER_AGENT);
 
-          await page.goto(isURLValid(item?.link ?? '') ?item?.link: `https://cnpj.biz/${removerMascaraCNPJ(item.cnpj)}`, { waitUntil: 'domcontentloaded' });
+          if(!item?.link ||  !isURLValid(item?.link ?? '')){
+            console.log('erro invalid link')
+            return
+          }
 
-          //const socios = await extractDataFromParagraph(page, 'p');
+          await page.goto(item?.link , { waitUntil: 'domcontentloaded' });
+
+          const socios = await extractDataFromParagraph(page, 'label');
           let links = await extractDataFromLinks(page, 'a');
           links = links?.filter((link) => link.includes('phone='));
           const phone = links.map((link) => link.split('phone=')[1])?.[0];
@@ -139,7 +157,7 @@ const visitPagesSequentially = async (result,saveFile = undefined) => {
 
           item.phone = phone;
           item.whatsLink =  links[0];
-          //item.socio = socios[0];
+          item.socio = socios[0];
 
           if (!item.whatsLink) {
             console.log('noZap')

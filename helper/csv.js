@@ -10,8 +10,16 @@ async function arrayObjectToCSVBuffer(arrayOfObjects) {
   return base64String;
 }
 
+async function arrayObjectToCSVBufferFile(arrayOfObjects) {
+  // Convert to CSV
+  const csv = Papa.unparse(arrayOfObjects);
+
+  return csv;
+}
 
 
 
 
-module.exports = {arrayObjectToCSVBuffer}
+
+
+module.exports = {arrayObjectToCSVBuffer,arrayObjectToCSVBufferFile}
